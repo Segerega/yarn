@@ -1,0 +1,1486 @@
+# Translation of Plugins - YITH WooCommerce Popup - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Popup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-14 12:37:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Popup - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-popup"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-popup"
+
+#. Description of the plugin
+msgid "<code><strong>YITH WooCommerce Popup</strong></code> allows creating and handling elegant popup windows in your online store. You have full control over the settings and the graphical layout and you'll be able to show them to your users based on specific actions they might carry out, like leaving the page (exit intent), loading the page or after following an external link and so on. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr "<code> <strong> YITH WooCommerce Popup </strong> </code> maakt het maken en verwerken van elegante pop-upvensters in uw online winkel mogelijk. Je hebt volledige controle over de instellingen en de grafische lay-out en je kunt ze aan je gebruikers laten zien op basis van specifieke acties die ze kunnen uitvoeren, zoals het verlaten van de pagina (exit intent), het laden van de pagina of na het volgen van een externe link enzovoorts. <a href=\"https://yithemes.com/\" target=\"_blank\"> Download meer plug-ins voor uw e-commerceshop op <strong> YITH </strong> </a>."
+
+#: plugin-fw/yit-plugin.php:196
+msgid "License"
+msgstr "Licentie"
+
+#: plugin-fw/yit-plugin.php:192
+msgctxt "Action links"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: plugin-fw/yit-plugin.php:97
+msgctxt "Plugin Row Meta"
+msgid "Premium version"
+msgstr "Premium versie"
+
+#: plugin-fw/yit-plugin.php:92
+msgctxt "Plugin Row Meta"
+msgid "Support"
+msgstr "Support"
+
+#: plugin-fw/yit-plugin.php:87
+msgctxt "Plugin Row Meta"
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: plugin-fw/yit-plugin.php:82
+msgctxt "Plugin Row Meta"
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:24
+msgid "YITH License Activation"
+msgstr "YITH licentie activatie"
+
+#: plugin-fw/lib/yit-upgrade.php:311
+msgid "YITH Repository"
+msgstr "YITH repository"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:72
+msgctxt "Privacy Policy Content"
+msgid "Payments"
+msgstr "Betalingen"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:69
+msgctxt "Privacy Policy Content"
+msgid "What we share with others"
+msgstr "Wat we delen met anderen"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:66
+msgctxt "Privacy Policy Content"
+msgid "Who on our team has access"
+msgstr "Wie in ons team heeft toegang"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:63
+msgctxt "Privacy Policy Content"
+msgid "What we collect and store"
+msgstr "Wat we verzamelen en bewaren"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:59
+msgctxt "Privacy Policy Content"
+msgid "This sample language includes the basics around what personal data your store may be collecting, storing and sharing, as well as who may have access to that data. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr "Deze voorbeeldtaal bevat de basisinformatie over de persoonlijke gegevens die je winkel mogelijk verzamelt, bewaart en deelt en wie toegang heeft tot die gegevens. Afhankelijk van welke instellingen zijn ingeschakeld en welke extra plug-ins worden gebruikt, varieert de specifieke informatie die door je winkel wordt gedeeld. We raden je aan om een advocaat te raadplegen wanneer je beslist welke informatie openbaar wordt gemaakt in je privacybeleid."
+
+#: plugin-fw/lib/privacy/yit-privacy.php:24
+msgctxt "Privacy Policy Guide Title"
+msgid "YITH Plugins"
+msgstr "YITH Plugins"
+
+#: includes/class-yith-popup-admin.php:255
+#: includes/class-yith-popup-admin.php:256
+msgctxt "Plugin name. Do not translate."
+msgid "WC Popup"
+msgstr "WC Popup"
+
+#: plugin-options/metabox/ypop_metabox.php:383
+msgid "The \"Name\" attribute of the Privacy field."
+msgstr "Het \"Naam\" attribuut van het privacybeleid."
+
+#: plugin-options/metabox/ypop_metabox.php:382
+msgid "\"Name\" attribute of the Privacy field"
+msgstr "\"Naam\" attribuut van het privacybeleid"
+
+#: includes/newsletter-integration/Mailchimp.php:202
+#: plugin-options/metabox/ypop_metabox.php:406
+msgid "Your personal data will be used to process your request, support your experience throughout this website, and for other purposes described in our [privacy_policy]."
+msgstr "Je persoonlijke gegevens worden gebruikt om je verzoek te verwerken, ondersteunt je ervaring via deze website, en voor andere doeleinden beschreven in onze [privacy_policy]."
+
+#: includes/newsletter-integration/Mailchimp.php:200
+#: plugin-options/metabox/ypop_metabox.php:404
+msgid "You can use the shortcode [privacy_policy] (from WordPress 4.9.6) to add the link to privacy policy page"
+msgstr "Je kunt de shortcode [privacy_policy](van WordPress 4.9.6) gebruiken om de link aan de privacybeleid pagina toe te voegen"
+
+#: includes/newsletter-integration/Mailchimp.php:199
+#: plugin-options/metabox/ypop_metabox.php:403
+msgid "Privacy Policy Description"
+msgstr "Privacybeleid beschrijving"
+
+#: includes/newsletter-integration/Mailchimp.php:191
+#: plugin-options/metabox/ypop_metabox.php:395
+msgid "I have read and agree to the website terms and conditions."
+msgstr "Ik heb de algemene voorwaarden van de website gelezen en geaccepteerd."
+
+#: includes/newsletter-integration/Mailchimp.php:188
+#: plugin-options/metabox/ypop_metabox.php:392
+msgid "Privacy Policy Label"
+msgstr "Privacybeleid label"
+
+#: includes/newsletter-integration/Mailchimp.php:177
+#: plugin-options/metabox/ypop_metabox.php:372
+msgid "Add Privacy Policy"
+msgstr "Privacybeleid toevoegen"
+
+#: includes/functions.yith-popup.php:160
+msgid "privacy policy"
+msgstr "Privacybeleid"
+
+#: plugin-fw/lib/yit-upgrade.php:95
+msgid "An unexpected error occurred, please try again later. Thanks!"
+msgstr "Een deed zich een onverwachte fout voor, probeer het later opnieuw. Bedankt!"
+
+#: plugin-fw/templates/fields/select-buttons.php:33
+msgid "Deselect All"
+msgstr "Selectie ongedaan maken"
+
+#: plugin-fw/templates/fields/select-buttons.php:26
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: plugin-fw/templates/fields/icons.php:58
+msgid "Set Default"
+msgstr "Op standaard instellen"
+
+#: plugin-fw/templates/fields/ajax-products.php:16
+msgid "Search Product"
+msgstr "Zoek Product"
+
+#: plugin-fw/templates/fields/ajax-posts.php:57
+msgid "Search Posts"
+msgstr "Posts zoeken"
+
+#. Plugin Name of the plugin
+msgid "YITH WooCommerce Popup"
+msgstr "YITH WooCommerce Popup"
+
+#: templates/admin/premium.php:296
+msgid "Three kinds of additional contents for your popups. You will be able to add all the most famous %1$ssocial network%2$s profiles (Facebook, Twitter, LinkedIn, Google+ and Pinterest), integrate one of the %1$scontact form%2$s already created and configured on your site (with YIT Contact Form or Contact Form 7), or create a %1$stextual%2$s type for a message aimed to the users of the shop."
+msgstr "Drie types van aanvullende inhoud voor je pop-ups. Je bent in staat om de meest bekende %1$ssociale netwerk%2$s profielen (Facebook, Twitter, LinkedIn, Google+ and Pinterest), integreer een van de %1$scontact formulieren%2$s die al zijn gemaakt en geconfigureerd op je site (met YIT Contact Form of Contact Form 7), of maak een %1$stekstueel%2$s type voor een bericht gericht aan gebruikers van je winkel."
+
+#: templates/admin/premium.php:293
+msgid "Unique contents"
+msgstr "Unieke inhoud"
+
+#: templates/admin/premium.php:283
+msgid "You are not obliged to display popups after the loading of the page in the browser. The premium version of the %1$sYITH WooCommerce Popup%2$s plugin lets you choose alternative solutions. For example, you can display it when users abandon the browser viewport, exit the page, or click on a link that drives them to an external domain."
+msgstr "Je bent het niet verplicht op pop-ups weer te geven na het laden van de pagina in de browser. De premium versie van de %1$sYITH WooCommerce Popup%2$s plugin biedt je alternatieve oplossingen. Voorbeeld, je kunt het weergeven wanneer gebruikers de browser viewport verlaten, de pagina verlaten, of wanneer ze klikken op een link die ze naar een extern domein stuurt."
+
+#: templates/admin/premium.php:280
+msgid "When do you want to shoe the popup?"
+msgstr "Wanneer wil je de pop-up weergeven?"
+
+#: templates/admin/premium.php:264
+msgid "Different studies try to understand which are the best strategies to catch immediately users' attention, which is always evasive and rapid in its eye movement through the web pages.%3$sEach detail contributes critically to the success of the %1$sstrategy%2$s, especially the positioning of the elements in the page.%3$sChoose your strategy and select the position in which you want to show the %1$spopup%2$s: all solutions are ready for you. "
+msgstr "Verschillende studies proberen erachter te komen wat de beste strategie is om direct de aandacht van de klant te trekken, die altijd snel door de pagina´s scrolt. %3$sElk detail draagt bij aan het succes van de %1$sstrategie%2$s, vooral het positioneren van de elementen op de pagina.%3$sKies je strategie en selecteer de opties waarin je de %1$spop-up%2$s wilt weergeven: alle oplossingen staan voor je klaar. "
+
+#: templates/admin/premium.php:261
+msgid "Popup position"
+msgstr "Pop-up positie"
+
+#: templates/admin/premium.php:251
+msgid "A plugin based on the freedom to choose: %1$ssix different templates%2$s to create a suitable popup for every occasion, from the unmissable offer to the simple informative message, you will also find the perfect and most charming solution.%3$sYou can completely customize the colors of each template, in order to get to the best graphic result."
+msgstr "Een plugin gebaseerd op de vrijheid van keuze: %1$szes verschillende templates%2$s om een passende pop-up te maken voor iedere situatie, van een onmisbaar offer tot simpele informatieve berichten, de perfecte en meest aantrekkelijke oplossingen. %3$sJe kunt de kleuren van ieder template compleet aanpassen, om het beste grafische resultaat te bereiken."
+
+#: templates/admin/premium.php:248
+msgid "6 popup templates"
+msgstr "6 pop-up templates"
+
+#: templates/admin/premium.php:233 templates/admin/premium.php:311
+msgid "UPGRADE"
+msgstr "UPGRADE"
+
+#: templates/admin/premium.php:230 templates/admin/premium.php:308
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Popup%2$s to benefit from all features!"
+msgstr "Upgraden naar %1$spremium versie%2$s van %1$sYITH WooCommerce Popup%2$s om te profiteren van alle functies!"
+
+#: plugin-options/settings-options.php:103
+msgid "Attention: You should create a new popup to set this option"
+msgstr "Let op: Je moet een nieuwe pop-up creëeren om deze optie in te stellen"
+
+#: plugin-options/settings-options.php:102
+msgid "Select the default popup"
+msgstr "Selecteer de standaard pop-up"
+
+#: plugin-options/settings-options.php:99
+msgid "Do not show it anymore."
+msgstr "Niet meer weergeven."
+
+#: plugin-options/settings-options.php:96
+msgid "The title displayed next to the checkbox that lets users hide the popup forever. You can also use HTML code"
+msgstr "De titel die wordt weergegeven naast het selectievakje, die ervoor zorgt dat de pop-up niet meer wordt weergegeven. Je kunt ook gebruik maken van HTML code"
+
+#: plugin-options/settings-options.php:95
+msgid "Hiding text"
+msgstr "Verberg tekst"
+
+#: plugin-options/settings-options.php:84
+msgid "Set how many days have to pass before showing again the lightbox"
+msgstr "Geef aan hoeveel dagen moeten passeren voordat de lightbox weer wordt weer gegeven"
+
+#: plugin-options/settings-options.php:83
+msgid "How many days should the popup be hidden for?"
+msgstr "Voor hoeveel dagen moet de pop-up verborgen blijven?"
+
+#: plugin-options/settings-options.php:79
+msgid "Show only once per session"
+msgstr "Toon uitsluitend een keer per sessie"
+
+#: plugin-options/settings-options.php:78
+msgid "Hide when the \"Hiding checkbox\" is flagged"
+msgstr "Verberg wanneer de \"Verberg selectievakje\" is aangevinkt"
+
+#: plugin-options/settings-options.php:74
+msgid "Select when popup should be hidden. By default, it will be hidden only when the hiding checkbox is flagged) "
+msgstr "Selecteer wanneer de pop-up verborgen moet zijn. Standaard, is het alleen verborgen als het selectievakje is aangevinkt) "
+
+#: plugin-options/settings-options.php:73
+msgid "Hide policy"
+msgstr "Verberg beleid"
+
+#: plugin-options/settings-options.php:69
+msgid "yithpopup"
+msgstr "yithpopup"
+
+#: plugin-options/settings-options.php:66
+msgid "Set the name for the cookie generated after closing the link of the popup. In this way, as soon as you'll change this value, all your visitors will see the link again even if they have disabled it. Don't abuse of this function!"
+msgstr "Stel de naam in voor de cookie gegenereerd na het sluiten van de link van de pop-up. Zodra je deze waarde wijzigt, sullen al je bezoekers de link opnieuw zien, zelfs als zij het hebben uitgeschakeld. Misbruik deze functie niet!"
+
+#: plugin-options/settings-options.php:65
+msgid "Cookie Variable"
+msgstr "Cookie variabele"
+
+#: plugin-options/settings-options.php:52
+msgid "Select in which pages you want to show the popup. "
+msgstr "Selecteer in welke pagina´s je de pop-up wilt weergeven. "
+
+#: plugin-options/settings-options.php:51
+msgid "Select where you want to show the popup"
+msgstr "Selecteer waar je de pop-up wilt weergeven"
+
+#: plugin-options/settings-options.php:46
+msgid "Enable newsletter popup in all pages."
+msgstr "Nieuwsbrief pop-up inschakelen in alle pagina´s."
+
+#: plugin-options/settings-options.php:45
+msgid "Show on all pages"
+msgstr "Toon in alle pagina´s"
+
+#: plugin-options/settings-options.php:39
+msgid "Enable Popup in Mobile Device"
+msgstr "Pop-up inschakelen voor mobiele apparaten"
+
+#: plugin-options/settings-options.php:31
+msgid "Enable Popup"
+msgstr "Pop-up inschakelen"
+
+#: plugin-options/settings-options.php:17
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: plugin-options/settings-options.php:7
+msgid "Select the popup that you want to show as default"
+msgstr "Selecteer de pop-up die je wilt weergeven als standaard"
+
+#: plugin-options/settings-options.php:5
+msgid "Attention: You should create a new popup to set this option. <a href=\"%s\">Create a new popup</a>"
+msgstr "Let op: Je moet een nieuwe pop-up maken voor deze optie. <a href=\"%s\">Maak een nieuwe pop-up</a>"
+
+#: plugin-options/metabox/ypop_template.php:15
+msgid "Popup Template"
+msgstr "Pop-up template"
+
+#: plugin-options/metabox/ypop_metabox.php:494
+msgid "Show summary"
+msgstr "Toon samenvatting"
+
+#: plugin-options/metabox/ypop_metabox.php:490
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagen"
+
+#: plugin-options/metabox/ypop_metabox.php:487
+msgid "\"Add to cart\" Label"
+msgstr "“Toevoegen aan winkelwagen” label"
+
+#: plugin-options/metabox/ypop_metabox.php:480
+msgid "Show Add to Cart"
+msgstr "Toon toevoegen aan winkelwagen"
+
+#: plugin-options/metabox/ypop_metabox.php:473
+msgid "Show price of product"
+msgstr "Toon prijzen van product"
+
+#: plugin-options/metabox/ypop_metabox.php:466
+msgid "Show thumbnail of product"
+msgstr "Toon thumbnail van product"
+
+#: plugin-options/metabox/ypop_metabox.php:458
+msgid "Show name of product"
+msgstr "Toon naam van product"
+
+#: plugin-options/metabox/ypop_metabox.php:447
+msgid "Select products"
+msgstr "Selecteer producten"
+
+#: plugin-options/metabox/ypop_metabox.php:426
+msgid "Type here all hidden field names and values in a serial way. Example: name1=value1&name2=value2."
+msgstr "Voer hier alle verborgen veldnamen en waarden toe op een opvolgende manier. Voorbeeld: naam1=waarde1&naam2=waarde2."
+
+#: plugin-options/metabox/ypop_metabox.php:425
+msgid "Hidden fields"
+msgstr "Verborgen velden"
+
+#: plugin-options/metabox/ypop_metabox.php:363
+msgid "The attribute \"Name\" of the email address field."
+msgstr "Het attribuut \"Naam\" van het e-mailadres veld"
+
+#: plugin-options/metabox/ypop_metabox.php:362
+msgid "\"Name\" attribute for Email field"
+msgstr "\"Naam\" attribuut voor e-mailveld"
+
+#: plugin-options/metabox/ypop_metabox.php:352
+msgid "The label for the \"Email\" field"
+msgstr "Het label voor het \"e-mail\" veld"
+
+#: plugin-options/metabox/ypop_metabox.php:341
+msgid "The \"Name\" attribute of the Name field."
+msgstr "Het \"Naam\" attribuut van het naamveld."
+
+#: plugin-options/metabox/ypop_metabox.php:340
+msgid "\"Name\" attribute of the Name field"
+msgstr "\"Naam\" attribuut van het naamveld"
+
+#: plugin-options/metabox/ypop_metabox.php:330
+msgid "The label for \"Name\" field"
+msgstr "Het label voor \"Naamveld\""
+
+#: plugin-options/metabox/ypop_metabox.php:329
+msgid "Name field label"
+msgstr "Naamveld label"
+
+#: plugin-options/metabox/ypop_metabox.php:319
+msgid "Show the \"Name\" field in the newsletter"
+msgstr "Toon het \"Naamveld\" in de nieuwsbrief"
+
+#: plugin-options/metabox/ypop_metabox.php:318
+msgid "Show name field"
+msgstr "Toon naamveld"
+
+#: plugin-options/metabox/ypop_metabox.php:304
+msgid "The attribute \"method\" of the form."
+msgstr "Het attribuut \"methode\" van het formulier."
+
+#: plugin-options/metabox/ypop_metabox.php:303
+msgid "Request method"
+msgstr "Verzoek methode"
+
+#: plugin-options/metabox/ypop_metabox.php:293
+msgid "The attribute \"action\" of the form."
+msgstr "Het attribuut \"actie\" van het formulier."
+
+#: plugin-options/metabox/ypop_metabox.php:292
+msgid "Form action"
+msgstr "Formulier actie"
+
+#: plugin-options/metabox/ypop_metabox.php:285
+msgid "Select what kind of newsletter service you want to use, or set a custom form."
+msgstr "Selecteer wat voor type nieuwsbrief service je wilt gebruiken, of stel een aangepast formulier in."
+
+#: plugin-options/metabox/ypop_metabox.php:284
+msgid "Form integration preset"
+msgstr "Vooraf ingestelde formulier integratie"
+
+#: plugin-options/metabox/ypop_metabox.php:273
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: plugin-options/metabox/ypop_metabox.php:264
+msgid "CSS"
+msgstr "CSS"
+
+#: plugin-options/metabox/ypop_metabox.php:261
+msgid "Customization"
+msgstr "Aanpassing"
+
+#: plugin-options/metabox/ypop_metabox.php:249
+msgid "Overlay opacity"
+msgstr "Overlay matheid"
+
+#: plugin-options/metabox/ypop_metabox.php:245
+msgid "Display Settings"
+msgstr "Weergave instellingen"
+
+#: plugin-options/metabox/ypop_metabox.php:236
+msgid "Select the text color for the hiding text"
+msgstr "Selecteer de tekstkleur voor het verbergen tekst"
+
+#: plugin-options/metabox/ypop_metabox.php:235
+msgid "Text color for the hiding text"
+msgstr "Tekstkleur voor de verbergen tekst"
+
+#: plugin-options/metabox/ypop_metabox.php:230
+msgid "Select the background color for the hiding text area"
+msgstr "Selecteer de achtergrondkleur voor het verberg tekst veld"
+
+#: plugin-options/metabox/ypop_metabox.php:229
+msgid "Background color for the hiding text area"
+msgstr "Achtergrondkleur voor het verberg tekst veld"
+
+#: plugin-options/metabox/ypop_metabox.php:216
+msgid "Select the text color for submit button"
+msgstr "Selecteer de tekstkleur voor versturen knop"
+
+#: plugin-options/metabox/ypop_metabox.php:215
+msgid "Color for submit button"
+msgstr "Kleur van versturen knop"
+
+#: plugin-options/metabox/ypop_metabox.php:206
+msgid "Select the background color on hover for submit button"
+msgstr "Selecteer de achtergrondkleur van hover voor verstruren knop"
+
+#: plugin-options/metabox/ypop_metabox.php:205
+msgid "Background color on hover for submit button"
+msgstr "Achtergrondkleur van hover voor versturen knop"
+
+#: plugin-options/metabox/ypop_metabox.php:196
+msgid "Select the background color for submit button"
+msgstr "Selecteer de achtergrondkleur van de versturen knop"
+
+#: plugin-options/metabox/ypop_metabox.php:195
+msgid "Background color for submit button"
+msgstr "Achtergrondkleur van versturen knop"
+
+#: templates/misc/woocommerce.php:74
+#: plugin-options/metabox/ypop_metabox.php:187
+msgid "Placeholder"
+msgstr "Invulveld"
+
+#: plugin-options/metabox/ypop_metabox.php:186
+msgid "Label"
+msgstr "Label"
+
+#: plugin-options/metabox/ypop_metabox.php:182
+msgid "Select the position of the label "
+msgstr "Selecteer de positie van het label "
+
+#: plugin-options/metabox/ypop_metabox.php:181
+msgid "Position of the field title in newsletter content type"
+msgstr "Positie van het titelveld in het nieuwsbrief inhoud type"
+
+#: plugin-options/metabox/ypop_metabox.php:172
+msgid "Select the background color of the footer"
+msgstr "Selecteer achtergrondkleur van footer"
+
+#: plugin-options/metabox/ypop_metabox.php:171
+msgid "Footer background color"
+msgstr "Achtergrondkleur header"
+
+#: plugin-options/metabox/ypop_metabox.php:164
+msgid "Select the color of the header"
+msgstr "Selecteer de header kleur"
+
+#: plugin-options/metabox/ypop_metabox.php:161
+msgid "Header color"
+msgstr "Header kleur"
+
+#: plugin-options/metabox/ypop_metabox.php:151
+msgid "Select the height of the header popup"
+msgstr "Selecteer de hoogte van pop-up header"
+
+#: plugin-options/metabox/ypop_metabox.php:149
+msgid "Header height"
+msgstr "Header hoogte"
+
+#: plugin-options/metabox/ypop_metabox.php:140
+msgid "Select the background image for the header"
+msgstr "Selecteer de achtergrondafbeelding voor de header"
+
+#: plugin-options/metabox/ypop_metabox.php:139
+msgid "Header background image"
+msgstr "Header achtergrondafbeelding"
+
+#: plugin-options/metabox/ypop_metabox.php:130
+msgid "Select the background color of the popup"
+msgstr "Selecteer de achtergrondkleur van de pop-up"
+
+#: plugin-options/metabox/ypop_metabox.php:129
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: plugin-options/metabox/ypop_metabox.php:118
+msgid "Select the height of the popup. Leave 0 to set it automatically"
+msgstr "Selecteer de hoogte van de pop-up. Laat het op 0 voor automatische hoogte"
+
+#: plugin-options/metabox/ypop_metabox.php:116
+msgid "Height"
+msgstr "Hoogte"
+
+#: plugin-options/metabox/ypop_metabox.php:106
+msgid "Select the width of the popup."
+msgstr "Selecteer de breedte van de pop-up."
+
+#: plugin-options/metabox/ypop_metabox.php:96
+msgid "Layout"
+msgstr "Lay-out"
+
+#: plugin-options/metabox/ypop_metabox.php:82
+msgid "Add the footer of the popup"
+msgstr "Inhoud van footer van de pop-up toevoegen"
+
+#: plugin-options/metabox/ypop_metabox.php:80
+msgid "Footer content"
+msgstr "Footer inhoud"
+
+#: plugin-options/metabox/ypop_metabox.php:71
+msgid "Add the content of the popup"
+msgstr "Inhoud van pop-up toevoegen"
+
+#: plugin-options/metabox/ypop_metabox.php:62
+msgid "SIGN UP TO OUR NEWSLETTER AND SAVE 25% OFF FOR YOUR NEXT PURCHASE"
+msgstr "SCHRIJF JE IN VOOR ONZE NIEUWSBRIEF EN ONTVANG 25% KORTING OP JE VOLGENDE AANKOOP"
+
+#: plugin-options/metabox/ypop_metabox.php:61
+msgid "Add the header content of the popup"
+msgstr "Inhoud van header van de pop-up toevoegen"
+
+#: plugin-options/metabox/ypop_metabox.php:59
+msgid "Header"
+msgstr "Header"
+
+#: plugin-options/metabox/ypop_metabox.php:49
+msgid "Select the type of the content"
+msgstr "Selecteer het type inhoud"
+
+#: plugin-options/metabox/ypop_metabox.php:48
+msgid "Content type"
+msgstr "Inhoud type"
+
+#: plugin-options/metabox/ypop_metabox.php:41
+msgid "Enable popup"
+msgstr "Pop-up inschakelen"
+
+#: plugin-options/metabox/ypop_metabox.php:34
+#: plugin-options/metabox/ypop_metabox.php:69
+msgid "Content"
+msgstr "Inhoud"
+
+#: plugin-options/metabox/ypop_metabox.php:25
+msgid "Popup Settings"
+msgstr "Pop-up instellingen"
+
+#: plugin-options/metabox/ypop_metabox.php:20
+#: plugin-options/metabox/ypop_metabox.php:443
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin-options/metabox/ypop_metabox.php:16
+#: plugin-options/metabox/ypop_metabox.php:281
+msgid "Newsletter"
+msgstr "Nieuwsbrief"
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:30
+msgid "YITH WooCommerce Popup "
+msgstr "YITH WooCommerce Popup"
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:27
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:27
+msgid "Global setting options"
+msgstr "Globale instellingen opties"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:17
+msgid "Reset Defaults"
+msgstr "Herstellen naar standaard"
+
+#: plugin-fw/templates/fields/sidebars.php:52
+msgid "Right Sidebar"
+msgstr "Rechter sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Linker sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Choose a sidebar"
+msgstr "Kies een sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:25
+msgid "Right sidebar"
+msgstr "Rechter sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:28
+#: plugin-fw/templates/fields/sidebars.php:31
+msgid "No sidebar"
+msgstr "Geen sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:22
+msgid "Left sidebar"
+msgstr "Linker sidebar"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add images"
+msgstr "Afbeeldingen toevoegen"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add Images to Gallery"
+msgstr "Afbeeldingen toevoegen aan galerij"
+
+#: plugin-fw/templates/fields/image-gallery.php:34
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete image"
+msgstr "Afbeelding verwijderen"
+
+#: templates/metaboxes/types/iconlist.php:93
+#: plugin-fw/templates/metaboxes/types/icon-list.php:92
+msgid "(Default: <i %s></i> )"
+msgstr "(Default: <i %s></i> )"
+
+#: templates/metaboxes/types/iconlist.php:91
+#: plugin-fw/templates/metaboxes/types/icon-list.php:90
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr "(Default: %s <img src=\"%s\"/>)"
+
+#: plugin-fw/templates/fields/customtabs.php:106
+msgid "Do you want to remove the custom tab?"
+msgstr "Wilt je het aangepaste tabblad verwijderen?"
+
+#: plugin-fw/templates/fields/customtabs.php:65
+msgid "Add custom product tab"
+msgstr "Voeg aangepast product tablad toe"
+
+#: plugin-fw/templates/fields/customtabs.php:53
+#: plugin-fw/templates/fields/customtabs.php:95
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Inhoud van tabblad. (HTML wordt ondersteund)"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+#: plugin-fw/templates/fields/customtabs.php:94
+msgid "Value"
+msgstr "Waarde"
+
+#: plugin-options/metabox/ypop_metabox.php:104
+msgid "Width"
+msgstr "Breedte"
+
+#: templates/metaboxes/types/iconlist.php:79
+#: plugin-fw/templates/metaboxes/types/icon-list.php:76
+msgid "Image preview"
+msgstr "Voorbeeld afbeelding"
+
+#: templates/metaboxes/types/iconlist.php:70
+#: plugin-fw/templates/fields/upload.php:18
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+#: plugin-fw/templates/metaboxes/types/icon-list.php:70
+msgid "Upload"
+msgstr "Upload"
+
+#: plugin-fw/templates/fields/customtabs.php:37
+#: plugin-fw/templates/fields/customtabs.php:81
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:232
+msgid "Renew license"
+msgstr "Licentie vernieuwen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:230
+msgid "Order again"
+msgstr "Bestel opniew"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+msgid "Banned"
+msgstr "Verbannen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:151
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:208
+msgid "Renew"
+msgstr "Vernieuw"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:146
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:130
+msgid "%1s out of %2s"
+msgstr "%1s van de %2s"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:105
+msgid "License Actions"
+msgstr "Licentie acties"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+msgid "Club Subscription"
+msgstr "Club Abonnement"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:99
+msgid "Remaining"
+msgstr "Over"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:84
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:65
+msgid "Activate"
+msgstr "Activeren"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:43
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] "Product om te activeren"
+msgstr[1] "Producten om te activeren"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:30
+msgid "Update license information"
+msgstr "Update licentie informatie"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:28
+msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
+msgstr "Heb je je licenties geüpdatet? Heb je gevraagd naar een uitbereiding' Update informatie met betrekking tot je producten."
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
+msgstr "Ik kan de licentiesleutel van het thema dat ik een tijdje terug heb gekocht niet meer vinden. Waar kan ik het vinden?"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+msgid "%s"
+msgstr "%s"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+msgid "License Activation"
+msgstr "Licentie activering"
+
+#: plugin-fw/licence/lib/yit-licence.php:746
+msgid "License key deactivated for website"
+msgstr "Licentiesleutel gedeactiveerd voor website"
+
+#: plugin-fw/licence/lib/yit-licence.php:745
+msgid "License successfully activated"
+msgstr "Licentie succesvol geactiveerd"
+
+#: plugin-fw/licence/lib/yit-licence.php:745
+msgid "Great"
+msgstr "Top!"
+
+#: plugin-fw/licence/lib/yit-licence.php:744
+msgid "Current product is not included in your YITH Club Subscription key"
+msgstr "Huidige product is niet opgenomen in je YITH Club Subscription key"
+
+#: plugin-fw/licence/lib/yit-licence.php:743
+msgid "License key has been banned"
+msgstr "De licentiesleutel is verbannen"
+
+#: plugin-fw/licence/lib/yit-licence.php:742
+msgid "License key has expired"
+msgstr "De licentiesleutel is verlopen"
+
+#: plugin-fw/licence/lib/yit-licence.php:741
+msgid "Invalid security key"
+msgstr "Ongeldige security key"
+
+#: plugin-fw/licence/lib/yit-licence.php:740
+msgid "Invalid instance ID"
+msgstr "Ongeldige instance ID"
+
+#: plugin-fw/licence/lib/yit-licence.php:739
+msgid "Maximum number of activations exceeded"
+msgstr "Maximum aantal activeringen overschreden"
+
+#: plugin-fw/licence/lib/yit-licence.php:738
+msgid "Software has been deactivated"
+msgstr "Software is gedeactiveerd"
+
+#: plugin-fw/licence/lib/yit-licence.php:737
+msgid "Invalid license key"
+msgstr "Ongeldige licentiesleutel"
+
+#: plugin-fw/licence/lib/yit-licence.php:736
+msgid "Invalid Request"
+msgstr "Ongeldig verzoek"
+
+#: plugin-fw/licence/lib/yit-licence.php:191
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr "Weet je zeker dat je de licentie voor deze site wilt deactiveren?"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:93
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:171
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:202
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:170
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+msgid "Email"
+msgstr "E-mail"
+
+#: plugin-fw/licence/lib/yit-licence.php:188
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr "Niet in staat contact te maken met de externe server, probeer het later opnieuw!"
+
+#: plugin-fw/lib/yit-upgrade.php:614
+msgid "You do not have sufficient permissions to update the plugins for this site."
+msgstr "Je hebt niet voldoende rechten om plugins voor deze site te updaten."
+
+#: plugin-fw/lib/yit-upgrade.php:610
+msgid "You can't update the plugins for this site."
+msgstr "Je kunt de plugin voor deze site niet updaten."
+
+#: plugin-fw/lib/yit-upgrade.php:537
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a> of <a href=\"%5$s\">update nu</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:535
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
+msgstr "Er is een nieuwe versie van  %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Automatische update is niet beschikbaar voor deze plugin <a href=\"%5$s\" title=\"License activation\">activeer</a> je kopie van %6s.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:533
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Je moet de plugin op een single site van het netwerk activeren om te profiteren van automatische updates.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:531
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
+msgstr "Er is een nieuwe versie van of %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:358
+msgid "Could not create Temporary file."
+msgstr "Kan geen tijdelijk bestand aanmaken."
+
+#: plugin-fw/lib/yit-upgrade.php:345
+msgid "Invalid URL Provided."
+msgstr "Ongeldige URL ingegeven."
+
+#: plugin-fw/lib/yit-upgrade.php:194
+msgid "Update now."
+msgstr "Update nu."
+
+#: plugin-fw/lib/yit-upgrade.php:193
+msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr "alsjeblieft <a href=\"%activate_link%\">activeer</a> je kopie van %plugin_name%."
+
+#: plugin-fw/lib/yit-upgrade.php:192
+msgid "Automatic update is unavailable for this plugin,"
+msgstr "Automatische update is niet beschikbaar voor deze plugin,"
+
+#: plugin-fw/lib/yit-upgrade.php:191
+msgid "View version %latest% details."
+msgstr "Bekijk versie %latest% details."
+
+#: plugin-fw/lib/yit-upgrade.php:190
+msgid "There is a new version of %plugin_name% available."
+msgstr "Er is een nieuwe versie van %plugin_name% beschikbaar."
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins menu.\n"
+"                                    Every time one of our plugins is added, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YITH Plugins tab."
+msgstr ""
+"Vanaf nu kun je het optie paneel van YITH plugins vinden in het YITH Plugins menu.\n"
+"                                    Telkens wanneer een nieuwe plugin wordt toegevoegd, komt er een regel bij in dit menu.\n"
+"                                    Voorbeeld, na de update, plugin opties (zoals YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    zullen worden verplaatst van de vorige locatie naar de YITH Plugins tab."
+
+#: plugin-fw/lib/yit-pointers.php:84
+msgid "Plugins Upgraded"
+msgstr "Plugins geüpgraded"
+
+#: plugin-fw/lib/yit-pointers.php:74 plugin-fw/lib/yit-pointers.php:90
+msgid "and"
+msgstr "en"
+
+#: plugin-fw/lib/yit-pointers.php:73 plugin-fw/lib/yit-pointers.php:89
+msgid "Discover all our plugins available on:"
+msgstr "Ontdek al onze beschikbare plugins op:"
+
+#: plugin-fw/lib/yit-pointers.php:71
+msgid ""
+"From now on, you can find all plugin options in YITH Plugins menu.\n"
+"                                     Plugin customization settings will be available as a new entry in YITH Plugins menu."
+msgstr ""
+"Vanaf nu kun je alle plugin opties vinden in het YITH Plugins Menu.\n"
+"                                     Instellingen om de plugin aan te passen zijn beschikbaar als nieuwe regel in het YITH Plugins menu."
+
+#: plugin-fw/lib/yit-pointers.php:70
+msgid "Plugins Activated"
+msgstr "Plugins geactiveerd"
+
+#: plugin-fw/lib/yit-plugin-panel.php:546
+msgid "Sorting successful."
+msgstr "Sorteren succesvol."
+
+#: plugin-fw/lib/yit-plugin-panel.php:545
+msgid "Sorry, import is disabled."
+msgstr "Sorry, importeren is uitgeschakeld."
+
+#: plugin-fw/lib/yit-plugin-panel.php:544
+msgid "The added file is not valid."
+msgstr "Het toegevoegde bestand is ongeldig."
+
+#: plugin-fw/lib/yit-plugin-panel.php:543
+msgid "An error has occurred during import. Please try again."
+msgstr "Er is een fout opgetreden tijdens het importeren, probeer opnieuw alsjeblieft."
+
+#: plugin-fw/lib/yit-plugin-panel.php:542
+msgid "Database imported correctly."
+msgstr "Database juist geïmporteerd."
+
+#: plugin-fw/lib/yit-plugin-panel.php:540
+#: plugin-fw/lib/yit-plugin-panel.php:541
+msgid "Element updated correctly."
+msgstr "Element juist geüpdatet."
+
+#: plugin-fw/lib/yit-plugin-panel.php:539
+msgid "Element deleted correctly."
+msgstr "Element succesvol verwijderd."
+
+#: plugin-fw/lib/yit-plugin-panel.php:538
+msgid "Settings reset"
+msgstr "Instellingen resetten"
+
+#: plugin-fw/lib/yit-plugin-panel.php:537
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: plugin-fw/lib/yit-plugin-panel.php:536
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "Het element dat je hebt ingevoerd bestaat al. Voer een andere naam in."
+
+#: plugin-fw/lib/yit-plugin-panel.php:402
+#: plugin-fw/lib/yit-plugin-subpanel.php:162
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: plugin-fw/lib/yit-plugin-panel.php:399
+#: plugin-fw/lib/yit-plugin-subpanel.php:159
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Als je deze actie voortzet, zul je alle opties in deze pagina resetten."
+
+#: plugin-fw/lib/yit-plugin-panel.php:335
+#: plugin-fw/lib/yit-plugin-panel.php:338
+msgid "How to install premium version"
+msgstr "Hoe installeer ik de premium versie"
+
+#: plugin-fw/lib/yit-plugin-panel.php:72
+msgid "Plugin Settings"
+msgstr "Plugin instellingen"
+
+#: plugin-fw/lib/yit-plugin-panel-wc.php:384
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "De wijzigingen die je hebt gemaakt zullen verloren gaan als je deze pagina verlaat."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+msgid "Upload multiple files"
+msgstr "Upload meerdere bestanden"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+msgid "Add %s from images"
+msgstr "Voeg %s toe van afbeeldingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/fields/customtabs.php:46
+#: plugin-fw/templates/fields/customtabs.php:89
+msgid "Name"
+msgstr "Naam"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+msgid "Show frontend of the %s"
+msgstr "Toon frontend van de %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+msgid "Quick links"
+msgstr "Snelle links"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+msgid "layout settings"
+msgstr "Lay-out instellingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+msgid "Layout for single page of this portfolio"
+msgstr "Lay-out voor single pagina van dit portfolio"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+msgid "Single layout"
+msgstr "Single lay-out"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+msgid "Set univocal name for each category page URL."
+msgstr "Stel een unieke naam in voor elke categorie pagina URL."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+msgid "Taxonomy Rewrite"
+msgstr "Taxonomie herschrijven"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1077
+msgid "If you want to use categories in the portfolio, set a name for taxonomy. Name should be a slug (must not contain capital letters nor spaces) and must not be more than 32 characters long (database structure restriction)."
+msgstr "Als je de categorieën in het portfolio wilt gebruiken, stel een naam in voor de taxonomie. De naam moet een slug zijn (mag geen hoofdletters of spaties bevatten) en mag niet meer dan 32 karakters lang zijn (database structuur beperking)."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+msgid "Label in Plural"
+msgstr "Label in meervoud"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+msgid "Label in Singular"
+msgstr "Label in enkelvoud"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1059
+msgid "Univocal identification name in the URL for each product (slug from post if empty)"
+msgstr "Eenduidige identificatie naam in de URL voor elk product (slug uit post indien leeg)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+msgid "Rewrite"
+msgstr "Herschrijf"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+msgid "Layout for this %s"
+msgstr "De lay-out hiervoor %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+msgid "Type"
+msgstr "Type"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+msgid "%s Settings"
+msgstr "%s instellingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+msgid "Update Category"
+msgstr "Update categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+msgid "Parent Category:"
+msgstr "Hoofdcategorie:"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+msgid "Parent Category"
+msgstr "Hoofdcategorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+#: plugin-fw/templates/fields/ajax-terms.php:56
+msgid "Search Categories"
+msgstr "Zoek categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr "%s Categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+msgid "No %s found in Trash"
+msgstr "Geen %s gevonden in prullenbak"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+msgid "Search %s"
+msgstr "Zoek %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+msgid "All %s"
+msgstr "Alle %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+msgid "New %s"
+msgstr "Nieuw %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+msgid "Add New %s"
+msgstr "Nieuwe toevoegen %s"
+
+#: init.php:123
+msgid "YITH WooCommerce Popup is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Popup is ingeschakeld maar niet werkend. Het heeft WooCommerce nodig om te werken."
+
+#: init.php:29
+msgid "You can't activate the free version of YITH WooCommerce Popup while you are using the premium one."
+msgstr "Je kunt de gratis versie van YITH WooCommerce Popup niet activeren, terwijl je de premium versie gebruikt."
+
+#: includes/newsletter-integration/Mailchimp.php:467
+msgid "<span class=\"notice\">Ops! You have to use a valid email address</span>"
+msgstr "<span class=\"notice\">Oeps! Je moet een geldig e-mailadres gebruiken</span>"
+
+#: includes/newsletter-integration/Mailchimp.php:462
+msgid "<span class=\"error\">Ops! Something went wrong</span>"
+msgstr "<span class=\"error\">Oeps! Er is iets missgegaan</span>"
+
+#: includes/newsletter-integration/Mailchimp.php:446
+msgid "Mailchimp general error"
+msgstr "Mailchimp algemene fout"
+
+#: includes/newsletter-integration/Mailchimp.php:443
+msgid "Mailchimp list related error (interest group)"
+msgstr "Mailchimp lijst gerelateerde fout (doelgroep)"
+
+#: includes/newsletter-integration/Mailchimp.php:440
+msgid "Mailchimp list related error (merge)"
+msgstr "Mailchimp lijst gerelateerde fout (samenvoegen)"
+
+#: includes/newsletter-integration/Mailchimp.php:437
+msgid "Mailchimp list related error (email)"
+msgstr "Mailchimp lijst gerelateerde fout (e-mail)"
+
+#: includes/newsletter-integration/Mailchimp.php:434
+msgid "Mailchimp list related error (import)"
+msgstr "Mailchimp lijst gerelateerde fout (importeren)"
+
+#: includes/newsletter-integration/Mailchimp.php:431
+msgid "Mailchimp list related error (basic action)"
+msgstr "Mailchimp lijst gerelateerde fout (basis actie)"
+
+#: includes/newsletter-integration/Mailchimp.php:428
+msgid "Mailchimp list related error"
+msgstr "Mailchimp lijst gerelateerde fout"
+
+#: includes/newsletter-integration/Mailchimp.php:425
+msgid "Mailchimp user related error (action)"
+msgstr "Mailchimp gebruiker gerelateerde fout (actie)"
+
+#: includes/newsletter-integration/Mailchimp.php:422
+msgid "Mailchimp user related error"
+msgstr "Mailchimp gebruiker gerelateerde fout"
+
+#: includes/newsletter-integration/Mailchimp.php:419
+msgid "Mailchimp server error"
+msgstr "Mailchimp server fout"
+
+#: includes/newsletter-integration/Mailchimp.php:238
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:210
+#: plugin-options/metabox/ypop_metabox.php:415
+msgid "This field is not always used. It depends on the style of the form."
+msgstr "Dit veld wordt niet altijd gebruikt. Dit hangt af van de stijl van het formulier."
+
+#: includes/newsletter-integration/Mailchimp.php:209
+#: plugin-options/metabox/ypop_metabox.php:414
+msgid "Submit button label"
+msgstr "Verstuur knop label"
+
+#: includes/newsletter-integration/Mailchimp.php:168
+msgid "The label for the Email field"
+msgstr "Het label voor het e-mailveld"
+
+#: plugin-options/metabox/ypop_metabox.php:308
+msgid "GET"
+msgstr "GET"
+
+#: plugin-options/metabox/ypop_metabox.php:307
+msgid "POST"
+msgstr "POST"
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#: templates/admin/premium.php:240
+msgid "Premium Features"
+msgstr "Premium functies"
+
+#: templates/admin/premium.php:234 templates/admin/premium.php:312
+msgid "to the premium version"
+msgstr "in de premium versie"
+
+#: plugin-fw/templates/fields/upload.php:19
+msgid "Reset"
+msgstr "Resetten"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add to gallery"
+msgstr "Toevoegen aan galerij"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Expand all"
+msgstr "Alle uitbreiden"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Close all"
+msgstr "Sluit alle"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+msgid "Expired"
+msgstr "Vervallen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:96
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:205
+msgid "Expires"
+msgstr "Vervalt"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:90
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:168
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: plugin-fw/lib/yit-upgrade.php:621
+msgid "Update Plugin"
+msgstr "Update plugin"
+
+#: plugin-fw/lib/yit-plugin-panel.php:401
+#: plugin-fw/lib/yit-plugin-subpanel.php:161
+msgid "Reset to default"
+msgstr "Resetten naar standaard"
+
+#: plugin-fw/lib/yit-plugin-panel.php:396
+#: plugin-fw/lib/yit-plugin-subpanel.php:156
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr "Stel een label in meervoud in (titel van de portfolio als deze niet wordt ingevuld)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr "Stel een label in enkelvoud in (titel van de portfolio als deze niet wordt ingevuld)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+msgid "Categories"
+msgstr "Categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+msgid "Category"
+msgstr "Categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+msgid "New Category Name"
+msgstr "Nieuwe categorienaam"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+msgid "Add New Category"
+msgstr "Nieuwe categorie toevoegen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+msgid "Edit Category"
+msgstr "Bewerk categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+msgid "Add %s"
+msgstr "Toevoegen %s"
+
+#: includes/newsletter-integration/Mailchimp.php:457
+msgid "<span class=\"success\">Email successfully registered</span>"
+msgstr "<span class=\"success\">e-mail is succesvol geregistreerd</span>"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
+"                    provided with and that you can find in your YITH account, in section \"My licenses\"."
+msgstr ""
+"Als je een van onze producten hebt gekocht voor 27 januari 2015, dan kun je profiteren van de support en updates (service inbegrepen bij licentie)\n"
+"                    tot 27 januari 2016 en je hoeft het niet opnieuw te kopen om een nieuwe licentiesleutel te krijgen, want voor deze datum, werd de licentie automatisch geactiveerd door ons systeem. \n"
+"                    Na 27 januari 2016 daarentegen, als je wilt profiteren van support en updates, dan moet je een nieuwe licentiesleutel kopen en activeren. Via de licentiesleutel die je \n"
+"                    kunt vinden in je YIThemes account onder \"My licenses\"."
+
+#: includes/newsletter-integration/Mailchimp.php:167
+#: plugin-options/metabox/ypop_metabox.php:351
+msgid "Email field label"
+msgstr "E-mailveld label"
+
+#: includes/newsletter-integration/Mailchimp.php:159
+msgid "Refresh"
+msgstr "Vernieuwen"
+
+#: includes/newsletter-integration/Mailchimp.php:155
+msgid "A valid Mailchimp list name. You may need to save your configuration before displaying the correct contents. If the list is not up to date, click the Refresh button"
+msgstr "Een geldige Mailchimp lijst naam. Het kan zijn dat je de wijzigingen moet opslaan om de juiste inhoud te zien. Als de lijst niet up to date is, klik dan op de vernieuwen knop."
+
+#: includes/newsletter-integration/Mailchimp.php:154
+msgid "Mailchimp List"
+msgstr "Mailchimp lijst"
+
+#: includes/newsletter-integration/Mailchimp.php:145
+msgid "The Mailchimp API Key, used to connect WordPress to the Mailchimp service. If you need help to create a valid API Key, refer to this <a href=\"http://kb.mailchimp.com/article/where-can-i-find-my-api-key\">tutorial</a>"
+msgstr "De Mailchimp API Key, gebruikt om WordPress met de Mailchimp service te verbinden. Als je hulp nodig hebt bij het maken van een geldige API Key, kijk dan hier <a href=\"http://kb.mailchimp.com/article/where-can-i-find-my-api-key\">tutorial</a>"
+
+#: includes/newsletter-integration/Mailchimp.php:144
+msgid "Mailchimp API Key"
+msgstr "Mailchimp API Key"
+
+#: includes/newsletter-integration/Mailchimp.php:129
+msgid "Select a list"
+msgstr "Selecteer een lijst"
+
+#: includes/newsletter-integration/Mailchimp.php:111
+msgid "Refreshing..."
+msgstr "Vernieuwen..."
+
+#: includes/functions.yith-popup.php:139
+msgid "All categories"
+msgstr "Alle categorieën"
+
+#: includes/functions.yith-popup.php:90 includes/functions.yith-popup.php:123
+msgid "No contact form found"
+msgstr "Geen contactformulier gevonden"
+
+#: includes/functions.yith-popup.php:81 includes/functions.yith-popup.php:109
+msgid "Plugin not activated or not installed"
+msgstr "Plugin is niet geactiveerd of geïnstalleerd"
+
+#: includes/class-yith-popup.php:255
+msgid "Active"
+msgstr "Actief"
+
+#: includes/class-yith-popup.php:254
+msgid "Content Type"
+msgstr "Inhoud type"
+
+#: includes/class-yith-popup.php:253
+#: plugin-options/metabox/ypop_template.php:21
+#: plugin-options/metabox/ypop_template.php:24
+#: plugin-options/metabox/ypop_cpt_metabox.php:36
+msgid "Template"
+msgstr "Template"
+
+#: includes/class-yith-popup.php:252
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class-yith-popup.php:111
+msgid "Yith Popup Description"
+msgstr "Yith Popup Beschrijving"
+
+#: includes/class-yith-popup.php:110
+msgid "yith_popup"
+msgstr "yith_popup"
+
+#: includes/class-yith-popup.php:107
+msgid "Not found in Trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: includes/class-yith-popup.php:105
+msgid "Search Popup"
+msgstr "Zoek pop-up"
+
+#: includes/class-yith-popup.php:104
+msgid "Update Popup"
+msgstr "Update pop-up"
+
+#: includes/class-yith-popup.php:103
+msgid "Edit Popup"
+msgstr "Bewerk pop-up"
+
+#: includes/class-yith-popup.php:101 includes/class-yith-popup.php:102
+msgid "Add New Popup"
+msgstr "Nieuwe pop-up toevoegen"
+
+#: includes/class-yith-popup.php:100
+msgid "View Popup"
+msgstr "Bekijk pop-up"
+
+#: includes/class-yith-popup.php:99
+msgid "All Popups"
+msgstr "Alle pop-ups"
+
+#: includes/class-yith-popup.php:97
+#: plugin-options/metabox/ypop_cpt_metabox.php:39
+msgid "Popup"
+msgstr "Pop-up"
+
+#: includes/class-yith-popup.php:96
+msgctxt "Post Type Singular Name"
+msgid "Yith Popup"
+msgstr "Yith Popup"
+
+#: includes/class-yith-popup.php:95
+msgctxt "Post Type General Name"
+msgid "Yith Popup"
+msgstr "Yith Popup"
+
+#: includes/class-yith-popup.php:84
+msgid "Theme 1"
+msgstr "Thema 1"
+
+#: includes/class-yith-popup-newsletter.php:63
+msgid "Custom Form"
+msgstr "Aangepast formulier"
+
+#: includes/class-yith-popup-admin.php:244
+#: plugin-fw/lib/yit-plugin-panel.php:73
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-yith-popup.php:106
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: includes/class-yith-popup.php:98
+msgid "Parent Item:"
+msgstr "Hoofditem:"
+
+#: includes/class-yith-popup-admin.php:248
+msgid "Premium Version"
+msgstr "Premium Versie"

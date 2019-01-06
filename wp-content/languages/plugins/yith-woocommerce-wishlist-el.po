@@ -1,0 +1,1399 @@
+# Translation of Plugins - YITH WooCommerce Wishlist - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Wishlist - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-08 22:13:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Wishlist - Stable (latest release)\n"
+
+#: templates/wishlist-view.php:303
+msgid "Your email"
+msgstr "Το email σου"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:97
+msgid "Club Subscription"
+msgstr "Εγγραφή στο Κλαμπ"
+
+#: plugin-fw/licence/lib/yit-licence.php:686
+msgid "Current product is not included in your YITH Club Subscription key"
+msgstr "Το τρέχον προϊόν δεν περιλαμβάνεται στο κλειδί συνδρομής σας στο κλαμπ YITH"
+
+#: plugin-fw/lib/yit-plugin-panel.php:325
+#: plugin-fw/lib/yit-plugin-panel.php:328
+msgid "How to install premium version"
+msgstr "Πως εγκαθίσταται η premium έκδοση"
+
+#: includes/class.yith-wcwl-admin-init.php:1312
+msgid "It will be used by Pinterest."
+msgstr "Θα χρησιμοποιηθεί από το Pinterest."
+
+#. Author of the plugin/theme
+msgid "YITHEMES"
+msgstr "YITHEMES"
+
+#: plugin-fw/templates/fields/upload.php:19
+msgid "Reset"
+msgstr "Αρχικών ρυθμίσεων"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:228
+msgid "Renew license"
+msgstr "Ανανέωση Άδειας"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:226
+msgid "Order again"
+msgstr "Παραγγείλετε ξανά"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:142
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+msgid "License Actions"
+msgstr "Ενέργειες Άδειας"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:42
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] "Προϊόν για ενεργοποίηση"
+msgstr[1] "Προϊόντα για ενεργοποίηση"
+
+#: plugin-fw/licence/lib/yit-licence.php:688
+msgid "License key deactivated for website"
+msgstr "Η άδεια απενεργοποιήθηκε για τον ιστότοπο"
+
+#: plugin-fw/licence/lib/yit-licence.php:687
+msgid "License successfully activated"
+msgstr "Η άδεια ενεργοποιήθηκε επιτυχώς"
+
+#: plugin-fw/licence/lib/yit-licence.php:687
+msgid "Great"
+msgstr "Υπέροχα"
+
+#: plugin-fw/licence/lib/yit-licence.php:192
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr "Είστε βέβαιοι ότι θέλετε να απενεργοποιήσετε την άδεια για τον τρέχων ιστότοπο?"
+
+#: includes/class.yith-wcwl-admin-init.php:256
+msgid "Live Demo"
+msgstr "Ζωντανή Προεπισκόπηση"
+
+#: templates/admin/wishlist-panel-premium.php:275
+msgid "Your shop offers always a wide selection of products and wishlists of your users get more and more crowded everyday. Give them the possibility to select %1$ssome or all products%2$s in the wishlist and add them to cart just with one click."
+msgstr "Το κατάστημά σας προσφέρει πάντα μια μεγάλη ποικιλία προϊόντων και οι λίστες επιθυμιών των χρηστών σας γίνονται ολοένα και πιο γεμάτοι καθημερινά. Δώστε τους τη δυνατότητα επιλογής μερικά %1$s ή όλα τα προϊόντα %2$s στη λίστα επιθυμιών και να τα προσθέσετε στο καλάθι με ένα μόνο κλικ."
+
+#: templates/admin/wishlist-panel-premium.php:376
+msgid "Activating the %1$s\"Show date of addition\"%2$s option, users can see the date in which they have added a particular product to their list: a new way to keep you users informed about their operations."
+msgstr "Με την ενεργοποίηση της επιλογής %1$s \"Εμφάνιση ημερομηνίας προσθήκης\" %2$s, οι χρήστες μπορούν να δουν την ημερομηνία κατά την οποία έχουν προσθέσει ένα συγκεκριμένο προϊόν στη λίστα τους: ένας νέος τρόπος ενημέρωσης των χρηστών σχετικά με τις δραστηριότητές τους."
+
+#: templates/admin/wishlist-panel-premium.php:374
+msgid "DATE OF ADDITION TO A WISHLIST"
+msgstr "ΗΜΕΡΟΜΗΝΙΑ ΠΡΟΣΘΗΚΗΣ ΣΕ ΜΙΑ ΛΙΣΤΑ ΕΠΙΘΥΜΙΩΝ"
+
+#: templates/admin/wishlist-panel-premium.php:369
+msgid "DATE"
+msgstr "ΗΜΕΡΟΜΗΝΙΑ"
+
+#: templates/admin/wishlist-panel-premium.php:362
+msgid "FROM A WISHLIST"
+msgstr "ΑΠΟ ΜΙΑ ΛΙΣΤΑ ΕΠΙΘΥΜΙΩΝ"
+
+#: templates/admin/wishlist-panel-premium.php:359
+msgid "Who said that a product has to remain forever in the same wishlist? With the option %1$s\"Show \"Move to another wishlist\" dropdown menu\"%2$s, with just one click users will be free to move a product from a wishlist to another one, managing as they want their lists."
+msgstr "Ποιος δήλωσε ότι ένα προϊόν πρέπει να παραμείνει για πάντα στην ίδια λίστα επιθυμιών; Με την επιλογή %1$s \"Εμφάνιση\" Μετακίνηση σε μια άλλη λίστα επιθυμιών \"αναπτυσσόμενο μενού\" %2$s, με ένα μόνο κλικ οι χρήστες θα είναι ελεύθεροι να μεταφέρουν ένα προϊόν από λίστα επιθυμιών σε άλλο, διαχειρίζοντας όπως θέλουν τις λίστες τους."
+
+#: templates/admin/wishlist-panel-premium.php:357
+msgid "FROM A WISHLIST TO ANOTHER"
+msgstr "ΑΠΟ ΜΙΑ ΛΙΣΤΑ ΕΠΙΘΥΜΙΩΝ ΣΕ ΜΙΑ ΑΛΛΗ"
+
+#: templates/admin/wishlist-panel-premium.php:348
+msgid "If you want to give the right input to your users to persuade them to %1$spurchase the products%2$s they have in their wishlists, you need to use this feature! %1$sSend them an email%2$s: customize its whole content from the option panel and add a coupon they can use in your shop, so that they will know you are offering a unique offer!"
+msgstr "Εάν θέλετε να δώσετε τη σωστή εισροή στους χρήστες σας για να τους πείσετε να %1$s να αγοράσουν τα προϊόντα %2$s που έχουν στους καταλόγους επιθυμιών τους, πρέπει να χρησιμοποιήσετε αυτή τη λειτουργία! %1$s Αναλάβετε ένα email %2$s: προσαρμόστε όλο το περιεχόμενό του από τον πίνακα επιλογών και προσθέστε ένα κουπόνι που μπορούν να χρησιμοποιήσουν στο κατάστημά σας, ώστε να γνωρίζουν ότι προσφέρετε μια μοναδική προσφορά!"
+
+#: templates/admin/wishlist-panel-premium.php:341
+#: templates/admin/wishlist-panel-premium.php:346
+msgid "PROMOTIONAL EMAIL"
+msgstr "ΠΡΟΩΘΗΤΙΚΟ EMAIL"
+
+#: templates/admin/wishlist-panel-premium.php:334
+msgid "FUNCTIONALITIES"
+msgstr "ΛΕΙΤΟΥΡΓΙΕΣ"
+
+#: templates/admin/wishlist-panel-premium.php:331
+msgid "Users have the possibility to search for a wishlist, create a new one or display those already created. Add these %1$sfunctionalities%2$s through the dedicated widgets or show them immediately after \"Wishlist\" table."
+msgstr "Οι χρήστες έχουν τη δυνατότητα να αναζητήσουν μια λίστα επιθυμιών, να δημιουργήσουν ένα νέο ή να εμφανίσουν τις ήδη δημιουργηθείσες. Προσθέστε αυτά τα %1$s λειτουργίες %2$s μέσω των αφιερωμένων γραφικών στοιχείων ή τα εμφανίστε αμέσως μετά τον πίνακα \"Λίστα επιθυμιών\"."
+
+#: templates/admin/wishlist-panel-premium.php:329
+msgid "FUNCTIONALITIES IN ONE CLICK"
+msgstr "ΛΕΙΤΟΥΡΓΙΕΣ ΜΕ ΕΝΑ ΚΛΙΚ"
+
+#: templates/admin/wishlist-panel-premium.php:320
+msgid "Some products draw customer's attention more than others and they do not hesitate to add products to their wishlist. Table %1$s'Popular'%2$s allows you, as shop administrator, to track products that appear most frequently in their wishlists."
+msgstr "Μερικά προιόντα τραβούν την προσοχή των πελατών περισσότερα από τα άλλα και δεν διστάζουν να τα προσθέσουν στα αγαπημένα. Ο πίνακας %1$s'Δημοφιλέστερα'%2$s σας επιτρέπει ως διαχειριστή του καταστήματος, να παρακολουθείτε τα προϊόντα που εμφανίζονται πιο συχνά στα αγαπημένα."
+
+#: templates/admin/wishlist-panel-premium.php:313
+#: templates/admin/wishlist-panel-premium.php:318
+msgid "POPULAR TABLE"
+msgstr "ΔΗΜΟΦΙΛΗΣ ΠΙΝΑΚΑΣ "
+
+#: templates/admin/wishlist-panel-premium.php:306
+msgid "UNLOGGED USERS"
+msgstr "ΑΠΟΣΥΝΔΕΜΕΝΟΙ ΧΡΗΣΤΕΣ"
+
+#: templates/admin/wishlist-panel-premium.php:301
+msgid "MESSAGE TO UNLOGGED USERS"
+msgstr "ΜΗΝΥΜΑ ΓΙΑ ΑΤΟΜΙΚΟΥΣ ΧΡΗΣΤΕΣ"
+
+#: templates/admin/wishlist-panel-premium.php:290
+msgid "DISABLE WISHLIST FOR UNLOGGED USERS"
+msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ ΛΙΣΤΑ ΕΠΙΘΥΜΙΩΝ ΓΙΑ ΑΠΟΣΥΝΔΕΜΕΝΟΥΣ ΧΡΗΣΤΕΣ "
+
+#: templates/admin/wishlist-panel-premium.php:285
+msgid "DISABLE WISHLIST"
+msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ ΛΙΣΤΑΣ ΕΠΙΘΥΜΙΩΝ"
+
+#: templates/admin/wishlist-panel-premium.php:278
+msgid "'ADD TO CART'"
+msgstr "'ΠΡΟΣΘΗΚΗ ΣΤΟ ΚΑΛΑΘI'"
+
+#: templates/admin/wishlist-panel-premium.php:273
+msgid "'ADD TO CART' CHECKBOX"
+msgstr "'ΠΡΟΣΘΗΚΗ ΣΤΟ ΚΑΛΑΘΙ' CHECKBOX"
+
+#: templates/admin/wishlist-panel-premium.php:264
+msgid "How many times have you been looking for the perfect gift for a important event but you had no idea of what to buy? %1$s'Search wishlists'%2$s allows your e-shop users to access public wishlists of anyone, by simply knowing their name or email. This way you can grant %1$shigher visibility%2$s to your products and even encourage users to purchase."
+msgstr "Πόσες φορές έχετε ψάξει για το τέλειο δώρο για ένα σημαντικό γεγονός αλλά δεν είχατε ιδέα τι να αγοράσετε? %1$s'Αναζήτηση Λιστών Επιθυμιών'%2$s επιτρέπει τους χρήστες του ηλεκτρονικού καταστήματος σας να έχουν πρόσβαση στις λίστες επιθυμιών των άλλων χρηστών, γνωρίζοντας απλά το όνομα τους ή το email τους. Με αυτόν τον τρόπο δίνεται %1$sμεγαλύτερη ορατότητα%2$s στα προϊόντα σας και ακόμη να ενθαρρύνει τους χρήστες να αγοράσουν."
+
+#: templates/admin/wishlist-panel-premium.php:257
+#: templates/admin/wishlist-panel-premium.php:262
+msgid "Search Wishlists"
+msgstr "Αναζήτηση σε λίστες επιθυμιών"
+
+#: templates/admin/wishlist-panel-premium.php:245
+#: templates/admin/wishlist-panel-premium.php:250
+msgid "Admin Panel"
+msgstr "Πίνακας Διαχειριστή"
+
+#: templates/admin/wishlist-panel-premium.php:229
+#: templates/admin/wishlist-panel-premium.php:234
+msgid "Estimate Cost"
+msgstr "Εκτίμηση Κόστους"
+
+#: templates/admin/wishlist-panel-premium.php:218
+msgid "%1$sprivate:%2$s only the wish list creator can see it."
+msgstr "%1$sιδιωτική:%2$s Μόνο ο δημιουργός της λίστας επιθυμιών μπορεί να την δει."
+
+#: templates/admin/wishlist-panel-premium.php:217
+msgid "%1$sshared:%2$s only users possessing a direct link to the wish list page can display it;"
+msgstr "%1$sκοινόχρηστη:%2$s μόνο οι χρήστες που έχουν άμεσο σύνδεσμο με τη σελίδα της λίστας επιθυμιών μπορούν να την εμφανισουν;"
+
+#: templates/admin/wishlist-panel-premium.php:216
+msgid "%1$spublic:%2$s all users can look for your wish list and see it;"
+msgstr "%1$sδημόσια:%2$s όλοι οι χρήστες μπορούν να ψάξουν την λίστα επιθυμιών σου και να την δουν ;"
+
+#: templates/admin/wishlist-panel-premium.php:214
+msgid "By enabling the option wishlist, users will also have the possibility to %1$smanage the visibility%2$s of their wish lists according to one of the following options:"
+msgstr "Με την ενεργοποίηση της επιλογής της λίστας επιθυμιών, οι χρήστες θα έχουν επίσης τη δυνατότητα να %1$sδιαχειριστούν την προβολή%2$s της λίστας επιθυμιών τους σύμφωνα με μία από τις ακόλουθες επιλογές:"
+
+#: templates/admin/wishlist-panel-premium.php:212
+#: templates/admin/wishlist-panel-premium.php:222
+msgid "Wishlist Private"
+msgstr "Ιδιωτική Λίστα Επιθυμιών"
+
+#: templates/admin/wishlist-panel-premium.php:196
+#: templates/admin/wishlist-panel-premium.php:201
+msgid "Multiple Wishlist"
+msgstr "Πολλαπλή Λίστα Επιθυμιών"
+
+#: templates/admin/wishlist-panel-premium.php:193
+msgid "Premium Features"
+msgstr "Δυνατότητες Premium"
+
+#: templates/admin/wishlist-panel-premium.php:187
+#: templates/admin/wishlist-panel-premium.php:385
+msgid "%1$sUPGRADE%2$s%3$s to the premium version%2$s"
+msgstr "%1$sΑΝΑΒΑΘΜΙΣΕ%2$s%3$s σε έκδοση premium%2$s"
+
+#: templates/admin/wishlist-panel-premium.php:185
+#: templates/admin/wishlist-panel-premium.php:383
+msgid "Upgrade to the %1$spremium version%2$s%3$sof %1$sYITH WooCommerce Wishlist%2$s to benefit from all features!"
+msgstr "Αναβαθμίστε στην %1$spremium έκδοση%2$s%3$sτης %1$sΛίστας Επιθυμιών YITH WooCommerce %2$s για να εκμεταλλευτείτε όλων των δυνατοτήτων!"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+msgid "Layout for this %s"
+msgstr "Διάταξη για %s"
+
+#. Author URI of the plugin/theme
+msgid "http://yithemes.com/"
+msgstr "http://yithemes.com/"
+
+#. Description of the plugin/theme
+msgid "YITH WooCommerce Wishlist allows you to add Wishlist functionality to your e-commerce."
+msgstr "Η Λίστα Επιθυμιών του YITH WooCommerce σας επιτρέπει να προσθέσετε τη λειτουργία λιστών επιθυμίας στο ηλεκτρονικό σας κατάστημα."
+
+#. Plugin URI of the plugin/theme
+msgid "http://yithemes.com/themes/plugins/yith-woocommerce-wishlist/"
+msgstr "http://yithemes.com/themes/plugins/yith-woocommerce-wishlist/"
+
+#: templates/wishlist-view.php:267 templates/wishlist-view.php:313
+msgid "Ask for an estimate"
+msgstr "Ρωτήστε για μία εκτίμηση"
+
+#: templates/wishlist-view.php:259
+msgid "Add the selected products to the cart"
+msgstr "Προσθήκη επιλεγμένων προϊόντων στο καλάθι"
+
+#: templates/wishlist-view.php:218
+msgid "Public"
+msgstr "Δημόσια"
+
+#: templates/wishlist-view.php:215
+msgid "Private"
+msgstr "Ιδιωτικό"
+
+#: templates/wishlist-view.php:212
+msgid "Shared"
+msgstr "Κοινοποιημένο"
+
+#: templates/wishlist-view.php:200
+msgid "Move"
+msgstr "Μετακίνηση"
+
+#: templates/wishlist-view.php:188
+msgid "Added on : %s"
+msgstr "Προστέθηκε στις : %s"
+
+#: templates/wishlist-view.php:179
+msgid "In Stock"
+msgstr "Σε Απόθεμα"
+
+#: templates/wishlist-view.php:179
+msgid "Out of Stock"
+msgstr "Χωρίς Απόθεμα"
+
+#: templates/wishlist-view.php:172
+msgid "Free!"
+msgstr "Δωρεάν!"
+
+#: templates/wishlist-view.php:152 templates/wishlist-view.php:232
+msgid "Remove this product"
+msgstr "Αφαιρέστε αυτό το προϊόν"
+
+#: templates/wishlist-view.php:102
+msgid "Stock Status"
+msgstr "Κατάσταση Αποθέματος"
+
+#: templates/wishlist-view.php:89
+msgid "Unit Price"
+msgstr "Τιμή μονάδας"
+
+#: templates/wishlist-view.php:45
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: templates/wishlist-view.php:41
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: templates/wishlist-view.php:32
+msgid "Edit title"
+msgstr "Επεξεργασία τίτλου"
+
+#: templates/share.php:38
+msgid "Google+"
+msgstr "Google+"
+
+#: templates/share.php:32
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:17
+msgid "Reset Defaults"
+msgstr "Επαναφορά Προεπιλογών"
+
+#: plugin-fw/templates/fields/sidebars.php:52
+msgid "Right Sidebar"
+msgstr "Δεξιά Πλευρική  μπάρα"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Αριστερή Πλευρική Μπάρα"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Choose a sidebar"
+msgstr "Επιλέξτε μία πλευρική μπάρα"
+
+#: plugin-fw/templates/fields/sidebars.php:25
+msgid "Right sidebar"
+msgstr "Δεξιά πλευρική μπάρα "
+
+#: plugin-fw/templates/fields/sidebars.php:28
+#: plugin-fw/templates/fields/sidebars.php:31
+msgid "No sidebar"
+msgstr "Χωρίς πλευρική μπάρα "
+
+#: plugin-fw/templates/fields/sidebars.php:22
+msgid "Left sidebar"
+msgstr "Αριστερή πλευρική μπάρα "
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add images"
+msgstr "Προσθήκη εικόνων"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add to gallery"
+msgstr "Προσθήκη στη συλλογή"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add Images to Gallery"
+msgstr "Προσθήκη εικόνων στη συλλογή"
+
+#: plugin-fw/templates/fields/image-gallery.php:34
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete image"
+msgstr "Διαγραφή εικόνας"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:92
+msgid "(Default: <i %s></i> )"
+msgstr "(Προεπιλογή: <i %s></i> )"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:90
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr "(Προεπιλογή: %s <img src=\"%s\"/>)"
+
+#: plugin-fw/templates/fields/customtabs.php:106
+msgid "Do you want to remove the custom tab?"
+msgstr "Θέλετε να καταργήσετε την προσαρμοσμένη καρτέλα?"
+
+#: plugin-fw/templates/fields/customtabs.php:65
+msgid "Add custom product tab"
+msgstr "Προσθέστε προσαρμοσμένη καρτέλα προϊόντος"
+
+#: plugin-fw/templates/fields/customtabs.php:53
+#: plugin-fw/templates/fields/customtabs.php:95
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Περιεχόμενο της καρτέλας. (HTML υποστηρίζεται)"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+#: plugin-fw/templates/fields/customtabs.php:94
+msgid "Value"
+msgstr "Τιμή"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Expand all"
+msgstr "Επέκταση όλων"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Close all"
+msgstr "Κλείσιμο όλων"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:76
+msgid "Image preview"
+msgstr "Προεπισκόπηση εικόνας"
+
+#: plugin-fw/templates/fields/upload.php:18
+#: plugin-fw/templates/metaboxes/types/icon-list.php:70
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+msgid "Upload"
+msgstr "Μεταφόρτωση"
+
+#: plugin-fw/templates/fields/customtabs.php:37
+#: plugin-fw/templates/fields/customtabs.php:81 templates/wishlist-view.php:232
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:190
+msgid "Expired"
+msgstr "Ληγμένο"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:160
+msgid "Banned"
+msgstr "Αποκλεισμένο"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:126
+msgid "%1s out of %2s"
+msgstr "%1s από %2s"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:147
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:204
+msgid "Renew"
+msgstr "Ανανέωση"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:95
+msgid "Remaining"
+msgstr "Παραμένων"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+msgid "Expires"
+msgstr "Λήγει"
+
+#: plugin-fw/licence/lib/yit-licence.php:191
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:89
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:167
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+msgid "License Key"
+msgstr "Κλειδί Αδείας"
+
+#: plugin-fw/licence/lib/yit-licence.php:190
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:88
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:166
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:197
+#: templates/share.php:44
+msgid "Email"
+msgstr "Email"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:86
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+#: templates/wishlist-view.php:82
+msgid "Product Name"
+msgstr "Όνομα Προϊόντος"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:80
+msgid "Activated"
+msgstr "Ενεργοποιημένο"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:61
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:29
+msgid "Update license information"
+msgstr "Ανανέωσε πληροφορίες αδείας"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:27
+msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
+msgstr "Έχετε ενημερώσει την άδεια σας? Έχετε ζητήσει παράταση? Ενημερώστε τις πληροφορίες σχετικά με τα προϊόντα σας."
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
+"                    provided with and that you can find in your YIThemes account, in section \"My licenses\"."
+msgstr ""
+"Αν έχετε αγοράσει ένα από τα προϊόντα μας πριν από τις 27 Ιανουαρίου 2015, μπορείτε να επωφεληθείτε από την υποστήριξη και ενημερώσεις (τις υπηρεσίες που προσφέρονται με την άδεια)\n"
+"                    μέχρι την 27η Ιανουαρίου του 2016 και δεν χρειάζεται να το αγοράσετε ξανά για να πάρετε ένα νέο κλειδί άδειας, επειδή, πριν από την ημερομηνία αυτή, η άδειά σας θα ενεργοποιηθεί αυτόματα από το σύστημά μας.\n"
+"                    Μετά από 27 Ιανουαρίου 2016, αν θέλετε να επωφεληθείτε από την υποστήριξη και τις ενημερώσεις θα πρέπει να αγοράσετε μια νέα άδεια και να την ενεργοποιήσετε μέσω του κλειδιού αδείας που θα\n"
+"                    παραλάβετε και θα βρείτε στον λογαριασμό σας YIThemes, στη θέση \"Οι άδειες μου\"."
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
+msgstr "Δεν μπορώ να βρω το κλειδί της άδειας για την ενεργοποίηση του θέματος που έχω αγοράσει πριν από καιρό. Πού μπορώ να το βρω?"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:23
+msgid "Yithemes License Activation"
+msgstr "Ενεργοποίηση Αδείας Yithemes"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+msgid "%s"
+msgstr "%s"
+
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+msgid "License Activation"
+msgstr "Ενεργοποίηση Αδείας"
+
+#: plugin-fw/licence/lib/yit-licence.php:685
+msgid "License key has been banned"
+msgstr "Το κλειδί αδείας έχει αποκλειστεί"
+
+#: plugin-fw/licence/lib/yit-licence.php:684
+msgid "License key has expired"
+msgstr "Το κλειδί αδείας έχει λήξει"
+
+#: plugin-fw/licence/lib/yit-licence.php:683
+msgid "Invalid security key"
+msgstr "Άκυρο κλειδί ασφαλείας"
+
+#: plugin-fw/licence/lib/yit-licence.php:681
+msgid "Maximum number of activations exceeded"
+msgstr "Υπέρβαση μέγιστου αριθμού ενεργοποιήσεων"
+
+#: plugin-fw/licence/lib/yit-licence.php:680
+msgid "Software has been deactivated"
+msgstr "Το λογισμικό έχει απενεργοποιηθεί"
+
+#: plugin-fw/licence/lib/yit-licence.php:679
+msgid "Invalid license key"
+msgstr "Μη έγκυρο κλειδί άδειας χρήσης"
+
+#: plugin-fw/licence/lib/yit-licence.php:678
+msgid "Invalid Request"
+msgstr "Άκυρη Αίτηση"
+
+#: plugin-fw/licence/lib/yit-licence.php:189
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr "Αδύνατη η επικοινωνία με τον απομακρυσμένο διακομιστή, δοκιμάστε ξανά αργότερα. Ευχαριστώ!"
+
+#: plugin-fw/licence/lib/yit-licence.php:188
+msgid "%s and %s fields cannot be empty"
+msgstr "Τα πεδία %s και %s δεν μπορούν να είναι κενά"
+
+#: plugin-fw/licence/lib/yit-licence.php:187
+msgctxt "%s = field name"
+msgid "%s field cannot be empty"
+msgstr "Το πεδίο %s δεν μπορεί να είναι κενό"
+
+#: plugin-fw/lib/yit-upgrade.php:545
+msgid "Update Plugin"
+msgstr "Αναβάθμισε το Πρόσθετο"
+
+#: plugin-fw/lib/yit-upgrade.php:538
+msgid "You do not have sufficient permissions to update the plugins for this site."
+msgstr "Δεν έχετε επαρκή δικαιώματα για να ενημερώσετε τα πρόσθετα για αυτή τη σελίδα."
+
+#: plugin-fw/lib/yit-upgrade.php:534
+msgid "You can't update the plugins for this site."
+msgstr "Δεν μπορείτε να ενημερώσετε τα πρόσθετα για αυτή τη σελίδα. "
+
+#: plugin-fw/lib/yit-upgrade.php:459
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr "Είναι διαθέσιμη μία νέα έκδοση του %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">Προβολή λεπτομερειών έκδοσης %4$s </a> ή <a href=\"%5$s\">αναβάθμιση τώρα</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:457
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
+msgstr "Είναι διαθέσιμη μία νέα έκδοση του %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">Προβολή λεπτομερειών έκδοσης %4$s </a>. <em>Δεν διατίθεται αυτόματη αναβάθμιση αυτού του προσθέτου, παρακαλώ <a href=\"%5$s\" title=\"Ενεργοποίηση άδειας\">ενεργοποίησε</a> το αντίγραφο σας του %6s.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:455
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+msgstr "Είναι διαθέσιμη μία νέα έκδοση του %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">Προβολή λεπτομερειών έκδοσης %4$s </a>. <em>Θα πρέπει να ενεργοποιήσετε το πρόσθετο σε μία μόνο σελίδα του δικτύου για να επωφεληθείτε από τις αυτόματες ενημερώσεις.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:453
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
+msgstr "Είναι διαθέσιμη μία νέα έκδοση του %1$s . <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">Προβολή λεπτομερειών έκδοσης %4$s </a>."
+
+#: plugin-fw/lib/yit-upgrade.php:293
+msgid "Could not create Temporary file."
+msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού αρχείου."
+
+#: plugin-fw/lib/yit-upgrade.php:280
+msgid "Invalid URL Provided."
+msgstr "Παρέχεται μη έγκυρη διεύθυνση URL. "
+
+#: plugin-fw/lib/yit-upgrade.php:246
+msgid "YIThemes Repository"
+msgstr "YIThemes Repository"
+
+#: plugin-fw/lib/yit-upgrade.php:142
+msgid "Update now."
+msgstr "Αναβάθμισε τώρα."
+
+#: plugin-fw/lib/yit-upgrade.php:141
+msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr "παρακαλώ <a href=\"%activate_link%\">ενεργοποιήστε</a> το αντίγραφο του %plugin_name%."
+
+#: plugin-fw/lib/yit-upgrade.php:140
+msgid "Automatic update is unavailable for this plugin,"
+msgstr "Αυτόματη ενημέρωση δεν είναι διαθέσιμη για αυτό το πρόσθετο,"
+
+#: plugin-fw/lib/yit-upgrade.php:139
+msgid "View version %latest% details."
+msgstr "Προβολή λεπτομερειών έκδοσης %latest%."
+
+#: plugin-fw/lib/yit-upgrade.php:138
+msgid "There is a new version of %plugin_name% available."
+msgstr "Υπάρχει διαθέσιμη μια νέα έκδοση του %plugin_name%."
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins menu.\n"
+"                                    Every time one of our plugins is added, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YITH Plugins tab."
+msgstr ""
+"Από τώρα και στο εξής, μπορείτε να βρείτε όλες τις επιλογές των προσθέτων σας στο μενού προσθέτων του YIT.\n"
+"                                    Κάθε φορά που ένα από τα πρόσθετα μας ενημερώνεται, μια νέα καταχώρηση θα προστεθεί σε αυτό το μενού.\n"
+"                                    Για παράδειγμα, μετά την ενημέρωση, επιλογές του προσθέτου (όπως για τη λίστα επιθυμιών YITH WooCommerce, Ajax Εύρεση YITH WooCommerce, κλπ.)\n"
+"                                   θα μεταφερθούν από την προηγούμενη τοποθεσία στην καρτέλα YIT Plugin."
+
+#: plugin-fw/lib/yit-pointers.php:84
+msgid "Plugins Upgraded"
+msgstr "Τα Πρόσθετα Αναβαθμίστηκαν"
+
+#: plugin-fw/lib/yit-pointers.php:74 plugin-fw/lib/yit-pointers.php:90
+msgid "and"
+msgstr "και"
+
+#: plugin-fw/lib/yit-pointers.php:73 plugin-fw/lib/yit-pointers.php:89
+msgid "Discover all our plugins available on:"
+msgstr "Ανακαλύψτε όλα τα διαθέσιμα πρόσθετα μας στο:"
+
+#: plugin-fw/lib/yit-pointers.php:71
+msgid ""
+"From now on, you can find all plugin options in YITH Plugins menu.\n"
+"                                     Plugin customization settings will be available as a new entry in YITH Plugins menu."
+msgstr ""
+"Από τώρα και στο εξής, μπορείτε να βρείτε όλες τις επιλογές των προσθέτων σας στο μενού προσθέτων του YIT.\n"
+"                                     Για κάθε εγκατεστημένο πρόσθετο, ρυθμίσεις προσαρμογής θα είναι διαθέσιμες ως νέα καταχώρηση στο μενού προσθέτων του YIT."
+
+#: plugin-fw/lib/yit-pointers.php:70
+msgid "Plugins Activated"
+msgstr "Τα Πρόσθετα Ενεργοποιήθηκαν"
+
+#: plugin-fw/lib/yit-plugin-panel.php:530
+msgid "Sorting successful."
+msgstr "Επιτυχής ταξινόμηση"
+
+#: plugin-fw/lib/yit-plugin-panel.php:529
+msgid "Sorry, import is disabled."
+msgstr "Συγνώμη, η εισαγωγή είναι απενεργοποιημένη."
+
+#: plugin-fw/lib/yit-plugin-panel.php:528
+msgid "The added file is not valid."
+msgstr "Η αρχείο που προστέθηκε δεν είναι έγκυρο."
+
+#: plugin-fw/lib/yit-plugin-panel.php:527
+msgid "An error has occurred during import. Please try again."
+msgstr "Ένα σφάλμα προέκυψε κατά την εισαγωγή. Παρακαλώ δοκιμάστε ξανά."
+
+#: plugin-fw/lib/yit-plugin-panel.php:526
+msgid "Database imported correctly."
+msgstr "Βάση δεδομένων εισήχθη σωστά."
+
+#: plugin-fw/lib/yit-plugin-panel.php:524
+#: plugin-fw/lib/yit-plugin-panel.php:525
+msgid "Element updated correctly."
+msgstr "Το στοιχείο ενημερώθηκε σωστά."
+
+#: plugin-fw/lib/yit-plugin-panel.php:523
+msgid "Element deleted correctly."
+msgstr "Το στοιχείο διαγράφηκε σωστά."
+
+#: plugin-fw/lib/yit-plugin-panel.php:522
+msgid "Settings reset"
+msgstr "Επαναφορά επιλογών"
+
+#: plugin-fw/lib/yit-plugin-panel.php:521
+msgid "Settings saved"
+msgstr "Οι επιλογές αποθηκεύτηκαν"
+
+#: plugin-fw/lib/yit-plugin-panel.php:520
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "Το στοιχείο που έχετε εισάγει υπάρχει ήδη. Παρακαλούμε, εισάγετε ένα άλλο όνομα."
+
+#: plugin-fw/lib/yit-plugin-panel.php:386
+#: plugin-fw/lib/yit-plugin-subpanel.php:162
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+msgid "Are you sure?"
+msgstr "Είστε βέβαιοι;"
+
+#: plugin-fw/lib/yit-plugin-panel.php:385
+#: plugin-fw/lib/yit-plugin-subpanel.php:161
+msgid "Reset to default"
+msgstr "Επαναφορά σε προεπιλογή"
+
+#: plugin-fw/lib/yit-plugin-panel.php:383
+#: plugin-fw/lib/yit-plugin-subpanel.php:159
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Αν συνεχίσετε με αυτήν την ενέργεια, θα επαναφέρετε όλες τις επιλογές σε αυτή τη σελίδα."
+
+#: plugin-fw/lib/yit-plugin-panel.php:380
+#: plugin-fw/lib/yit-plugin-subpanel.php:156
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: plugin-fw/lib/yit-plugin-panel.php:72
+msgid "Plugin Settings"
+msgstr "Ρυθμίσεις Προσθέτου:"
+
+#: plugin-fw/lib/yit-plugin-panel-wc.php:383
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "Οι αλλαγές που έχετε κάνει θα χαθούν αν φύγετε από αυτή τη σελίδα."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+msgid "Upload multiple files"
+msgstr "Μεταφόρτωση πολλαπλών αρχείων"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+msgid "Add %s from images"
+msgstr "Προσθήκη %s από εικόνες"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/fields/customtabs.php:46
+#: plugin-fw/templates/fields/customtabs.php:89
+msgid "Name"
+msgstr "Όνομα"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+msgid "Show frontend of the %s"
+msgstr "Εμφάνιση στο εμπρόσθο τμήμα του %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+msgid "Quick links"
+msgstr "Γρήγοροι σύνδεσμοι"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+msgid "layout settings"
+msgstr "ρυθμίσεις διάταξης"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+msgid "Layout for single page of this portfolio"
+msgstr "Διάταξη για μία σελίδα αυτού του χαρτοφυλακίου"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+msgid "Single layout"
+msgstr "Ενιαία διάταξη"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+msgid "Set univocal name for each category page URL."
+msgstr "Ορίστε μονοσήμαντο όνομα για κάθε διεύθυνση URL κατηγορίας."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+msgid "Taxonomy Rewrite"
+msgstr "Επανεγγραφή ταξινομίας"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+msgid "Taxonomy"
+msgstr "Ταξινομία"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr "Ορίστε μια ετικέτα στον πληθυντικό (τίτλος του χαρτοφυλακίου εάν είναι άδειο)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+msgid "Label in Plural"
+msgstr "Ετικέτα στον πληθυντικό"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr "Ορίστε μια ετικέτα στον ενικό (τίτλος του χαρτοφυλακίου εάν είναι άδειο) "
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+msgid "Label in Singular"
+msgstr "Ετικέτα στον ενικό"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+msgid "Rewrite"
+msgstr "Επανεγγραφή"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+msgid "Type"
+msgstr "Τύπος"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+msgid "%s Settings"
+msgstr "%s Ρυθμίσεις"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+msgid "New Category Name"
+msgstr "Νέο Όνομα Κατηγορίας"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+msgid "Add New Category"
+msgstr "Πρόσθεσε Νέα Κατηγορία"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+msgid "Update Category"
+msgstr "Ενημέρωση Κατηγορίας"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+msgid "Edit Category"
+msgstr "Επεξεργασία Κατηγορίας"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+msgid "Parent Category:"
+msgstr "Γονική κατηγορία:"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+msgid "Parent Category"
+msgstr "Γονική κατηγορία:"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+msgid "All Categories"
+msgstr "Όλες οι Κατηγορίες"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+#: plugin-fw/templates/fields/ajax-terms.php:57
+msgid "Search Categories"
+msgstr "Αναζήτηση Κατηγοριών"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr "%s Κατηγορίες"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+msgid "No %s found in Trash"
+msgstr "%s Δεν βρέθηκε στον Κάδο"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+msgid "No %s found"
+msgstr "Δεν βρέθηκε %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+msgid "Search %s"
+msgstr "Αναζήτηση %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+msgid "View %s"
+msgstr "Προβολή %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+msgid "All %s"
+msgstr "Όλα %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+msgid "New %s"
+msgstr "Νέα %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+msgid "Edit %s"
+msgstr "Επεξεργασία %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+msgid "Add New %s"
+msgstr "Πρόσθεσε Νέα %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+msgid "Add %s"
+msgstr "Πρόσθεσε %s"
+
+#: init.php:140
+msgid "You can't activate the free version of YITH WooCommerce Wishlist while you are using the premium one."
+msgstr "Δεν μπορείτε να ενεργοποιήσετε την δωρεάν έκδοση του YITH WooCommerce Wishlistενώ χρησιμοποιείτε την έκδοση premium."
+
+#: init.php:130
+msgid "YITH WooCommerce Wishlist is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "Η Λίστα Επιθυμιών YITH WooCommerce είναι ενεργοποιημένη αλλά δεν είναι αποτελεσματική. Απαιτεί το WooCommerce για να λειτουργήσει."
+
+#: includes/class.yith-wcwl.php:1632
+msgid "An error as occurred."
+msgstr "Εμφανίστηκε ένα σφάλμα."
+
+#: includes/class.yith-wcwl.php:1590 templates/wishlist-view.php:242
+msgid "No products were added to the wishlist"
+msgstr "Δεν προστέθηκαν προϊόντα στη λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl.php:1586
+msgid "Error. Unable to remove the product from the wishlist."
+msgstr "Σφάλμα. Αδύνατη η αφαίρεση του προϊόντος από τη λίστα επιθυμιών."
+
+#: includes/class.yith-wcwl.php:1582
+msgid "Product successfully removed."
+msgstr "Το προϊόν αφαιρέθηκε επιτυχώς."
+
+#: includes/class.yith-wcwl.php:785
+msgid "You need to log in before creating a new wishlist"
+msgstr "Θα πρέπει να συνδεθείτε πριν μπορέσετε να δημιουργήσετε μια νέα λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl.php:335
+msgid "An error occurred while removing products from the wishlist"
+msgstr "Εμφανίστηκε ένα σφάλμα κατά την αφαίρεση προϊόντων από τη λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl.php:286
+msgid "The \"Remove\" option now does not require any parameter"
+msgstr "Η επιλογή \"Αφαίρεση\" δεν απαιτεί καμία παράμετρο "
+
+#: includes/class.yith-wcwl.php:269
+msgid "An error occurred while adding products to wishlist."
+msgstr "Εμφανίστηκε ένα σφάλμα κατά την προσθήκη προϊόντων σε λίστα επιθυμιών."
+
+#: includes/class.yith-wcwl.php:177
+msgid "An error occurred while adding products to the wishlist."
+msgstr "Εμφανίστηκε ένα σφάλμα κατά την προσθήκη προϊόντων στη λίστα επιθυμιών."
+
+#: includes/class.yith-wcwl-ui.php:180
+msgid "email"
+msgstr "email"
+
+#: includes/class.yith-wcwl-ui.php:171 templates/share.php:26
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/class.yith-wcwl-ui.php:168 templates/share.php:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/class.yith-wcwl-ui.php:118 includes/class.yith-wcwl-ui.php:200
+msgid "Select options"
+msgstr "Επιλέξτε επιλογές"
+
+#: includes/class.yith-wcwl-shortcode.php:259
+#: includes/class.yith-wcwl-ui.php:164
+msgid "Share on:"
+msgstr "Κοινοποιήστε σε:"
+
+#: includes/class.yith-wcwl-install.php:243
+msgctxt "page_slug"
+msgid "wishlist"
+msgstr "λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-init.php:375
+msgid "Product correctly added to cart"
+msgstr "Το προϊόν προστέθηκε σωστά στο καλάθι"
+
+#: includes/class.yith-wcwl-init.php:374
+msgid "We are sorry, but this feature is available only if cookies are enabled on your browser."
+msgstr "Λυπούμαστε, αλλά αυτή η λειτουργία είναι διαθέσιμη μόνο αν τα cookies είναι ενεργοποιημένα στο πρόγραμμα περιήγησής σας."
+
+#: includes/class.yith-wcwl-admin-init.php:1561
+msgid "Wishlist Updated"
+msgstr "Ενημερώθηκε η Λίστα Επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1549
+msgid "Wishlist Activated"
+msgstr "Η Λίστα Επιθυμιών Ενεργοποιήθηκε"
+
+#: includes/class.yith-wcwl-admin-init.php:1459
+msgid "Background color"
+msgstr "Χρώμα του φόντου"
+
+#: includes/class.yith-wcwl-admin-init.php:1456
+msgid "Headers"
+msgstr "Κεφαλίδες"
+
+#: includes/class.yith-wcwl-admin-init.php:1447
+msgid "Wishlist table"
+msgstr "Πίνακας λίστας επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1429
+msgid "\"Style 2\" button"
+msgstr "Κουμπί \"Style 2\""
+
+#: includes/class.yith-wcwl-admin-init.php:1411
+msgid "\"Style 1\" button"
+msgstr "Κουμπί \"Style 1\""
+
+#: includes/class.yith-wcwl-admin-init.php:1393
+msgid "\"Add to Cart\" button"
+msgstr "Κουμπί \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1389
+#: includes/class.yith-wcwl-admin-init.php:1407
+#: includes/class.yith-wcwl-admin-init.php:1425
+#: includes/class.yith-wcwl-admin-init.php:1443
+msgid "Border (hover)"
+msgstr "Περιθώριο(αιωρούμενο)"
+
+#: includes/class.yith-wcwl-admin-init.php:1388
+#: includes/class.yith-wcwl-admin-init.php:1406
+#: includes/class.yith-wcwl-admin-init.php:1424
+#: includes/class.yith-wcwl-admin-init.php:1442
+msgid "Text (hover)"
+msgstr "Κείμενο(αιωρούμενο)"
+
+#: includes/class.yith-wcwl-admin-init.php:1387
+#: includes/class.yith-wcwl-admin-init.php:1405
+#: includes/class.yith-wcwl-admin-init.php:1423
+#: includes/class.yith-wcwl-admin-init.php:1441
+msgid "Background (hover)"
+msgstr "Υπόβαθρο(hover)"
+
+#: includes/class.yith-wcwl-admin-init.php:1380
+#: includes/class.yith-wcwl-admin-init.php:1398
+#: includes/class.yith-wcwl-admin-init.php:1416
+#: includes/class.yith-wcwl-admin-init.php:1434
+#: includes/class.yith-wcwl-admin-init.php:1452
+msgid "Border"
+msgstr "Πλαίσιο"
+
+#: includes/class.yith-wcwl-admin-init.php:1379
+#: includes/class.yith-wcwl-admin-init.php:1397
+#: includes/class.yith-wcwl-admin-init.php:1415
+#: includes/class.yith-wcwl-admin-init.php:1433
+#: includes/class.yith-wcwl-admin-init.php:1451
+msgid "Text"
+msgstr "Κείμενο"
+
+#: includes/class.yith-wcwl-admin-init.php:1378
+#: includes/class.yith-wcwl-admin-init.php:1396
+#: includes/class.yith-wcwl-admin-init.php:1414
+#: includes/class.yith-wcwl-admin-init.php:1432
+#: includes/class.yith-wcwl-admin-init.php:1450
+msgid "Background"
+msgstr "Φόντο"
+
+#: includes/class.yith-wcwl-admin-init.php:1375
+msgid "\"Add to wishlist\" button"
+msgstr "Κουμπί \"Προσθήκη στη λίστα επιθυμιών\""
+
+#: includes/class.yith-wcwl-admin-init.php:1339
+msgid "Choose to enable product slider in wishlist page with linked products (<a href=\"%s\" class=\"thickbox\">Example</a>). %s"
+msgstr "Επιλέξτε να ενεργοποιήσετε τον slider προιόντων στα αγαπημένα με συνδεδεμένα προϊόντα(<a href=\"%s\" class=\"thickbox\">Παράδειγμα</a>). %s"
+
+#: includes/class.yith-wcwl-admin-init.php:1338
+msgid "Enable slider in wishlist"
+msgstr "Ενεργοποίηση του slider στην λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1331
+msgid "YITH WooCommerce Frequently Bought Together Integration"
+msgstr "YITH WooCommerce Frequently Bought Together Integration"
+
+#: includes/class.yith-wcwl-admin-init.php:1326
+msgid "If you want to take advantage of this feature, you could consider to purchase the %s."
+msgstr "Αν θέλετε να επωφεληθείτε από αυτή τη δυνατότητα, θα πρέπει να σκεφτείτε να αγοράσετε το %s."
+
+#: includes/class.yith-wcwl-admin-init.php:1311
+msgid "Social image URL"
+msgstr "URL εικόνας κοινωνικού δικτύου"
+
+#: includes/class.yith-wcwl-admin-init.php:1304
+msgid "It will be used by Twitter and Pinterest. Use <strong>%wishlist_url%</strong> where you want to show the URL of your wishlist."
+msgstr "Θα χρησιμοποιηθεί από Twitter και Pinterest. Χρησιμοποίησε <strong>%wishlist_url%</strong> όπου θες να εμφανιστεί η διεύθυνση URL της λίστας επιθυμιών σου."
+
+#: includes/class.yith-wcwl-admin-init.php:1303
+msgid "Social text"
+msgstr "Κείμενο κοινωνικού δικτύου"
+
+#: includes/class.yith-wcwl-admin-init.php:1296
+msgid "Social title"
+msgstr "Τίτλος κοινωνικού δικτύου"
+
+#: includes/class.yith-wcwl-admin-init.php:1290
+msgid "Show \"Share by Email\" button"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση με Email\""
+
+#: includes/class.yith-wcwl-admin-init.php:1289
+msgid "Share by Email"
+msgstr "Κοινή χρήση με Email"
+
+#: includes/class.yith-wcwl-admin-init.php:1283
+msgid "Show \"Share on Google+\" button"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση σε Google+\" "
+
+#: includes/class.yith-wcwl-admin-init.php:1282
+msgid "Share on Google+"
+msgstr "Κοινή χρήση σε Google+"
+
+#: includes/class.yith-wcwl-admin-init.php:1276
+msgid "Show \"Pin on Pinterest\" button"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση σε Pinterest\""
+
+#: includes/class.yith-wcwl-admin-init.php:1275
+msgid "Pin on Pinterest"
+msgstr "Κοινή χρήση σε Pinterest"
+
+#: includes/class.yith-wcwl-admin-init.php:1269
+msgid "Show \"Tweet on Twitter\" button"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση σε Twitter\""
+
+#: includes/class.yith-wcwl-admin-init.php:1268
+msgid "Tweet on Twitter"
+msgstr "Κοινή χρήση σε Twitter"
+
+#: includes/class.yith-wcwl-admin-init.php:1262
+msgid "Show \"Share on Facebook\" button"
+msgstr "Εμφάνιση κουμπιού \"Κοινή χρήση σε Facebook\" "
+
+#: includes/class.yith-wcwl-admin-init.php:1261
+msgid "Share on Facebook"
+msgstr "Κοινή χρήση σε Facebook"
+
+#: includes/class.yith-wcwl-admin-init.php:1254
+msgid "Social Networks & Share"
+msgstr "Κοινωνικά Δίκτυα & Κοινή Χρήση"
+
+#: includes/class.yith-wcwl-admin-init.php:1236
+msgid "Add an icon to the \"Add to Cart\" button"
+msgstr "Προσθέσετε ένα εικονίδιο στο κουμπί \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1235
+msgid "\"Add to Cart\" icon"
+msgstr "Εικονίδιο \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1225
+msgid "Add an icon to the \"Add to Wishlist\" button"
+msgstr "Προσθέστε ένα εικονίδιο για το κουμπί \"Προσθήκη στη Λίστα Επιθυμιών\""
+
+#: includes/class.yith-wcwl-admin-init.php:1224
+msgid "\"Add to Wishlist\" icon"
+msgstr "Εικονίδιο \"Προσθήκη στη Λίστα Επιθυμιών\" "
+
+#: includes/class.yith-wcwl-admin-init.php:1218
+msgid "Make button corners rounded"
+msgstr "Στρογγυλεμένες γωνίες κουμπιών "
+
+#: includes/class.yith-wcwl-admin-init.php:1217
+msgid "Rounded buttons"
+msgstr "Στρογγυλεμένα κουμπιά"
+
+#: includes/class.yith-wcwl-admin-init.php:1211
+msgid "Use the theme style."
+msgstr "Χρήση του στυλ του θέματος."
+
+#: includes/class.yith-wcwl-admin-init.php:1210
+msgid "Use theme style"
+msgstr "Χρήση στυλ του θέματος"
+
+#: includes/class.yith-wcwl-admin-init.php:1203
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+#: includes/class.yith-wcwl-admin-init.php:1197
+msgid "Use buttons instead of simple anchors."
+msgstr "Χρήση των κουμπιών αντί των απλών αγκυρών."
+
+#: includes/class.yith-wcwl-admin-init.php:1196
+msgid "Use buttons"
+msgstr "Χρήση κουμπιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1189
+msgid "Styles"
+msgstr "Στύλ"
+
+#: includes/class.yith-wcwl-admin-init.php:1174
+msgid "Add a second remove button in the last column, with extended label"
+msgstr "Προσθέστε ένα δεύτερο κουμπί αφαίρεσης στην τελευταία στήλη, με εκτεταμένη ετικέτα"
+
+#: includes/class.yith-wcwl-admin-init.php:1173
+msgid "Add second remove button"
+msgstr "Προσθέστε ένα δεύτερο κουμπί αφαίρεσης"
+
+#: includes/class.yith-wcwl-admin-init.php:1166
+msgid "Show the date when users have added a product to the wishlist"
+msgstr "Εμφάνιση της ημερομηνίας, όταν οι χρήστες έχουν προσθέσει ένα προϊόν στην λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1165
+msgid "Show Date of addition"
+msgstr "Εμφάνιση Ημερομηνίας προσθήκης"
+
+#: includes/class.yith-wcwl-admin-init.php:1158
+msgid "Show \"In stock\" or \"Out of stock\" label for each product in wishlist"
+msgstr "Εμφάνιση ετικέτας \"Σε απόθεμα\" ή \"Εξαντλημένο\" για κάθε προϊόν στη λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1157
+msgid "Show Stock status"
+msgstr "Εμφάνιση κατάστασης αποθέματος"
+
+#: includes/class.yith-wcwl-admin-init.php:1150
+msgid "Show \"Add to Cart\" button for each product in wishlist"
+msgstr "Εμφάνιση \"Προσθήκη στο καλάθι\" για κάθε προϊόν στη λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1149
+msgid "Show \"Add to Cart\" button"
+msgstr "Εμφάνιση κουμπιού \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1142
+msgid "Show unit price for each product in wishlist"
+msgstr "Εμφάνιση τιμής μονάδος για κάθε προϊόν στη λίστα επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1141
+msgid "Show Unit price"
+msgstr "Εμφάνιση τιμής μονάδος"
+
+#: includes/class.yith-wcwl-admin-init.php:1136
+msgid "Add to Cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: includes/class.yith-wcwl-admin-init.php:1134
+msgid "\"Add to Cart\" text"
+msgstr "Κείμενο \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1129
+#: includes/class.yith-wcwl-ui.php:82
+msgid "Product added!"
+msgstr "Το προϊόν προστέθηκε!"
+
+#: includes/class.yith-wcwl-admin-init.php:1127
+msgid "\"Product added\" text"
+msgstr "Κείμενο \"Το προϊόν προστέθηκε\""
+
+#: includes/class.yith-wcwl-admin-init.php:1122
+#: includes/class.yith-wcwl-ui.php:83
+msgid "The product is already in the wishlist!"
+msgstr "Το προϊόν είναι ήδη στην λίστα επιθυμιών!"
+
+#: includes/class.yith-wcwl-admin-init.php:1120
+msgid "\"Product already in wishlist\" text"
+msgstr "Κείμενο \"Το προϊόν είναι ήδη στην λίστα επιθυμιών\""
+
+#: includes/class.yith-wcwl-admin-init.php:1115
+#: includes/class.yith-wcwl-ui.php:82 includes/class.yith-wcwl-ui.php:83
+msgid "Browse Wishlist"
+msgstr "Περιήγηση Λίστας Επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1113
+msgid "\"Browse wishlist\" text"
+msgstr "Κείμενο \"Περιήγηση Λίστας Επιθυμιών\""
+
+#: includes/class.yith-wcwl-admin-init.php:1108
+msgid "Add to Wishlist"
+msgstr "Προσθήκη στη Λίστα Επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1106
+msgid "\"Add to Wishlist\" text"
+msgstr "Κείμενο \"Προσθήκη στη Λίστα Επιθυμιών\""
+
+#: includes/class.yith-wcwl-admin-init.php:1100
+msgid "Remove the product from the wishlist if it has been added to the cart."
+msgstr "Αφαιρέστε το προϊόν από τη λίστα επιθυμιών αν έχει προστεθεί στο καλάθι."
+
+#: includes/class.yith-wcwl-admin-init.php:1099
+msgid "Remove if added to the cart"
+msgstr "Αφαίρεση αν έχει προστεθεί στο καλάθι. "
+
+#: includes/class.yith-wcwl-admin-init.php:1093
+msgid "Redirect to cart page if \"Add to cart\" button is clicked in the wishlist page."
+msgstr "Ανακατεύθυνση στη σελίδα με το καλάθι, εάν έχει πατηθεί στη σελίδα της λίστας επιθυμιών το κουμπί \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1092
+msgid "Redirect to cart"
+msgstr "Ανακατεύθυνση στο καλάθι"
+
+#: includes/class.yith-wcwl-admin-init.php:1087
+msgid "Use shortcode"
+msgstr "Χρησιμοποίησε shortcode"
+
+#: includes/class.yith-wcwl-admin-init.php:1086
+msgid "After summary"
+msgstr "Μετά το σουμάρισμα"
+
+#: includes/class.yith-wcwl-admin-init.php:1085
+msgid "After thumbnails"
+msgstr "Μετά τις μικρογραφίες"
+
+#: includes/class.yith-wcwl-admin-init.php:1084
+msgid "After \"Add to cart\""
+msgstr "Μετά το \"Προσθήκη στο καλάθι\""
+
+#: includes/class.yith-wcwl-admin-init.php:1078
+msgid "You can add the button in variable products only after the \"Add to Cart\" button or using the shortcode [yith_wcwl_add_to_wishlist]."
+msgstr "Μπορείτε να προσθέσετε το κουμπί στα μεταβλητά προϊόντα μόνο μετά το κουμπί \"Προσθήκη στο καλάθι\" ή χρησιμοποιώντας το shortcode [yith_wcwl_add_to_wishlist]."
+
+#: includes/class.yith-wcwl-admin-init.php:1077
+msgid "Position"
+msgstr "Θέση"
+
+#: includes/class.yith-wcwl-admin-init.php:1061
+#: includes/class.yith-wcwl-admin-init.php:1062
+#: includes/class.yith-wcwl-admin-init.php:1298
+msgid "My wishlist on %s"
+msgstr "Η λίστα επιθυμιών μου στο %s"
+
+#: includes/class.yith-wcwl-admin-init.php:1059
+msgid "Default wishlist title"
+msgstr "Προεπιλεγμένος τίτλος λίστας επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:1053
+msgid "Enable all plugin features. <strong>Be sure to select at least one option in the Wishlist page menu in this settings page.</strong> Also, please read the plugin <a href=\"%s\" target=\"_blank\">documentation</a>."
+msgstr "Ενεργοποίησε όλες τις δυνατοτήτες του προσθέτου. <strong>Να είστε βέβαιος να επιλέξετε τουλάχιστον μία επιλογή στο μενού της σελίδας λίστας επιθυμιών στο %s.</strong> Επίσης, διαβάστε του προσθέτου την <a href=\"%s\" target=\"_blank\">τεκμηρίωση</a>."
+
+#: includes/class.yith-wcwl-admin-init.php:1052
+msgid "Enable YITH Wishlist"
+msgstr "Ενεργοποίησε λίστα επιθυμιών YITH"
+
+#: includes/class.yith-wcwl-admin-init.php:1045
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: includes/class.yith-wcwl-admin-init.php:1035
+msgid "By purchasing the premium version of the plugin, you will take advantage of the advanced features of the product and you will get one year of free updates and support through our platform available 24h/24."
+msgstr "Με την αγορά της Premium έκδοσης του προσθέτου, θα επωφεληθείτε τις προηγμένες δυνατότητες του προϊόντος και θα πάρετε ένα χρόνο δωρεάν αναβαθμίσεις και υποστήριξη μέσω της πλατφόρμας μας που είναι διαθέσιμη 24ώρες/24ωρο "
+
+#: includes/class.yith-wcwl-admin-init.php:1034
+msgid "Get Support and Pro Features"
+msgstr "Πάρτε Υποστήριξη και Pro Χαρακτηριστικά"
+
+#: includes/class.yith-wcwl-admin-init.php:1028
+msgid "Upgrade to the PREMIUM VERSION of YITH WOOCOMMERCE WISHLIST to benefit from all features!"
+msgstr ""
+"Αναβαθμίστε στην έκδοση PREMIUM \n"
+"της Λίστας Επιθυμιών του YITH WOOCOMMERCE WISHLIST για να επωφεληθείτε όλων των δυνατοτήτων!"
+
+#: includes/class.yith-wcwl-admin-init.php:1027
+msgid "Discover the Advanced Features"
+msgstr "Ανακαλύψτε τις προηγμένες δυνατότητες"
+
+#. #-#-#-#-#  yith-woocommerce-wishlist-code.pot (YITH WooCommerce Wishlist
+#. 2.2.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class.yith-wcwl-admin-init.php:1026
+msgid "YITH WooCommerce Wishlist"
+msgstr "Λίστα Επιθυμιών YITH WooCommerce"
+
+#: includes/class.yith-wcwl-admin-init.php:1023
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr "Αναβαθμίστε στην έκδοση PREMIUM"
+
+#: includes/class.yith-wcwl-admin-init.php:1068
+msgid "Page contents: [yith_wcwl_wishlist]"
+msgstr "Περιεχόμενο της σελίδας: [yith_wcwl_wishlist]"
+
+#: includes/class.yith-wcwl-admin-init.php:1067
+msgid "Wishlist Page"
+msgstr "Σελίδα Λίστας Επιθυμιών"
+
+#: includes/class.yith-wcwl-admin-init.php:288
+msgid "Plugin Documentation"
+msgstr "Τεκμηρίωση προσθέτου"
+
+#: includes/class.yith-wcwl-admin-init.php:283
+msgid "WARNING: This plugin requires at least WooCommerce 2.2!"
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Αυτό το πρόσθετο απαιτεί τουλάχιστον WooCommerce 2.2!"
+
+#: includes/class.yith-wcwl-admin-init.php:280
+msgid "WARNING: This plugin requires at least WooCommerce 2.2! Please, use this link to update it."
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Αυτό το πρόσθετο απαιτεί τουλάχιστον WooCommerce 2.2! Παρακαλώ, χρησιμοποιήστε αυτόν τον σύνδεσμο, για να το αναβαθμίσετε."
+
+#: includes/class.yith-wcwl-admin-init.php:163
+#: includes/class.yith-wcwl-admin-init.php:255
+msgid "Premium Version"
+msgstr "Premium Έκδοση"
+
+#: includes/class.yith-wcwl-admin-init.php:162
+#: includes/class.yith-wcwl-admin-init.php:236
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: includes/class.yith-wcwl-admin-init.php:161
+#: includes/class.yith-wcwl-admin-init.php:251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+#: plugin-fw/lib/yit-plugin-panel.php:73
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class.yith-wcwl-admin-init.php:159
+#: includes/class.yith-wcwl-admin-init.php:1483
+#: includes/class.yith-wcwl-admin-init.php:1484
+#: includes/class.yith-wcwl-install.php:244
+msgid "Wishlist"
+msgstr "Λίστα Επιθυμιών"

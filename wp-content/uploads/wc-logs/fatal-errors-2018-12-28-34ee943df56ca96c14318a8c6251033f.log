@@ -1,0 +1,68 @@
+2018-12-28T12:26:40+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-12-28T12:27:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-12-28T12:28:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-12-28T13:38:12+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:38:17+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:38:22+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:39:16+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:39:38+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:39:49+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:40:41+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:41:00+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:45:18+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T13:57:53+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T14:01:06+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T16:08:23+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T16:08:36+00:00 CRITICAL Call to undefined function gutenberg_get_jed_locale_data()
+
+2018-12-28T14:52:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T14:52:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T14:53:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T14:54:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T14:55:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 499
+
+2018-12-28T14:55:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 354
+
+2018-12-28T14:55:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T14:56:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor.php на строке 402
+
+2018-12-28T14:57:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 499
+
+2018-12-28T14:57:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 499
+
+2018-12-28T14:58:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 153
+
+2018-12-28T15:21:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T15:24:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T15:25:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-admin/includes/image.php на строке 143
+
+2018-12-28T15:27:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 499
+
+2018-12-28T15:27:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T15:28:02+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2018-12-28T15:28:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+

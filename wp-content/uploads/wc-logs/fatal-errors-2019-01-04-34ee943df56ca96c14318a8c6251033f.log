@@ -1,0 +1,4 @@
+2019-01-04T10:17:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor.php на строке 402
+
+2019-01-04T18:13:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/buywowgo/yarn.calceron.com/www/wp-includes/class-wp-image-editor-imagick.php на строке 354
+

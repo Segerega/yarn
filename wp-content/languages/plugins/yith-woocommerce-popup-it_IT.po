@@ -1,0 +1,1372 @@
+# Translation of Plugins - YITH WooCommerce Popup - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Popup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-04 07:36:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Popup - Stable (latest release)\n"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+msgid "Add %s"
+msgstr "Aggiungi %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+msgid "Add New %s"
+msgstr "Aggiungi nuovo %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+msgid "No %s found"
+msgstr "Nessun %s trovato"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+msgid "No %s found in Trash"
+msgstr "Nessun %s trovato nel cestino"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr "%s Categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+#: plugin-fw/templates/fields/ajax-terms.php:57
+msgid "Search Categories"
+msgstr "Cerca categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+msgid "All Categories"
+msgstr "Tutte le categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+msgid "Parent Category"
+msgstr "Categoria genitore"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+msgid "Parent Category:"
+msgstr "Categoria genitore:"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+msgid "Edit Category"
+msgstr "Modifica categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+msgid "Update Category"
+msgstr "Aggiorna categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+msgid "Add New Category"
+msgstr "Aggiungi nuova categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+msgid "New Category Name"
+msgstr "Nuovo nome categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+msgid "Category"
+msgstr "Categoria"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+msgid "Categories"
+msgstr "Categorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+msgid "%s Settings"
+msgstr "Impostazioni %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+msgid "Type"
+msgstr "Tipologia"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+msgid "Layout for this %s"
+msgstr "Layout per questo %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+msgid "Rewrite"
+msgstr "Riscrivi"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1059
+msgid "Univocal identification name in the URL for each product (slug from post if empty)"
+msgstr "Nome identificativo univoco nell'URL per singolo prodotto (usa slug dal post se vuoto)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+msgid "Label in Singular"
+msgstr "Etichetta singolare"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr "Imposta un'etichetta singolare (titolo del portfolio se vuoto)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+msgid "Label in Plural"
+msgstr "Etichetta plurale"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr "Imposta un'etichetta plurale (titolo del portfolio se vuoto)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+msgid "Taxonomy"
+msgstr "Tassonomia"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1077
+msgid "If you want to use categories in the portfolio, set a name for taxonomy. Name should be a slug (must not contain capital letters nor spaces) and must not be more than 32 characters long (database structure restriction)."
+msgstr "Se vuoi aggiungere delle categorie nel portfolio, imposta un nome per la tassonomia. Il nome dovrà essere in forma di slug (non deve contenere caratteri maiuscoli né spazi) e non più lungo di 32 caratteri (restrizione di database)."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+msgid "Taxonomy Rewrite"
+msgstr "Riscrivi tassonomia"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+msgid "Set univocal name for each category page URL."
+msgstr "Imposta un nome univoco per l'URL della pagina di ciascuna categoria."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+msgid "Single layout"
+msgstr "Layout singolo"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+msgid "Layout for single page of this portfolio"
+msgstr "Layout per pagina singola per questo portfolio"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+msgid "layout settings"
+msgstr "impostazioni di layout"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+msgid "Quick links"
+msgstr "Link rapidi"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+msgid "Show frontend of the %s"
+msgstr "Mostra front end di %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/fields/customtabs.php:46
+#: plugin-fw/templates/fields/customtabs.php:89
+msgid "Name"
+msgstr "Nome"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+msgid "Add %s from images"
+msgstr "Aggiungi %s dalla immagini"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+msgid "Upload multiple files"
+msgstr "Carica file multipli"
+
+#: plugin-fw/lib/yit-plugin-panel-wc.php:382
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "Perderai tutti i cambiamenti effettuati se lasci questa pagina."
+
+#: plugin-fw/lib/yit-plugin-panel.php:72
+msgid "Plugin Settings"
+msgstr "Impostazioni plugin"
+
+#: plugin-fw/lib/yit-plugin-panel.php:325
+#: plugin-fw/lib/yit-plugin-panel.php:328
+msgid "How to install premium version"
+msgstr "Come installare la versione premium"
+
+#: plugin-fw/lib/yit-plugin-panel.php:379
+#: plugin-fw/lib/yit-plugin-subpanel.php:155
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: plugin-fw/lib/yit-plugin-panel.php:382
+#: plugin-fw/lib/yit-plugin-subpanel.php:158
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Se prosegui con questa azione, tutte le opzioni di questa pagina saranno reimpostate."
+
+#: plugin-fw/lib/yit-plugin-panel.php:384
+#: plugin-fw/lib/yit-plugin-subpanel.php:160
+msgid "Reset to default"
+msgstr "Ripristina configurazione predefinita"
+
+#: plugin-fw/lib/yit-plugin-panel.php:385
+#: plugin-fw/lib/yit-plugin-subpanel.php:161
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: plugin-fw/lib/yit-plugin-panel.php:519
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "L'elemento inserito esiste già. Per favore, inserisci un altro nome."
+
+#: plugin-fw/lib/yit-plugin-panel.php:520
+msgid "Settings saved"
+msgstr "Impostazioni salvate"
+
+#: plugin-fw/lib/yit-plugin-panel.php:521
+msgid "Settings reset"
+msgstr "Impostazioni azzerate"
+
+#: plugin-fw/lib/yit-plugin-panel.php:522
+msgid "Element deleted correctly."
+msgstr "Elemento rimosso correttamente."
+
+#: plugin-fw/lib/yit-plugin-panel.php:523
+#: plugin-fw/lib/yit-plugin-panel.php:524
+msgid "Element updated correctly."
+msgstr "Elemento aggiornato correttamente."
+
+#: plugin-fw/lib/yit-plugin-panel.php:525
+msgid "Database imported correctly."
+msgstr "Database importato correttamente."
+
+#: plugin-fw/lib/yit-plugin-panel.php:526
+msgid "An error has occurred during import. Please try again."
+msgstr "Si è verificato un errore durante l'importazione. Prova di nuovo."
+
+#: plugin-fw/lib/yit-plugin-panel.php:527
+msgid "The added file is not valid."
+msgstr "Il file aggiunto non è valido."
+
+#: plugin-fw/lib/yit-plugin-panel.php:528
+msgid "Sorry, import is disabled."
+msgstr "Ci dispiace, l'importazione è disabilitata."
+
+#: plugin-fw/lib/yit-plugin-panel.php:529
+msgid "Sorting successful."
+msgstr "Ordinamento effettuato con successo."
+
+#: plugin-fw/lib/yit-pointers.php:70
+msgid "Plugins Activated"
+msgstr "Plugin attivati"
+
+#: plugin-fw/lib/yit-pointers.php:73 plugin-fw/lib/yit-pointers.php:89
+msgid "Discover all our plugins available on:"
+msgstr "Scopri tutti i plugin disponibili su:"
+
+#: plugin-fw/lib/yit-pointers.php:74 plugin-fw/lib/yit-pointers.php:90
+msgid "and"
+msgstr "e"
+
+#: plugin-fw/lib/yit-pointers.php:84
+msgid "Plugins Upgraded"
+msgstr "Plugin aggiornati"
+
+#: plugin-fw/lib/yit-upgrade.php:148
+msgid "There is a new version of %plugin_name% available."
+msgstr "Una nuova versione di %plugin_name% è disponibile."
+
+#: plugin-fw/lib/yit-upgrade.php:149
+msgid "View version %latest% details."
+msgstr "Visualizza i dettagli della versione %latest%."
+
+#: plugin-fw/lib/yit-upgrade.php:150
+msgid "Automatic update is unavailable for this plugin,"
+msgstr "L'aggiornamento automatico non è disponibile per questo plugin,"
+
+#: plugin-fw/lib/yit-upgrade.php:151
+msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr "per favore, <a href=\"%activate_link%\">attiva</a> la tua copia di %plugin_name%."
+
+#: plugin-fw/lib/yit-upgrade.php:152
+msgid "Update now."
+msgstr "Aggiorna adesso."
+
+#: plugin-fw/lib/yit-upgrade.php:256
+msgid "YIThemes Repository"
+msgstr "Repository YIThemes"
+
+#: plugin-fw/lib/yit-upgrade.php:290
+msgid "Invalid URL Provided."
+msgstr "L'URL inserito non è valido."
+
+#: plugin-fw/lib/yit-upgrade.php:303
+msgid "Could not create Temporary file."
+msgstr "Non è stato possibile creare il file temporaneo."
+
+#: plugin-fw/lib/yit-upgrade.php:544
+msgid "You can't update the plugins for this site."
+msgstr "Non è possibile aggiornare i plugin per questo sito."
+
+#: plugin-fw/lib/yit-upgrade.php:548
+msgid "You do not have sufficient permissions to update the plugins for this site."
+msgstr "Non sei in possesso delle autorizzazioni necessarie per aggiornare i plugin in questo sito."
+
+#: plugin-fw/lib/yit-upgrade.php:555
+msgid "Update Plugin"
+msgstr "Aggiorna plugin"
+
+#: plugin-fw/licence/lib/yit-licence.php:187
+msgctxt "%s = field name"
+msgid "%s field cannot be empty"
+msgstr "Il campo %s non può essere vuoto"
+
+#: plugin-fw/licence/lib/yit-licence.php:188
+msgid "%s and %s fields cannot be empty"
+msgstr "I campi %s e %s non possono essere vuoti"
+
+#: plugin-fw/licence/lib/yit-licence.php:189
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr "Impossibile contattare il server remoto, prova più tardi. Grazie!"
+
+#: plugin-fw/licence/lib/yit-licence.php:190
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:88
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:166
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:197
+msgid "Email"
+msgstr "Email"
+
+#: plugin-fw/licence/lib/yit-licence.php:191
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:89
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:167
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+msgid "License Key"
+msgstr "Chiave di licenza"
+
+#: plugin-fw/licence/lib/yit-licence.php:192
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr "Sei sicuro di voler disattivare la licenza per questo sito?"
+
+#: plugin-fw/licence/lib/yit-licence.php:678
+msgid "Invalid Request"
+msgstr "Richiesta non valida"
+
+#: plugin-fw/licence/lib/yit-licence.php:679
+msgid "Invalid license key"
+msgstr "Chiave di licenza non valida"
+
+#: plugin-fw/licence/lib/yit-licence.php:680
+msgid "Software has been deactivated"
+msgstr "Il software è stato disattivato"
+
+#: plugin-fw/licence/lib/yit-licence.php:681
+msgid "Maximum number of activations exceeded"
+msgstr "Hai raggiunto il numero massimo di attivazioni"
+
+#: plugin-fw/licence/lib/yit-licence.php:682
+msgid "Invalid instance ID"
+msgstr "Istanza ID non valida"
+
+#: plugin-fw/licence/lib/yit-licence.php:683
+msgid "Invalid security key"
+msgstr "Chiave di sicurezza non valida"
+
+#: plugin-fw/licence/lib/yit-licence.php:684
+msgid "License key has expired"
+msgstr "La chiave di licenza è scaduta"
+
+#: plugin-fw/licence/lib/yit-licence.php:685
+msgid "License key has been banned"
+msgstr "La chiave di licenza è stata bloccata"
+
+#: plugin-fw/licence/lib/yit-licence.php:686
+msgid "Current product is not included in your YITH Club Subscription key"
+msgstr "Questo prodotto non è incluso nella tua licenze YITH Club Subscription"
+
+#: plugin-fw/licence/lib/yit-licence.php:687
+msgid "Great"
+msgstr "Grande!"
+
+#: plugin-fw/licence/lib/yit-licence.php:687
+msgid "License successfully activated"
+msgstr "Licenza attivata con successo"
+
+#: plugin-fw/licence/lib/yit-licence.php:688
+msgid "License key deactivated for website"
+msgstr "Chiave di licenza disattivata per il sito web"
+
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+msgid "License Activation"
+msgstr "Attivazione licenza"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+msgid "%s"
+msgstr "%s"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
+msgstr "Non riesco a trovare la chiave di licenza per l'attivazione del tema che ho acquistato diverso tempo fa. Dove posso trovarla?"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
+"                    provided with and that you can find in your YIThemes account, in section \"My licenses\"."
+msgstr ""
+"Se hai acquistato uno dei nostri prodotti prima del 27 gennaio 2015, potrai usufruire di supporto e aggiornamenti (servizi inclusi nella licenza)\n"
+"fino al 27 gennaio 2016 e non dovrai riacquistare il prodotto per ottenere una chiave di licenza, poiché prima di questa data il tuo prodotto veniva automaticamente attivato dal nostro sistema.\n"
+"Dopo il 27 gennaio 2016, invece, se vorrai usufruire di supporto e aggiornamenti dovrai acquistare una nuova licenza e attivarla con il codice che ti verrà\n"
+"fornito e che puoi trovare nella tua area riservata su YIThemes, nella sezione \"My licenses\"."
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:23
+msgid "Yithemes License Activation"
+msgstr "Attivazione licenza YIThemes"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:27
+msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
+msgstr "Hai aggiornato la tua licenza? Hai richiesto un'estensione? Aggiorna le informazioni dei tuoi prodotti."
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:29
+msgid "Update license information"
+msgstr "Aggiorna informazioni licenza"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:42
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] "Prodotto da attivare"
+msgstr[1] "Prodotti da attivare"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:61
+msgid "Activate"
+msgstr "Attiva"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:80
+msgid "Activated"
+msgstr "Attivato"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:86
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+msgid "Product Name"
+msgstr "Nome prodotto"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+msgid "Expires"
+msgstr "Scadenza"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:95
+msgid "Remaining"
+msgstr "Tempo rimanente"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:97
+msgid "Club Subscription"
+msgstr "Club Subscription"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+msgid "License Actions"
+msgstr "Azioni licenza"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:126
+msgid "%1s out of %2s"
+msgstr "%1s di %2s"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:142
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:147
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:204
+msgid "Renew"
+msgstr "Rinnova"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:160
+msgid "Banned"
+msgstr "Bloccato"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:190
+msgid "Expired"
+msgstr "Non più valido"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:226
+msgid "Order again"
+msgstr "Acquista di nuovo"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:228
+msgid "Renew license"
+msgstr "Rinnova la licenza"
+
+#: plugin-fw/templates/fields/customtabs.php:37
+#: plugin-fw/templates/fields/customtabs.php:81
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: plugin-fw/templates/fields/upload.php:18
+#: plugin-fw/templates/metaboxes/types/icon-list.php:70
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+#: templates/metaboxes/types/iconlist.php:70
+msgid "Upload"
+msgstr "Carica"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:76
+#: templates/metaboxes/types/iconlist.php:79
+msgid "Image preview"
+msgstr "Anteprima immagine"
+
+#: plugin-options/metabox/ypop_metabox.php:104
+msgid "Width"
+msgstr "Larghezza"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Close all"
+msgstr "Chiudi tutti"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Expand all"
+msgstr "Espandi tutti"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+#: plugin-fw/templates/fields/customtabs.php:94
+msgid "Value"
+msgstr "Valore"
+
+#: plugin-fw/templates/fields/customtabs.php:53
+#: plugin-fw/templates/fields/customtabs.php:95
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Contenuto della scheda (codice HTML supportato)."
+
+#: plugin-fw/templates/fields/customtabs.php:65
+msgid "Add custom product tab"
+msgstr "Aggiungi scheda prodotto personalizzata"
+
+#: plugin-fw/templates/fields/customtabs.php:106
+msgid "Do you want to remove the custom tab?"
+msgstr "Vuoi rimuovere la scheda personalizzata?"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:90
+#: templates/metaboxes/types/iconlist.php:91
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr "(Default: %s <img src=\"%s\"/>)"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:92
+#: templates/metaboxes/types/iconlist.php:93
+msgid "(Default: <i %s></i> )"
+msgstr "(Default: <i %s></i> )"
+
+#: plugin-fw/templates/fields/image-gallery.php:34
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete image"
+msgstr "Rimuovi immagine"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add Images to Gallery"
+msgstr "Aggiungi immagini alla galleria"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add to gallery"
+msgstr "Aggiungi alla galleria"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add images"
+msgstr "Aggiungi immagini"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete"
+msgstr "Rimuovi"
+
+#: plugin-fw/templates/fields/sidebars.php:22
+msgid "Left sidebar"
+msgstr "Barra laterale sinistra"
+
+#: plugin-fw/templates/fields/sidebars.php:28
+#: plugin-fw/templates/fields/sidebars.php:31
+msgid "No sidebar"
+msgstr "Nessuna barra laterale"
+
+#: plugin-fw/templates/fields/sidebars.php:25
+msgid "Right sidebar"
+msgstr "Barra laterale destra"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Choose a sidebar"
+msgstr "Scegli una barra laterale"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Barra laterale sinistra"
+
+#: plugin-fw/templates/fields/sidebars.php:52
+msgid "Right Sidebar"
+msgstr "Barra laterale destra"
+
+#: plugin-fw/templates/fields/upload.php:19
+msgid "Reset"
+msgstr "Ripristina"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:17
+msgid "Reset Defaults"
+msgstr "Ripristina impostazioni iniziali"
+
+#. Author URI of the plugin/theme
+msgid "http://yithemes.com/"
+msgstr "http://yithemes.com/"
+
+#. Author of the plugin/theme
+msgid "YITHEMES"
+msgstr "YITHEMES"
+
+#. Description of the plugin/theme
+msgid "YITH WooCommerce Popup lets you easily manage and customize all the popups of your site"
+msgstr "YITH WooCommerce Popup ti permette di gestire e personalizzare facilmente tutti i popup del tuo sito "
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Popup"
+msgstr "YITH WooCommerce Popup"
+
+#: templates/admin/premium.php:293
+msgid "Unique contents"
+msgstr "Contenuti unici"
+
+#: templates/admin/premium.php:280
+msgid "When do you want to shoe the popup?"
+msgstr "Quando vuoi mostrare il popup?"
+
+#: templates/admin/premium.php:261
+msgid "Popup position"
+msgstr "Posizione del popup"
+
+#: templates/admin/premium.php:248
+msgid "6 popup templates"
+msgstr "6 template per popup"
+
+#: templates/admin/premium.php:240
+msgid "Premium Features"
+msgstr "Funzionalità premium"
+
+#: templates/admin/premium.php:234 templates/admin/premium.php:312
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: templates/admin/premium.php:233 templates/admin/premium.php:311
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: templates/admin/premium.php:230 templates/admin/premium.php:308
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Popup%2$s to benefit from all features!"
+msgstr "Aggiorna alla %1$sversione premium%2$s di %1$sYITH WooCommerce Popup%2$s per beneficiare di tutte le funzionalità!"
+
+#: templates/admin/premium.php:296
+msgid "Three kinds of additional contents for your popups. You will be able to add all the most famous %1$ssocial network%2$s profiles (Facebook, Twitter, LinkedIn, Google+ and Pinterest), integrate one of the %1$scontact form%2$s already created and configured on your site (with YIT Contact Form or Contact Form 7), or create a %1$stextual%2$s type for a message aimed to the users of the shop."
+msgstr "Tre tipi di contenuti aggiuntivi per i tuoi popup. Potrai aggiungere tutti i più popolari profili %1$ssocial network%2$s (Facebook, Twitter, LinkedIn, Google+ e Pinterest), integrare uno dei %1$smoduli di contatto%2$s già creati e configurati sul tuo sito (con YITH Contact Form o Contact Form 7), o creare un tipo di %1$stesto%2$s per un messaggio destinato agli utenti del negozio."
+
+#: templates/admin/premium.php:283
+msgid "You are not obliged to display popups after the loading of the page in the browser. The premium version of the %1$sYITH WooCommerce Popup%2$s plugin lets you choose alternative solutions. For example, you can display it when users abandon the browser viewport, exit the page, or click on a link that drives them to an external domain."
+msgstr "Non sei tenuto a mostrare i popup dopo il caricamento della pagina nel browser. La versione premium di %1$sYITH WooCommerce Popup%2$s ti permette di scegliere soluzioni alternative. Ad esempio, puoi mostrarlo se gli utenti abbandonano il riquadro di visualizzazione del browser, escono dalla pagina o cliccano su un link che porta ad un dominio esterno."
+
+#: templates/admin/premium.php:264
+msgid "Different studies try to understand which are the best strategies to catch immediately users' attention, which is always evasive and rapid in its eye movement through the web pages.%3$sEach detail contributes critically to the success of the %1$sstrategy%2$s, especially the positioning of the elements in the page.%3$sChoose your strategy and select the position in which you want to show the %1$spopup%2$s: all solutions are ready for you. "
+msgstr "Diverse ricerche tentano di capire quali siano le migliori strategie per catturare immediatamente l'attenzione degli utenti essendo questa sempre rapida ed evasiva nel guardare tra le pagine internet.%3$sOgni dettaglio contribuisce significativamente al successo della %1$sstrategia%2$s, soprattutto il posizionamento degli elementi nella pagina. %3$sScegli la tua strategia e seleziona la posizione in cui vuoi mostrare il %1$spopup%2$s: tutte le soluzioni sono a tua disposizione."
+
+#: templates/admin/premium.php:251
+msgid "A plugin based on the freedom to choose: %1$ssix different templates%2$s to create a suitable popup for every occasion, from the unmissable offer to the simple informative message, you will also find the perfect and most charming solution.%3$sYou can completely customize the colors of each template, in order to get to the best graphic result."
+msgstr "Un plugin basato sulla libertà di scelta: %1$ssei diversi template%2$s per creare un popup adatto ad ogni occasione, dall'offerta imperdibile al semplice messaggio informativo. Troverai anche la soluzione più piacevole e perfetta. %3$sPuoi personalizzare completamente i colori di ogni template per ottenere il risultato grafico migliore."
+
+#: plugin-options/settings-options.php:103
+msgid "Attention: You should create a new popup to set this option"
+msgstr "Attenzione: devi creare un nuovo popup per impostare questa opzione"
+
+#: plugin-options/settings-options.php:102
+msgid "Select the default popup"
+msgstr "Seleziona il popup predefinito"
+
+#: plugin-options/settings-options.php:99
+msgid "Do not show it anymore."
+msgstr "Non mostrare più"
+
+#: plugin-options/settings-options.php:96
+msgid "The title displayed next to the checkbox that lets users hide the popup forever. You can also use HTML code"
+msgstr "Il titolo mostrato accanto al checkbox che permette agli utenti di nascondere per sempre il popup. Puoi anche usare il codice HTML"
+
+#: plugin-options/settings-options.php:95
+msgid "Hiding text"
+msgstr "Nascondi testo"
+
+#: plugin-options/settings-options.php:84
+msgid "Set how many days have to pass before showing again the lightbox"
+msgstr "Imposta quanti giorni devono trascorrere prima di mostrare di nuovo la lightbox"
+
+#: plugin-options/settings-options.php:83
+msgid "How many days should the popup be hidden for?"
+msgstr "Per quanti giorni deve restare nascosto il popup?"
+
+#: plugin-options/settings-options.php:79
+msgid "Show only once per session"
+msgstr "Mostra soltanto una volta per sessione"
+
+#: plugin-options/settings-options.php:78
+msgid "Hide when the \"Hiding checkbox\" is flagged"
+msgstr "Nascondi quando \"Nascondi checkbox\" è spuntato"
+
+#: plugin-options/settings-options.php:74
+msgid "Select when popup should be hidden. By default, it will be hidden only when the hiding checkbox is flagged) "
+msgstr "Seleziona quando il popup deve essere nascosto. Da predefinito, verrà nascosto solo quando è spuntato il nascondi checkbox"
+
+#: plugin-options/settings-options.php:69
+msgid "yithpopup"
+msgstr "yithpopup"
+
+#: plugin-options/settings-options.php:66
+msgid "Set the name for the cookie generated after closing the link of the popup. In this way, as soon as you'll change this value, all your visitors will see the link again even if they have disabled it. Don't abuse of this function!"
+msgstr "Imposta il nome per il cookie generato dopo la chiusura del link del popup. In questo modo, appena cambierai questo valore, tutti i tuoi visitatori rivedranno il link anche se lo hanno disattivato. Non abusare di questa funzione!"
+
+#: plugin-options/settings-options.php:65
+msgid "Cookie Variable"
+msgstr "Variabile cookie"
+
+#: plugin-options/settings-options.php:52
+msgid "Select in which pages you want to show the popup. "
+msgstr "Seleziona in quali pagine vuoi mostrare il popup."
+
+#: plugin-options/settings-options.php:51
+msgid "Select where you want to show the popup"
+msgstr "Seleziona dove vuoi mostrare il popup"
+
+#: plugin-options/settings-options.php:46
+msgid "Enable newsletter popup in all pages."
+msgstr "Attiva il popup per newsletter in tutte le pagine."
+
+#: plugin-options/settings-options.php:45
+msgid "Show on all pages"
+msgstr "Mostra su tutte le pagine"
+
+#: plugin-options/settings-options.php:39
+msgid "Enable Popup in Mobile Device"
+msgstr "Attiva Popup su dispositivo mobile"
+
+#: plugin-options/settings-options.php:31
+msgid "Enable Popup"
+msgstr "Attiva Popup"
+
+#: plugin-options/settings-options.php:17
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/settings-options.php:7
+msgid "Select the popup that you want to show as default"
+msgstr "Seleziona il popup che vuoi mostrare come predefinito"
+
+#: plugin-options/settings-options.php:5
+msgid "Attention: You should create a new popup to set this option. <a href=\"%s\">Create a new popup</a>"
+msgstr "Attenzione: per impostare questa opzione devi creare un nuovo popup. <a href=\"%s\">Crea un nuovo popup</a>"
+
+#: plugin-options/metabox/ypop_template.php:15
+msgid "Popup Template"
+msgstr "Template del popup"
+
+#: plugin-options/metabox/ypop_metabox.php:453
+msgid "Show summary"
+msgstr "Mostra riepilogo"
+
+#: plugin-options/metabox/ypop_metabox.php:449
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: plugin-options/metabox/ypop_metabox.php:446
+msgid "\"Add to cart\" Label"
+msgstr "Etichetta \"Aggiungi al carrello\""
+
+#: plugin-options/metabox/ypop_metabox.php:439
+msgid "Show Add to Cart"
+msgstr "Mostra aggiungi al carrello"
+
+#: plugin-options/metabox/ypop_metabox.php:432
+msgid "Show price of product"
+msgstr "Mostra il prezzo del prodotto"
+
+#: plugin-options/metabox/ypop_metabox.php:425
+msgid "Show thumbnail of product"
+msgstr "Mostra la miniatura del prodotto"
+
+#: plugin-options/metabox/ypop_metabox.php:417
+msgid "Show name of product"
+msgstr "Mostra il nome del prodotto"
+
+#: plugin-options/metabox/ypop_metabox.php:406
+msgid "Select products"
+msgstr "Seleziona i prodotti"
+
+#: plugin-options/metabox/ypop_metabox.php:385
+msgid "Type here all hidden field names and values in a serial way. Example: name1=value1&name2=value2."
+msgstr "Inserisci qui tutti i nomi e i valori dei campi nascosti in sequenza. Esempio: nome1=valore1&nome2=valore2."
+
+#: plugin-options/metabox/ypop_metabox.php:384
+msgid "Hidden fields"
+msgstr "Campi nascosti"
+
+#: plugin-options/metabox/ypop_metabox.php:363
+msgid "The attribute \"Name\" of the email address field."
+msgstr "\"Nome\" dell'attributo del campo indirizzo email."
+
+#: plugin-options/metabox/ypop_metabox.php:362
+msgid "\"Name\" attribute for Email field"
+msgstr "Attributo \"Nome\" per il campo email"
+
+#: plugin-options/metabox/ypop_metabox.php:352
+msgid "The label for the \"Email\" field"
+msgstr "Etichetta per il campo \"Email\""
+
+#: plugin-options/metabox/ypop_metabox.php:341
+msgid "The \"Name\" attribute of the Name field."
+msgstr "Attributo \"Nome\" del campo Nome."
+
+#: plugin-options/metabox/ypop_metabox.php:340
+msgid "\"Name\" attribute of the Name field"
+msgstr "Attributo \"Nome\" del campo Nome"
+
+#: plugin-options/metabox/ypop_metabox.php:330
+msgid "The label for \"Name\" field"
+msgstr "Etichetta per il campo \"Nome\""
+
+#: plugin-options/metabox/ypop_metabox.php:329
+msgid "Name field label"
+msgstr "Etichetta del campo nome"
+
+#: plugin-options/metabox/ypop_metabox.php:319
+msgid "Show the \"Name\" field in the newsletter"
+msgstr "Mostra il campo \"Nome\" nella newsletter"
+
+#: plugin-options/metabox/ypop_metabox.php:318
+msgid "Show name field"
+msgstr "Mostra il campo nome"
+
+#: plugin-options/metabox/ypop_metabox.php:304
+msgid "The attribute \"method\" of the form."
+msgstr "\"Metodo\" dell'attributo del modulo"
+
+#: plugin-options/metabox/ypop_metabox.php:303
+msgid "Request method"
+msgstr "Richiedi metodo"
+
+#: plugin-options/metabox/ypop_metabox.php:293
+msgid "The attribute \"action\" of the form."
+msgstr "\"Azione\" dell'attributo del modulo."
+
+#: plugin-options/metabox/ypop_metabox.php:292
+msgid "Form action"
+msgstr "Azione del modulo"
+
+#: plugin-options/metabox/ypop_metabox.php:285
+msgid "Select what kind of newsletter service you want to use, or set a custom form."
+msgstr "Seleziona che tipo di servizio newsletter vuoi utilizzare oppure imposta un modulo personalizzato."
+
+#: plugin-options/metabox/ypop_metabox.php:273
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: plugin-options/metabox/ypop_metabox.php:264
+msgid "CSS"
+msgstr "CSS"
+
+#: plugin-options/metabox/ypop_metabox.php:261
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: plugin-options/metabox/ypop_metabox.php:249
+msgid "Overlay opacity"
+msgstr "Opacità di sovrimpressione"
+
+#: plugin-options/metabox/ypop_metabox.php:245
+msgid "Display Settings"
+msgstr "Visualizza impostazioni"
+
+#: plugin-options/metabox/ypop_metabox.php:236
+msgid "Select the text color for the hiding text"
+msgstr "Seleziona il colore del testo per il testo da nascondere"
+
+#: plugin-options/metabox/ypop_metabox.php:235
+msgid "Text color for the hiding text"
+msgstr "Colore del testo per il testo da nascondere"
+
+#: plugin-options/metabox/ypop_metabox.php:230
+msgid "Select the background color for the hiding text area"
+msgstr "Seleziona il colore dello sfondo per l'area di testo da nascondere"
+
+#: plugin-options/settings-options.php:73
+msgid "Hide policy"
+msgstr "Nascondi regola"
+
+#: plugin-options/metabox/ypop_metabox.php:284
+msgid "Form integration preset"
+msgstr "Integrazione del modulo preimpostato"
+
+#: plugin-options/metabox/ypop_metabox.php:229
+msgid "Background color for the hiding text area"
+msgstr "Colore dello sfondo per l'area di testo da nascondere"
+
+#: plugin-options/metabox/ypop_metabox.php:216
+msgid "Select the text color for submit button"
+msgstr "Seleziona il colore del testo per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:215
+msgid "Color for submit button"
+msgstr "Colore per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:206
+msgid "Select the background color on hover for submit button"
+msgstr "Seleziona il colore dello sfondo al passaggio del mouse per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:205
+msgid "Background color on hover for submit button"
+msgstr "Colore dello sfondo al passaggio del mouse per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:196
+msgid "Select the background color for submit button"
+msgstr "Seleziona il colore dello sfondo per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:195
+msgid "Background color for submit button"
+msgstr "Colore dello sfondo per il pulsante di invio"
+
+#: plugin-options/metabox/ypop_metabox.php:187
+#: templates/misc/woocommerce.php:74
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: plugin-options/metabox/ypop_metabox.php:186
+msgid "Label"
+msgstr "Etichetta"
+
+#: plugin-options/metabox/ypop_metabox.php:182
+msgid "Select the position of the label "
+msgstr "Seleziona la posizione dell'etichetta"
+
+#: plugin-options/metabox/ypop_metabox.php:181
+msgid "Position of the field title in newsletter content type"
+msgstr "Posizione del titolo del campo nel tipo di contenuto della newsletter"
+
+#: plugin-options/metabox/ypop_metabox.php:172
+msgid "Select the background color of the footer"
+msgstr "Seleziona il colore dello sfondo del footer"
+
+#: plugin-options/metabox/ypop_metabox.php:171
+msgid "Footer background color"
+msgstr "Colore dello sfondo del footer"
+
+#: plugin-options/metabox/ypop_metabox.php:164
+msgid "Select the color of the header"
+msgstr "Seleziona il colore dell'header"
+
+#: plugin-options/metabox/ypop_metabox.php:308
+msgid "GET"
+msgstr "GET"
+
+#: plugin-options/metabox/ypop_metabox.php:307
+msgid "POST"
+msgstr "POST"
+
+#: plugin-options/metabox/ypop_metabox.php:161
+msgid "Header color"
+msgstr "Colore dell'header"
+
+#: plugin-options/metabox/ypop_metabox.php:151
+msgid "Select the height of the header popup"
+msgstr "Seleziona l'altezza del popup dell'header"
+
+#: plugin-options/metabox/ypop_metabox.php:149
+msgid "Header height"
+msgstr "Altezza dell'header"
+
+#: plugin-options/metabox/ypop_metabox.php:140
+msgid "Select the background image for the header"
+msgstr "Seleziona l'immagine dello sfondo per l'header"
+
+#: plugin-options/metabox/ypop_metabox.php:139
+msgid "Header background image"
+msgstr "Immagine dello sfondo dell'header"
+
+#: plugin-options/metabox/ypop_metabox.php:130
+msgid "Select the background color of the popup"
+msgstr "Seleziona il colore dello sfondo del popup"
+
+#: plugin-options/metabox/ypop_metabox.php:129
+msgid "Background color"
+msgstr "Colore dello sfondo"
+
+#: plugin-options/metabox/ypop_metabox.php:118
+msgid "Select the height of the popup. Leave 0 to set it automatically"
+msgstr "Seleziona l'altezza del popup. Lascia 0 per impostarlo automaticamente"
+
+#: plugin-options/metabox/ypop_metabox.php:116
+msgid "Height"
+msgstr "Altezza"
+
+#: plugin-options/metabox/ypop_metabox.php:106
+msgid "Select the width of the popup."
+msgstr "Seleziona la larghezza del popup"
+
+#: plugin-options/metabox/ypop_metabox.php:96
+msgid "Layout"
+msgstr "Layout"
+
+#: plugin-options/metabox/ypop_metabox.php:82
+msgid "Add the footer of the popup"
+msgstr "Aggiungi il footer al popup"
+
+#: plugin-options/metabox/ypop_metabox.php:80
+msgid "Footer content"
+msgstr "Contenuto del footer"
+
+#: plugin-options/metabox/ypop_metabox.php:71
+msgid "Add the content of the popup"
+msgstr "Aggiungi il contenuto del popup"
+
+#: plugin-options/metabox/ypop_metabox.php:62
+msgid "SIGN UP TO OUR NEWSLETTER AND SAVE 25% OFF FOR YOUR NEXT PURCHASE"
+msgstr "REGISTRATI ALLA NOSTRA NEWSLETTER E OTTIENI IL 25% DI SCONTO SUL TUO PROSSIMO ACQUISTO"
+
+#: plugin-options/metabox/ypop_metabox.php:61
+msgid "Add the header content of the popup"
+msgstr "Aggiungi il contenuto dell'header del popup"
+
+#: plugin-options/metabox/ypop_metabox.php:59
+msgid "Header"
+msgstr "Header"
+
+#: plugin-options/metabox/ypop_metabox.php:49
+msgid "Select the type of the content"
+msgstr "Seleziona il tipo di contenuto"
+
+#: plugin-options/metabox/ypop_metabox.php:48
+msgid "Content type"
+msgstr "Tipo di contenuto"
+
+#: plugin-options/metabox/ypop_metabox.php:41
+msgid "Enable popup"
+msgstr "Attiva popup"
+
+#: plugin-options/metabox/ypop_metabox.php:34
+#: plugin-options/metabox/ypop_metabox.php:69
+msgid "Content"
+msgstr "Contenuto"
+
+#: plugin-options/metabox/ypop_metabox.php:25
+msgid "Popup Settings"
+msgstr "Impostazioni popup"
+
+#: plugin-options/metabox/ypop_metabox.php:20
+#: plugin-options/metabox/ypop_metabox.php:402
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin-options/metabox/ypop_metabox.php:16
+#: plugin-options/metabox/ypop_metabox.php:281
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:30
+msgid "YITH WooCommerce Popup "
+msgstr "YITH WooCommerce Popup "
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:27
+msgid "Disable"
+msgstr "Disattiva"
+
+#: plugin-options/metabox/ypop_cpt_metabox.php:27
+msgid "Global setting options"
+msgstr "Opzioni delle impostazioni generali"
+
+#: plugin-fw/lib/yit-pointers.php:71
+msgid ""
+"From now on, you can find all plugin options in YITH Plugins menu.\n"
+"                                     Plugin customization settings will be available as a new entry in YITH Plugins menu."
+msgstr ""
+"Da questo momento puoi trovare tutte le opzioni del plugin nel menu YITH Plugin.\n"
+"                                     Le impostazioni per la personalizzazione del plugin saranno disponibili sotto una nuova voce nel menu YITH Plugin."
+
+#: init.php:118
+msgid "YITH WooCommerce Popup is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Popup è attivo ma non operativo. Il suo funzionamento richiede WooCommerce."
+
+#: init.php:29
+msgid "You can't activate the free version of YITH WooCommerce Popup while you are using the premium one."
+msgstr "Non puoi attivare la versione gratuita di YITH WooCommerce Popup se stai usando quella premium."
+
+#: includes/newsletter-integration/Mailchimp.php:435
+msgid "<span class=\"notice\">Ops! You have to use a valid email address</span>"
+msgstr "<span class=\"notice\">Ops! Devi utilizzare un indirizzo email valido</span>"
+
+#: includes/newsletter-integration/Mailchimp.php:430
+msgid "<span class=\"error\">Ops! Something went wrong</span>"
+msgstr "<span class=\"error\">Ops! Qualcosa non ha funzionato</span>"
+
+#: includes/newsletter-integration/Mailchimp.php:425
+msgid "<span class=\"success\">Email successfully registered</span>"
+msgstr "<span class=\"success\">L'email è stata registrata con successo</span>"
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins menu.\n"
+"                                    Every time one of our plugins is added, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YITH Plugins tab."
+msgstr ""
+"Da questo momento puoi trovare il pannello opzioni dei plugin YITH nel menu YITH Plugin.\n"
+"                                    Ogni volta che viene aggiunto uno dei nostri plugin comparirà una nuova voce in questo menu.\n"
+"                                    Ad esempio, dopo l'aggiornamento, le opzioni del plugin (come per YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    verranno spostate dalla posizione precedente alla tab YITH Plugin."
+
+#: includes/newsletter-integration/Mailchimp.php:414
+msgid "Mailchimp general error"
+msgstr "Errore generico di Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:411
+msgid "Mailchimp list related error (interest group)"
+msgstr "Errore relativo alla lista Mailchimp (gruppo di interesse)"
+
+#: includes/newsletter-integration/Mailchimp.php:408
+msgid "Mailchimp list related error (merge)"
+msgstr "Errore relativo alla lista Mailchimp (unione)"
+
+#: includes/newsletter-integration/Mailchimp.php:405
+msgid "Mailchimp list related error (email)"
+msgstr "Errore relativo alla lista Mailchimp (email)"
+
+#: includes/newsletter-integration/Mailchimp.php:402
+msgid "Mailchimp list related error (import)"
+msgstr "Errore relativo alla lista Mailchimp (importazione)"
+
+#: includes/newsletter-integration/Mailchimp.php:399
+msgid "Mailchimp list related error (basic action)"
+msgstr "Errore relativo alla lista Mailchimp (azione di base)"
+
+#: includes/newsletter-integration/Mailchimp.php:396
+msgid "Mailchimp list related error"
+msgstr "Errore relativo alla lista Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:393
+msgid "Mailchimp user related error (action)"
+msgstr "Errore relativo all'utente Mailchimp (azione)"
+
+#: includes/newsletter-integration/Mailchimp.php:390
+msgid "Mailchimp user related error"
+msgstr "Errore relativo all'utente Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:387
+msgid "Mailchimp server error"
+msgstr "Errore del server mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:206
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:178
+#: plugin-options/metabox/ypop_metabox.php:374
+msgid "This field is not always used. It depends on the style of the form."
+msgstr "Non sempre questo campo è utilizzato. Dipende dallo stile del modulo. "
+
+#: includes/newsletter-integration/Mailchimp.php:177
+#: plugin-options/metabox/ypop_metabox.php:373
+msgid "Submit button label"
+msgstr "Etichetta del pulsante di invio"
+
+#: includes/newsletter-integration/Mailchimp.php:168
+msgid "The label for the Email field"
+msgstr "Etichetta per il campo email"
+
+#: plugin-fw/lib/yit-upgrade.php:463
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
+msgstr "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:465
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+msgstr "È disponibile una nuova versioni di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a>. <em>Per poter usufruire degli aggiornamenti automatici è necessario attivare il plugin su un solo sito.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:467
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
+msgstr "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a>. <em>Gli aggiornamenti automatici non sono disponibili per questo plugin, per piacere <a href=\"%5$s\" title=\"License activation\">attivi</a> la sua copia di %6s.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:469
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr "È disponibile una nuova versioni di %1$s. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Visualizza i dettagli della versione %4$s</a> oppure <a href=\"%5$s\">aggiorna adesso</a>."
+
+#: includes/class-yith-popup-admin.php:158
+#: includes/class-yith-popup-admin.php:249
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+#: plugin-fw/lib/yit-plugin-panel.php:73
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/newsletter-integration/Mailchimp.php:167
+#: plugin-options/metabox/ypop_metabox.php:351
+msgid "Email field label"
+msgstr "Etichetta campo email"
+
+#: includes/newsletter-integration/Mailchimp.php:159
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: includes/newsletter-integration/Mailchimp.php:155
+msgid "A valid Mailchimp list name. You may need to save your configuration before displaying the correct contents. If the list is not up to date, click the Refresh button"
+msgstr "Un nome della lista Mailchimp valido. Potresti dover salvare le tue configurazioni prima di mostrare i contenuti corretti. Se la lista non è aggiornata, fai clic sul pulsante Aggiorna"
+
+#: includes/newsletter-integration/Mailchimp.php:154
+msgid "Mailchimp List"
+msgstr "Lista Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:145
+msgid "The Mailchimp API Key, used to connect WordPress to the Mailchimp service. If you need help to create a valid API Key, refer to this <a href=\"http://kb.mailchimp.com/article/where-can-i-find-my-api-key\">tutorial</a>"
+msgstr "La chiave API di Mailchimp usata per connettere WordPress al servizio Mailchimp. Se ti serve aiuto per creare una chiave API valida, puoi fare riferimento a questo tutorial <a href=\"http://kb.mailchimp.com/article/where-can-i-find-my-api-key\"></a>"
+
+#: includes/newsletter-integration/Mailchimp.php:144
+msgid "Mailchimp API Key"
+msgstr "Chiave API di Mailchimp"
+
+#: includes/newsletter-integration/Mailchimp.php:129
+msgid "Select a list"
+msgstr "Seleziona una lista"
+
+#: includes/newsletter-integration/Mailchimp.php:111
+msgid "Refreshing..."
+msgstr "In aggiornamento..."
+
+#: includes/functions.yith-popup.php:139
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: includes/functions.yith-popup.php:90 includes/functions.yith-popup.php:123
+msgid "No contact form found"
+msgstr "Nessun modulo di contatto trovato"
+
+#: includes/functions.yith-popup.php:81 includes/functions.yith-popup.php:109
+msgid "Plugin not activated or not installed"
+msgstr "Plugin non attivato o non installato"
+
+#: includes/class-yith-popup.php:255
+msgid "Active"
+msgstr "Attivo"
+
+#: includes/class-yith-popup.php:254
+msgid "Content Type"
+msgstr "Tipo di contenuto"
+
+#: includes/class-yith-popup.php:253
+#: plugin-options/metabox/ypop_cpt_metabox.php:36
+#: plugin-options/metabox/ypop_template.php:21
+#: plugin-options/metabox/ypop_template.php:24
+msgid "Template"
+msgstr "Template"
+
+#: includes/class-yith-popup.php:252
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class-yith-popup.php:111
+msgid "Yith Popup Description"
+msgstr "Descrizione Yith Popup "
+
+#: includes/class-yith-popup.php:110
+msgid "yith_popup"
+msgstr "yith_popup"
+
+#: includes/class-yith-popup.php:107
+msgid "Not found in Trash"
+msgstr "Non trovato nel cestino"
+
+#: includes/class-yith-popup.php:106
+msgid "Not found"
+msgstr "Non trovato"
+
+#: includes/class-yith-popup.php:105
+msgid "Search Popup"
+msgstr "Cerca popup"
+
+#: includes/class-yith-popup.php:104
+msgid "Update Popup"
+msgstr "Aggiorna popup"
+
+#: includes/class-yith-popup.php:103
+msgid "Edit Popup"
+msgstr "Modifica popup"
+
+#: includes/class-yith-popup.php:101 includes/class-yith-popup.php:102
+msgid "Add New Popup"
+msgstr "Aggiungi nuovo popup"
+
+#: includes/class-yith-popup.php:100
+msgid "View Popup"
+msgstr "Visualizza popup"
+
+#: includes/class-yith-popup.php:99
+msgid "All Popups"
+msgstr "Tutti i popup"
+
+#: includes/class-yith-popup.php:98
+msgid "Parent Item:"
+msgstr "Articolo genitore:"
+
+#: includes/class-yith-popup.php:97
+#: plugin-options/metabox/ypop_cpt_metabox.php:39
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/class-yith-popup.php:96
+msgctxt "Post Type Singular Name"
+msgid "Yith Popup"
+msgstr "Yith Popup"
+
+#: includes/class-yith-popup.php:95
+msgctxt "Post Type General Name"
+msgid "Yith Popup"
+msgstr "Yith Popup"
+
+#: includes/class-yith-popup.php:84
+msgid "Theme 1"
+msgstr "Tema 1"
+
+#: includes/class-yith-popup-newsletter.php:63
+msgid "Custom Form"
+msgstr "Modulo personalizzato"
+
+#: includes/class-yith-popup-admin.php:260
+#: includes/class-yith-popup-admin.php:261
+msgid "WC Popup"
+msgstr "Popup WC"
+
+#: includes/class-yith-popup-admin.php:253
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: includes/class-yith-popup-admin.php:216
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"

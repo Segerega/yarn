@@ -1,0 +1,1110 @@
+# Translation of Plugins - YITH WooCommerce Ajax Product Filter - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Ajax Product Filter - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-08 14:00:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Ajax Product Filter - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Description of the plugin/theme
+msgid "<code><strong>YITH WooCommerce AJAX Product Filter</strong></code> allows your users to find the product they are looking for as quickly as possible. Thanks to the plugin you will be able to set up one or more search filters for your WooCommerce products, improve the user experience and give the impression of being in a big and reliable store. <a href=\"https://yithemes.com/\" target=\"_blank\">Find new awesome plugins by <strong>YITH</strong></a>"
+msgstr "<code><strong>YITH WooCommerce AJAX Productfilter</strong></code> stelt uw gebruikers in staat om het product dat ze zoeken zo snel mogelijk te vinden. Dankzij de plug-in kunt u een of meer zoekfilters voor uw WooCommerce-producten instellen, de gebruikerservaring verbeteren en de indruk wekken dat u zich in een grote en betrouwbare winkel bevindt. <a href=\"https://yithemes.com/\" target=\"_blank\"> Vind nieuwe geweldige plug-ins door <strong>YITH</strong></a>"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/"
+msgstr "https://wordpress.org/plugins/yith-woocommerce-ajax-navigation/"
+
+#: widgets/class.yith-wcan-reset-navigation-widget.php:23
+msgctxt "[Plugin Name]"
+msgid "Reset all filters set by YITH WooCommerce Ajax Product Filter"
+msgstr "Alle filters terugzetten die zijn ingesteld door YITH WooCommerce Ajax Productfilter"
+
+#: widgets/class.yith-wcan-navigation-widget.php:39
+msgctxt "[Plugin Name] Admin: Widget Title"
+msgid "YITH WooCommerce Ajax Product Filter"
+msgstr "YITH WooCommerce Ajax Product Filter"
+
+#: plugin-fw/yit-plugin.php:191
+msgid "License"
+msgstr "Licentie"
+
+#: plugin-fw/yit-plugin.php:187
+msgctxt "Action links"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: plugin-fw/yit-plugin.php:92
+msgctxt "Plugin Row Meta"
+msgid "Premium version"
+msgstr "Premium Versie"
+
+#: plugin-fw/yit-plugin.php:87
+msgctxt "Plugin Row Meta"
+msgid "Support"
+msgstr "Support"
+
+#: plugin-fw/yit-plugin.php:82
+msgctxt "Plugin Row Meta"
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: plugin-fw/yit-plugin.php:77
+msgctxt "Plugin Row Meta"
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:24
+msgid "YITH License Activation"
+msgstr "YITH licentie activatie"
+
+#: plugin-fw/lib/yit-upgrade.php:295
+msgid "YITH Repository"
+msgstr "YITH repository"
+
+#: plugin-fw/lib/yit-upgrade.php:95
+msgid "An unexpected error occurred, please try again later. Thanks!"
+msgstr "Een deed zich een onverwachte fout voor, probeer het later opnieuw. Bedankt!"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:72
+msgctxt "Privacy Policy Content"
+msgid "Payments"
+msgstr "Betalingen"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:69
+msgctxt "Privacy Policy Content"
+msgid "What we share with others"
+msgstr "Wat we delen met anderen"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:66
+msgctxt "Privacy Policy Content"
+msgid "Who on our team has access"
+msgstr "Wie in ons team heeft toegang"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:63
+msgctxt "Privacy Policy Content"
+msgid "What we collect and store"
+msgstr "Wat we verzamelen en bewaren"
+
+#: plugin-fw/lib/privacy/yit-privacy.php:59
+msgctxt "Privacy Policy Content"
+msgid "This sample language includes the basics around what personal data your store may be collecting, storing and sharing, as well as who may have access to that data. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr "Deze voorbeeldtaal bevat de basisinformatie over de persoonlijke gegevens die je winkel mogelijk verzamelt, bewaart en deelt en wie toegang heeft tot die gegevens. Afhankelijk van welke instellingen zijn ingeschakeld en welke extra plug-ins worden gebruikt, varieert de specifieke informatie die door je winkel wordt gedeeld. We raden je aan om een advocaat te raadplegen wanneer je beslist welke informatie openbaar wordt gemaakt in je privacybeleid."
+
+#: plugin-fw/lib/privacy/yit-privacy.php:24
+msgctxt "Privacy Policy Guide Title"
+msgid "YITH Plugins"
+msgstr "YITH Plugins"
+
+#: plugin-fw/templates/fields/ajax-posts.php:57
+msgid "Search Posts"
+msgstr "Posts zoeken"
+
+#: plugin-fw/templates/fields/select-buttons.php:33
+msgid "Deselect All"
+msgstr "Selectie ongedaan maken"
+
+#: plugin-fw/templates/fields/ajax-products.php:16
+msgid "Search Product"
+msgstr "Zoek Product"
+
+#: plugin-fw/templates/fields/select-buttons.php:26
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: plugin-fw/templates/fields/icons.php:58
+msgid "Set Default"
+msgstr "Op standaard instellen"
+
+#: settings/frontend-options.php:71
+msgid "WooCommerce Default"
+msgstr "WooCommerce Default"
+
+#: settings/frontend-options.php:70
+msgid "Alphabetically"
+msgstr "Alfabetisch"
+
+#: settings/frontend-options.php:66
+msgid "Sort by number of products contained or alphabetically"
+msgstr "Sorteer producten op hoeveelheid of alfabetisch"
+
+#: settings/frontend-options.php:65
+msgid "Order by"
+msgstr "Sorteren op"
+
+#: templates/admin/premium.php:429
+msgid "Scroll to top is a feature to improve user experience on your site. Soon after filtering the product list, the page will be automatically scrolled to the top so the user can immediately see the filtered list. "
+msgstr "Scroll naar boven is een functie om je gebruikerservaring op je site te verbeteren. Snel na het filteren van de productlijst, zal de pagina automatisch naar boven scrollen, zodat je de gefilterde lijst direct ziet. "
+
+#: templates/admin/premium.php:426
+msgid "Scroll to top"
+msgstr "Scroll naar boven"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
+msgid "Club Subscription"
+msgstr "Club Abonnement"
+
+#: plugin-fw/licence/lib/yit-licence.php:693
+msgid "Current product is not included in your YITH Club Subscription key"
+msgstr "Huidige product is niet opgenomen in je YITH Club Subscription key"
+
+#: widgets/class.yith-wcan-navigation-widget.php:36
+msgid "Filter the list of products without reloading the page"
+msgstr "Filter de productlijst zonder de pagina te herladen"
+
+#: settings/frontend-options.php:58
+msgid "Enter here the HTML tag for the scroll to top feature"
+msgstr "Voer de HTML tag in voor de scroll naar boven functie"
+
+#: plugin-fw/lib/yit-plugin-panel.php:335
+#: plugin-fw/lib/yit-plugin-panel.php:338
+msgid "How to install premium version"
+msgstr "Hoe installeer ik de premium versie"
+
+#: templates/admin/premium.php:416
+msgid "User experience on the site requires handiness and insight. This is why it is unreasonable to deselect filters one by one to go back to the main view when multiple filters have been applied to the product list. The plugin also manages this action by a specific button which reset filters and by other two which refresh the main view of categories and/or tags."
+msgstr "Gebruikerservaring op de site heeft handigheid en inzicht nodig. Daarom is het onredelijk om de filters een voor een ongedaan te maken, om terug te keren naar het hoofd overzicht, als meerdere filters zijn toegevoegd aan de productlijst. De plugin beheerd deze actie ook met een specifieke knop, welke filters reset en door twee andere welke het hoofd overzicht van categorieën en/of tags vernieuwd."
+
+#: templates/admin/premium.php:397
+msgid "If you use tags as a powerful tool to classify your products, you can configure an ad-hoc filter to be used on your products also by tag. In addition, you could organize your tags in a hierarchy and have appropriate tools for a better management of your products."
+msgstr "Als je tags gebruikt als een krachtig instrument voor het classificeren van je producten, kun je een ad-hoc filter configureren die ook sorteert op tags. Als toevoeging kun je je tags ook organiseren in een hiërarchie en heb je geschikte instrumenten voor een beter management van je producten."
+
+#: templates/admin/premium.php:394
+msgid "Filter by tag"
+msgstr "Filteren op tag"
+
+#: templates/admin/premium.php:384
+msgid "Each applied filter generates a new url for the page. You can decide to keep the same url or let it get automatically updated every time user applies a filter to the products list of your shop."
+msgstr "Elke toegepaste filter genereert een nieuwe url voor de pagina. Je kunt bepalen of je dezelfde url wilt behouden of dat deze automatisch wordt bijgewerkt elke keer als er een filter wordt toegepast op de productlijst in je winkel."
+
+#: templates/admin/premium.php:381
+msgid "Page url"
+msgstr "Pagina URL"
+
+#: widgets/class.yith-wcan-navigation-widget.php:924
+msgid "CSS custom class"
+msgstr "CSS aangepaste klasse"
+
+#: templates/admin/premium.php:365
+msgid "In addition to the classic visualization style, the premium version of this plugin gives you the possibility to show filters in \"checkbox\" style. Users will experience a new look of your pages while filtering products."
+msgstr "Als toevoeging op de klassieke visualisatie stijl, geeft de premium versie van deze plugin je de mogelijkheid om filters te tonen in \"keuzevakjes\" stijl. Gebruikers ervaren een nieuwe uitstraling van je pagina tijdens het filteren van producten."
+
+#: templates/admin/premium.php:362
+msgid "Filter style"
+msgstr "Filter stijl"
+
+#: templates/admin/premium.php:352
+msgid "Choose one of the two solutions  for a better filter ordering of your product archieve pages: classic alphabetical order or decreasing order, based on the number of products contained in each filter."
+msgstr "Kies een van de twee oplossingen voor een betere volgorde van het filteren van je product archief pagina´s: klassieke alfabetische volgorde of afnemende volgorde, gebaseerd op aantal producten in elke filter."
+
+#: templates/admin/premium.php:349
+msgid "FILTER ORDERING"
+msgstr "FILTER VOLGORDE"
+
+#: templates/admin/premium.php:333
+msgid "Configure the widget to let your users filter product by a %1$sselected category%2$s. Your users will be even happier to browse your shop."
+msgstr "Configureer de widget om je gebruikers een product te filteren op een %1$sgeselecteerde categorie%2$s. Je gebruikers zullen nog gelukkiger zijn om je winkel te bekijken."
+
+#: templates/admin/premium.php:330
+msgid " Filter by category"
+msgstr " Filteren op categori"
+
+#: templates/admin/premium.php:320
+msgid "The Ajax management of the plugin adds specific queries to the URLs of the current page. Choose whether to allow search engines to index the URLs generated by the plugin, or not: with the latter, you will be free to avoid possible penalizations that may apply to your site."
+msgstr "Het Ajax beheer van de plugin voegt specifieke queries to aan de URLs van de huidige pagina. Bepaal of je zoekmachines wilt toestaan de genenereerde URLs van de plugin te indexeren, of niet: in het laatste geval ben je vrij om mogelijke strafbaarstelling van je site te voorkomen."
+
+#: templates/admin/premium.php:317
+msgid "SEO"
+msgstr "SEO"
+
+#: templates/admin/premium.php:301
+msgid "Take advantage of the premium version of the plugin to edit the default behavior of WooCommerce Price Filter. Change the %1$slayout of the filter%2$s and activate the %1$sAjax mode%2$s to apply the filter immediately, without reloading the page."
+msgstr "Haal je voordeel uit de premium versie van de plugin door het bewerken van het default gedrag van WooCommerce Price Filter. Wijzig de %1$slay-out van de filter%2$s en activeer de %1$sAjax modus%2$s om de filter meteen toe te passen, zonder de pagina te herladen."
+
+#: settings/frontend-options.php:57
+msgid "Scroll top anchor"
+msgstr "Scroll naar boven anker"
+
+#: settings/frontend-options.php:12
+msgid "Frontend Settings"
+msgstr "Frontend instellingen"
+
+#: plugin-fw/templates/fields/upload.php:19 templates/admin/premium.php:413
+msgid "Reset"
+msgstr "Resetten"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:232
+msgid "Renew license"
+msgstr "Licentie vernieuwen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:230
+msgid "Order again"
+msgstr "Bestel opniew"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:146
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:105
+msgid "License Actions"
+msgstr "Licentie acties"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:43
+msgid "Product to activate"
+msgid_plural "Products to activate"
+msgstr[0] "Product om te activeren"
+msgstr[1] "Producten om te activeren"
+
+#: plugin-fw/licence/lib/yit-licence.php:695
+msgid "License key deactivated for website"
+msgstr "Licentiesleutel gedeactiveerd voor website"
+
+#: plugin-fw/licence/lib/yit-licence.php:694
+msgid "License successfully activated"
+msgstr "Licentie succesvol geactiveerd"
+
+#: plugin-fw/licence/lib/yit-licence.php:694
+msgid "Great"
+msgstr "Top!"
+
+#: plugin-fw/licence/lib/yit-licence.php:191
+msgid "Are you sure you want to deactivate the license for current site?"
+msgstr "Weet je zeker dat je de licentie voor deze site wilt deactiveren?"
+
+#: init.php:58
+msgid "You can't activate the free version of YITH WooCommerce Ajax Product Filter while you are using the premium one."
+msgstr "U kunt de gratis versie van YITH Product Shipping voor WooCommerce niet activeren, terwijl u de premium versie gebruikt."
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Ajax Product Filter"
+msgstr "YITH WooCommerce Ajax Product Filter"
+
+#: widgets/class.yith-wcan-reset-navigation-widget.php:112
+msgid "Button Label"
+msgstr "Knop label"
+
+#: widgets/class.yith-wcan-reset-navigation-widget.php:99
+msgid "Reset All Filters"
+msgstr "Reset alle filters"
+
+#: widgets/class.yith-wcan-reset-navigation-widget.php:25
+msgid "YITH WooCommerce Ajax Reset Filter"
+msgstr "YITH WooCommerce Ajax Reset Filter"
+
+#: widgets/class.yith-wcan-navigation-widget.php:917
+msgid "Only Parent"
+msgstr "Aleen hoofditem"
+
+#: widgets/class.yith-wcan-navigation-widget.php:916
+msgid "All (hierarchical)"
+msgstr "Alle (hiërarchisch)"
+
+#: widgets/class.yith-wcan-navigation-widget.php:915
+msgid "All (no hierarchical)"
+msgstr "Alle (niet hiërarchisch)"
+
+#: widgets/class.yith-wcan-navigation-widget.php:913
+msgid "Display (default All):"
+msgstr "Weergeven (default alle):"
+
+#: widgets/class.yith-wcan-navigation-widget.php:906
+msgid "Attribute:"
+msgstr "Attribuut:"
+
+#: widgets/class.yith-wcan-navigation-widget.php:900
+msgid "OR"
+msgstr "OF"
+
+#: widgets/class.yith-wcan-navigation-widget.php:899
+msgid "AND"
+msgstr "EN"
+
+#: widgets/class.yith-wcan-navigation-widget.php:897
+msgid "Query Type:"
+msgstr "Query Type:"
+
+#: widgets/class.yith-wcan-navigation-widget.php:886
+msgid "Type:"
+msgstr "Type:"
+
+#: widgets/class.yith-wcan-navigation-widget.php:880
+#: widgets/class.yith-wcan-reset-navigation-widget.php:106
+msgid "Title"
+msgstr "Titel"
+
+#: widgets/class.yith-wcan-navigation-widget.php:873
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: widgets/class.yith-wcan-navigation-widget.php:872
+msgid "Label"
+msgstr "Label"
+
+#: widgets/class.yith-wcan-navigation-widget.php:870
+msgid "List"
+msgstr "Lijst"
+
+#: widgets/class.yith-wcan-navigation-widget.php:154
+msgid "Filters:"
+msgstr "Filters:"
+
+#: templates/admin/premium.php:298
+msgid "WooCommerce Price Filter"
+msgstr "WooCommerce Price Filter"
+
+#: templates/admin/premium.php:288
+msgid "From the plugin option panel, you can choose to upload a new icon for your loader: in this way, it will better meet your needs."
+msgstr "Vanaf het plugin optie paneel, kun je kiezen om een nieuw icoon te uploaden voor je lader: op deze manier voldoet het eerder aan je wensen."
+
+#: templates/admin/premium.php:285
+msgid "Customized loader"
+msgstr "Aangepaste lader"
+
+#: templates/admin/premium.php:269
+msgid "With the new %1$sYITH WooCommerce Ajax Sort By%2$s widget, you can give your users the freedom to sort products with the ajax technology, without the need to reload the page. Products can be sorted by rate, sales, price or publication date."
+msgstr "Met de nieuwe %1$sYITH WooCommerce Ajax Sort By%2$s widget, kun je gebruikers de vrijheid geven producten te sorteren met ajax technologie, zonder dat het nodig is de pagina te herladen. Producten kunnen worden gesorteerd op waardering, verkopen, prijs of publicatiedatum."
+
+#: templates/admin/premium.php:266
+msgid "Product sorting"
+msgstr "Product sortering"
+
+#: templates/admin/premium.php:256
+msgid "A new widget for the premium version of the plugin. Whoever will surf the pages of your shop will be able to display only the products on sale and/or the available ones.%3$s %1$sAn additional feature for an e-commerce site that is worthy!%2$s"
+msgstr "Een nieuwe widget voor de premium versie van de plugin. Degene die de pagina´s in je winkel bezoekt, zal in staat zijn alleen de producten in de uitverkoop/of beschikbare weer te geven. %3$s %1$sEen aanvullende functie voor een waardevolle e-commerce site!%2$s"
+
+#: templates/admin/premium.php:253
+msgid "Ajax Stock/On Sale Filters"
+msgstr "Ajax voorraad/uitverkoop filters"
+
+#: templates/admin/premium.php:237
+msgid "One of the most requested filter for e-commerce sites is the one that let you select products by their prices. Thanks to YITH WooCommerce Ajax List Price Filter, %1$syou can set unlimited price ranges:%2$s your users will be able to filter products selecting on the ranges you have set."
+msgstr "Een van de meest gevraagde filters voor e-commerce sites is degene die je producten laat selecteren op prijs. Dankzij YITH WooCommerce Ajax List Price Filter, %1$skun je ongelimiteerd prijsbereik instellen:%2$s je gebruikers kunnen producten filteren door het bereik te kiezen die jij hebt ingesteld."
+
+#: templates/admin/premium.php:234
+msgid "Price range"
+msgstr "Prijsbereik"
+
+#: templates/admin/premium.php:224
+msgid "The YITH WooCommerce Ajax product Filter widget get richer with 2 new layouts to filter the products of your shop.%1$sBicolor%2$s: the perfect choice for those attributes related to two different colors at the same time (white/black), for a simple visual impact for the final user. Pick the %1$sTag%2$s typology, on the contrary, if you want to filter your products by product tag. And if you are using also the %1$sYITH WooCommerce Brand Add-On%2$s plugin, you will be able to offer the freedom to filter your shop products by brands thanks to the ajax technology."
+msgstr "The YITH WooCommerce Ajax product Filter widget is rijker met 2 nieuwe lay-outs voor het filteren van producten in je winkel.%1$sBicolor%2$s: de perfecte keuze voor attributen gerelateerd aan twee verschillende kleuren tegelijkertijd (zwart/wit), een simpel visueel impact voor de eindgebruiker. Selecteer de %1$sTag%2$s typologie, als je producten wilt filteren op product tag. Als je ook de %1$sYITH WooCommerce Brand Add-On%2$s plugin gebruikt, kun je ook de vrijheid bieden je producten te filteren op merken dankzij de ajax technologie."
+
+#: templates/admin/premium.php:221
+msgid "Two more layouts"
+msgstr "Twee lay-outs meer"
+
+#: templates/admin/premium.php:213
+msgid "Premium Features"
+msgstr "Premium functies"
+
+#: templates/admin/premium.php:207 templates/admin/premium.php:445
+msgid "to the premium version"
+msgstr "naar de premium versie"
+
+#: templates/admin/premium.php:206 templates/admin/premium.php:444
+msgid "UPGRADE"
+msgstr "UPGRADE"
+
+#: templates/admin/premium.php:203 templates/admin/premium.php:441
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Ajax Product Filter%2$s to benefit from all features!"
+msgstr "Upgrade naar de %1$spremium version%2$s van %1$sYITH WooCommerce Ajax Product Filter%2$s om te profiteren van alle functies!"
+
+#: settings/frontend-options.php:50
+msgid "Enter here the CSS class or id for the results count container"
+msgstr "Voer een CSS klasse of id in voor de resultaten teller container"
+
+#: settings/frontend-options.php:49
+msgid "Result Count Container"
+msgstr "Resultaten teller container"
+
+#: settings/frontend-options.php:42
+msgid "Enter here the CSS class or id for the shop pagination container"
+msgstr "Voer hier de CSS klasse of id in voor de winkel paginering container"
+
+#: settings/frontend-options.php:41
+msgid "Shop Pagination Container"
+msgstr "Winkel paginering container"
+
+#: settings/frontend-options.php:34
+msgid "Enter here the CSS class or id for the product container"
+msgstr "Voer hier de CSS klasse of id in voor de product container"
+
+#: settings/frontend-options.php:33
+msgid "Product Container"
+msgstr "Product container"
+
+#: settings/frontend-options.php:27
+msgctxt "Admin: Panel section description"
+msgid ""
+"If your theme is using WooCommerce standard templates, you don't need to change the following values.\n"
+"                                Otherwise, add the classes used in the templates of your theme.\n"
+"                                If you don't know how to do, please contact the developer of your theme to be correctly instructed."
+msgstr ""
+"Als je thema de standaard WooCommerce templates gebruikt, dan hoef je de volgende waarden niet te wijzigen.\n"
+"                                Anders, voeg de klasse toe die is gebruikt inde templates van je thema.\n"
+"                                Als je niet weet hoe, neem contact op met de ontwikkelaar van je thema voor de juiste instructies."
+
+#: settings/frontend-options.php:25
+msgctxt "Admin panel: option description"
+msgid "How To:"
+msgstr "Hoe:"
+
+#: settings/custom-style-options.php:24
+msgid "Enter here your custom CSS rules:"
+msgstr "voer hier je aangepaste CSS regels in:"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:17
+msgid "Reset Defaults"
+msgstr "Herstellen naar standaard"
+
+#: plugin-fw/templates/fields/sidebars.php:52
+msgid "Right Sidebar"
+msgstr "Rechter sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Linker sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Choose a sidebar"
+msgstr "Kies een sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:25
+msgid "Right sidebar"
+msgstr "Sidebar rechts"
+
+#: plugin-fw/templates/fields/sidebars.php:28
+#: plugin-fw/templates/fields/sidebars.php:31
+msgid "No sidebar"
+msgstr "Geen sidebar"
+
+#: plugin-fw/templates/fields/sidebars.php:22
+msgid "Left sidebar"
+msgstr "Sidebar links"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add images"
+msgstr "Afbeeldingen toevoegen"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add to gallery"
+msgstr "Toevoegen aan galerij"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add Images to Gallery"
+msgstr "Afbeeldingen toevoegen aan galerij"
+
+#: plugin-fw/templates/fields/image-gallery.php:34
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Delete image"
+msgstr "Afbeelding verwijderen"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:92
+msgid "(Default: <i %s></i> )"
+msgstr "(Default: <i %s></i> )"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:90
+msgid "(Default: %s <img src=\"%s\"/>)"
+msgstr "(Default: %s <img src=\"%s\"/>)"
+
+#: plugin-fw/templates/fields/customtabs.php:106
+msgid "Do you want to remove the custom tab?"
+msgstr "Wilt je het aangepaste tabblad verwijderen?"
+
+#: plugin-fw/templates/fields/customtabs.php:65
+msgid "Add custom product tab"
+msgstr "Voeg aangepast product tablad toe"
+
+#: plugin-fw/templates/fields/customtabs.php:53
+#: plugin-fw/templates/fields/customtabs.php:95
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Inhoud van tabblad. (HTML wordt ondersteund)"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+#: plugin-fw/templates/fields/customtabs.php:94
+msgid "Value"
+msgstr "Waarde"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Expand all"
+msgstr "Open allen"
+
+#: plugin-fw/templates/fields/customtabs.php:28
+msgid "Close all"
+msgstr "Sluit allen"
+
+#: plugin-fw/templates/metaboxes/types/icon-list.php:76
+msgid "Image preview"
+msgstr "Voorbeeld afbeelding"
+
+#: plugin-fw/templates/fields/upload.php:18
+#: plugin-fw/templates/metaboxes/types/icon-list.php:70
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+msgid "Upload"
+msgstr "Bijwerken"
+
+#: plugin-fw/templates/fields/customtabs.php:37
+#: plugin-fw/templates/fields/customtabs.php:81
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
+msgid "Expired"
+msgstr "Verlopen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
+msgid "Banned"
+msgstr "Verbannen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:130
+msgid "%1s out of %2s"
+msgstr "%1s van de %2s"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:151
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:208
+msgid "Renew"
+msgstr "Vernieuwen"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:99
+msgid "Remaining"
+msgstr "Over"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:96
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:205
+msgid "Expires"
+msgstr "Verloopt"
+
+#: plugin-fw/licence/lib/yit-licence.php:190
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:93
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:171
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:202
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: plugin-fw/licence/lib/yit-licence.php:189
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:170
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
+msgid "Email"
+msgstr "E-mail"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:90
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:168
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:84
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:65
+msgid "Activate"
+msgstr "Activeren"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:30
+msgid "Update license information"
+msgstr "Licentie informatie bijwerken"
+
+#: plugin-fw/licence/templates/panel/activation/activation-panel.php:28
+msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
+msgstr "Heb je je licenties bijgewerkt? Heb je gevraagd naar een uitbereiding? Informatie bijwerken met betrekking tot je producten."
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:163
+msgid ""
+"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
+"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
+"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
+"                    provided with and that you can find in your YITH account, in section \"My licenses\"."
+msgstr ""
+"Als je vóór 27 januari 2015 een van onze producten hebt gekocht, kun je profiteren van ondersteuning en updates (de diensten die worden aangeboden met de licentie)\n"
+"                    tot 27 januari 2016 en u hoeft het niet opnieuw aan te schaffen om een ​​nieuwe licentiesleutel te krijgen, want vóór deze datum werd je licentie automatisch door ons systeem geactiveerd.\n"
+"                    Na 27 januari 2016, in plaats daarvan, als je wilt profiteren van ondersteuning en updates, moet je een nieuwe licentie kopen en deze activeren via de licentiesleutel.\n"
+"                    meegeleverd en die je kunt vinden in je YIThemes-account, in het gedeelte “Mijn licenties”."
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:159
+msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
+msgstr "Ik kan de licentiesleutel van het thema dat ik een tijdje terug heb gekocht niet meer vinden. Waar kan ik het vinden?"
+
+#: plugin-fw/licence/lib/yit-theme-licence.php:117
+#: plugin-fw/licence/lib/yit-theme-licence.php:118
+msgid "%s"
+msgstr "%s"
+
+#: plugin-fw/licence/lib/yit-plugin-licence.php:67
+#: plugin-fw/licence/lib/yit-plugin-licence.php:68
+#: plugin-fw/licence/lib/yit-theme-licence.php:69
+#: plugin-fw/licence/lib/yit-theme-licence.php:70
+#: plugin-fw/licence/lib/yit-theme-licence.php:109
+#: plugin-fw/licence/lib/yit-theme-licence.php:110
+msgid "License Activation"
+msgstr "Licentie activering"
+
+#: plugin-fw/licence/lib/yit-licence.php:692
+msgid "License key has been banned"
+msgstr "De licentiesleutel is verbannen"
+
+#: plugin-fw/licence/lib/yit-licence.php:691
+msgid "License key has expired"
+msgstr "De licentiesleutel is verlopen"
+
+#: plugin-fw/licence/lib/yit-licence.php:690
+msgid "Invalid security key"
+msgstr "Ongeldige security key"
+
+#: plugin-fw/licence/lib/yit-licence.php:689
+msgid "Invalid instance ID"
+msgstr "Ongeldige instance ID"
+
+#: plugin-fw/licence/lib/yit-licence.php:688
+msgid "Maximum number of activations exceeded"
+msgstr "Maximum aantal activeringen overschreden"
+
+#: plugin-fw/licence/lib/yit-licence.php:687
+msgid "Software has been deactivated"
+msgstr "Software is gedeactiveerd"
+
+#: plugin-fw/licence/lib/yit-licence.php:686
+msgid "Invalid license key"
+msgstr "Ongeldige licentiesleutel"
+
+#: plugin-fw/licence/lib/yit-licence.php:685
+msgid "Invalid Request"
+msgstr "Ongeldig verzoek"
+
+#: plugin-fw/licence/lib/yit-licence.php:188
+msgid "Unable to contact the remote server, please try again later. Thanks!"
+msgstr "Niet in staat contact te maken met de externe server, probeer het later opnieuw!"
+
+#: plugin-fw/licence/lib/yit-licence.php:187
+msgid "%s and %s fields cannot be empty"
+msgstr "%s en %s velden mogen niet leeg zijn"
+
+#: plugin-fw/licence/lib/yit-licence.php:186
+msgctxt "%s = field name"
+msgid "%s field cannot be empty"
+msgstr "%s veld mag niet leeg zijn"
+
+#: plugin-fw/lib/yit-upgrade.php:592
+msgid "Update Plugin"
+msgstr "Plugin bijwerken"
+
+#: plugin-fw/lib/yit-upgrade.php:585
+msgid "You do not have sufficient permissions to update the plugins for this site."
+msgstr "Je hebt niet voldoende rechten om plugins voor deze site bij te werken."
+
+#: plugin-fw/lib/yit-upgrade.php:581
+msgid "You can't update the plugins for this site."
+msgstr "Je kunt de plugin voor deze site niet bijwerken."
+
+#: plugin-fw/lib/yit-upgrade.php:508
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a> of <a href=\"%5$s\">nu bijwerken</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:506
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
+msgstr "Er is een nieuwe versie van  %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Automatische bijwerking is niet beschikbaar voor deze plugin <a href=\"%5$s\" title=\"License activation\">activeer</a> je kopie van %6s.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:504
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>. <em>Je moet de plugin op een single site van het netwerk activeren om te profiteren van automatisch bijwerken.</em>"
+
+#: plugin-fw/lib/yit-upgrade.php:502
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
+msgstr "Er is een nieuwe versie van of %1$s beschikbaar. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">Bekijk versie %4$s details</a>."
+
+#: plugin-fw/lib/yit-upgrade.php:342
+msgid "Could not create Temporary file."
+msgstr "Kan geen tijdelijk bestand aanmaken."
+
+#: plugin-fw/lib/yit-upgrade.php:329
+msgid "Invalid URL Provided."
+msgstr "Ongeldige URL ingegeven."
+
+#: plugin-fw/lib/yit-upgrade.php:194
+msgid "Update now."
+msgstr "Nu bijwerken."
+
+#: plugin-fw/lib/yit-upgrade.php:193
+msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
+msgstr "alsjeblieft <a href=\"%activate_link%\">activeer</a> je kopie van %plugin_name%."
+
+#: plugin-fw/lib/yit-upgrade.php:192
+msgid "Automatic update is unavailable for this plugin,"
+msgstr "Automatisch bijwerken is niet beschikbaar voor deze plugin,"
+
+#: plugin-fw/lib/yit-upgrade.php:191
+msgid "View version %latest% details."
+msgstr "Bekijk %laatste% details versie."
+
+#: plugin-fw/lib/yit-upgrade.php:190
+msgid "There is a new version of %plugin_name% available."
+msgstr "Er is een nieuwe versie van %plugin_name% beschikbaar."
+
+#: plugin-fw/lib/yit-pointers.php:85
+msgid ""
+"From now on, you can find the option panel of YITH plugins in YITH Plugins menu.\n"
+"                                    Every time one of our plugins is added, a new entry will be added to this menu.\n"
+"                                    For example, after the update, plugin options (such as for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YITH Plugins tab."
+msgstr ""
+"Vanaf nu kun je het optie paneel van YITH plugins vinden in het YITH Plugins menu.\n"
+"                                    Telkens wanneer een nieuwe plugin wordt toegevoegd, komt er een regel bij in dit menu.\n"
+"                                    Voorbeeld, na de update, plugin opties (zoals YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    zullen worden verplaatst van de vorige locatie naar de YITH Plugins tab."
+
+#: plugin-fw/lib/yit-pointers.php:84
+msgid "Plugins Upgraded"
+msgstr "Plugins geüpgraded"
+
+#: plugin-fw/lib/yit-pointers.php:74 plugin-fw/lib/yit-pointers.php:90
+msgid "and"
+msgstr "en"
+
+#: plugin-fw/lib/yit-pointers.php:73 plugin-fw/lib/yit-pointers.php:89
+msgid "Discover all our plugins available on:"
+msgstr "Ontdek al onze beschikbare plugins op:"
+
+#: plugin-fw/lib/yit-pointers.php:71
+msgid ""
+"From now on, you can find all plugin options in YITH Plugins menu.\n"
+"                                     Plugin customization settings will be available as a new entry in YITH Plugins menu."
+msgstr ""
+"Vanaf nu kun je alle plugin opties vinden in het YITH Plugins Menu.\n"
+"                                     Instellingen om de plugin aan te passen zijn beschikbaar als nieuwe regel in het YITH Plugins menu."
+
+#: plugin-fw/lib/yit-pointers.php:70
+msgid "Plugins Activated"
+msgstr "Plugins geactiveerd"
+
+#: plugin-fw/lib/yit-plugin-panel.php:539
+msgid "Sorting successful."
+msgstr "Sorteren succesvol."
+
+#: plugin-fw/lib/yit-plugin-panel.php:538
+msgid "Sorry, import is disabled."
+msgstr "Sorry, importeren is uitgeschakeld."
+
+#: plugin-fw/lib/yit-plugin-panel.php:537
+msgid "The added file is not valid."
+msgstr "Het toegevoegde bestand is ongeldig."
+
+#: plugin-fw/lib/yit-plugin-panel.php:536
+msgid "An error has occurred during import. Please try again."
+msgstr "Er is een fout opgetreden tijdens het importeren, probeer opnieuw alsjeblieft."
+
+#: plugin-fw/lib/yit-plugin-panel.php:535
+msgid "Database imported correctly."
+msgstr "Database juist geïmporteerd."
+
+#: plugin-fw/lib/yit-plugin-panel.php:533
+#: plugin-fw/lib/yit-plugin-panel.php:534
+msgid "Element updated correctly."
+msgstr "Element juist geüpdatet."
+
+#: plugin-fw/lib/yit-plugin-panel.php:532
+msgid "Element deleted correctly."
+msgstr "Element succesvol verwijderd."
+
+#: plugin-fw/lib/yit-plugin-panel.php:531
+msgid "Settings reset"
+msgstr "Instellingen resetten"
+
+#: plugin-fw/lib/yit-plugin-panel.php:530
+msgid "Settings saved"
+msgstr "Je instellingen zijn opgeslagen"
+
+#: plugin-fw/lib/yit-plugin-panel.php:529
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "Het element dat je hebt ingevoerd bestaat al. Voer een andere naam in."
+
+#: plugin-fw/lib/yit-plugin-panel.php:395
+#: plugin-fw/lib/yit-plugin-subpanel.php:162
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: plugin-fw/lib/yit-plugin-panel.php:394
+#: plugin-fw/lib/yit-plugin-subpanel.php:161
+msgid "Reset to default"
+msgstr "Terug naar standaard"
+
+#: plugin-fw/lib/yit-plugin-panel.php:392
+#: plugin-fw/lib/yit-plugin-subpanel.php:159
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Als je deze actie voortzet, zul je alle opties in deze pagina resetten."
+
+#: plugin-fw/lib/yit-plugin-panel.php:389
+#: plugin-fw/lib/yit-plugin-subpanel.php:156
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
+msgid "Save Changes"
+msgstr ""
+"Wijzigingen\n"
+" \n"
+"opslaan"
+
+#: plugin-fw/lib/yit-plugin-panel.php:72
+msgid "Plugin Settings"
+msgstr "Plugin instellingen"
+
+#: plugin-fw/lib/yit-plugin-panel-wc.php:384
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "De wijzigingen die je hebt gemaakt zullen verloren gaan als je deze pagina verlaat."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1633
+msgid "Upload multiple files"
+msgstr "Upload meerdere bestanden"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1631
+msgid "Add %s from images"
+msgstr "Voeg %s toe van afbeeldingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1482
+#: plugin-fw/templates/fields/customtabs.php:46
+#: plugin-fw/templates/fields/customtabs.php:89
+msgid "Name"
+msgstr "Naam"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1475
+msgid "Show frontend of the %s"
+msgstr "Toon frontend van de %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1222
+#: plugin-fw/lib/yit-cpt-unlimited.php:1235
+msgid "Quick links"
+msgstr "Snelle links"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1130
+msgid "layout settings"
+msgstr "Lay-out instellingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1089
+msgid "Layout for single page of this portfolio"
+msgstr "Lay-out voor single pagina van dit portfolio"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1088
+msgid "Single layout"
+msgstr "Single lay-out"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1083
+msgid "Set univocal name for each category page URL."
+msgstr "Stel een unieke naam in voor elke categorie pagina URL."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1082
+msgid "Taxonomy Rewrite"
+msgstr "Taxonomie herschrijven"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1077
+msgid "If you want to use categories in the portfolio, set a name for taxonomy. Name should be a slug (must not contain capital letters nor spaces) and must not be more than 32 characters long (database structure restriction)."
+msgstr "Als je de categorieën in het portfolio wilt gebruiken, stel een naam in voor de taxonomie. De naam moet een slug zijn (mag geen hoofdletters of spaties bevatten) en mag niet meer dan 32 karakters lang zijn (database structuur beperking)."
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1076
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1071
+msgid "Set a label in plural (title of portfolio if empty)"
+msgstr "Stel een label in meervoud in (titel van het portfolio als deze niet wordt ingevuld)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1070
+msgid "Label in Plural"
+msgstr "Label in meervoud"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1065
+msgid "Set a label in singular (title of portfolio if empty)"
+msgstr "Stel een label in enkelvoud in (titel van het portfolio als deze niet wordt ingevuld)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1064
+msgid "Label in Singular"
+msgstr "Label in enkelvoud"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1059
+msgid "Univocal identification name in the URL for each product (slug from post if empty)"
+msgstr "Eenduidige identificatie naam in de URL voor elk product (slug uit post indien leeg)"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1058
+msgid "Rewrite"
+msgstr "Herschrijf urls"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1052
+msgid "Layout for this %s"
+msgstr "De lay-out hiervoor %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1051
+msgid "Type"
+msgstr "Type"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1048
+#: plugin-fw/lib/yit-cpt-unlimited.php:1196
+#: plugin-fw/lib/yit-cpt-unlimited.php:1202
+#: plugin-fw/lib/yit-plugin-panel.php:73
+msgid "Settings"
+msgstr "Instellingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:1042
+msgid "%s Settings"
+msgstr "%s instellingen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:724
+msgid "Categories"
+msgstr "Categoriëen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:635
+msgid "Category"
+msgstr "Catogorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:634
+msgid "New Category Name"
+msgstr "Nieuwe categorienaam"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:633
+msgid "Add New Category"
+msgstr "Categorie toevoegen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:632
+msgid "Update Category"
+msgstr "Categorie bijwerken"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:631
+msgid "Edit Category"
+msgstr "Categorie aanpassen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:630
+msgid "Parent Category:"
+msgstr "Hoofdcategorie:"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:629
+msgid "Parent Category"
+msgstr "Hoofdcategorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:628
+msgid "All Categories"
+msgstr "Alle categorieen"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:627
+#: plugin-fw/templates/fields/ajax-terms.php:56
+msgid "Search Categories"
+msgstr "Zoek categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:626
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Catogorie"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:625
+msgctxt "taxonomy general name"
+msgid "%s Categories"
+msgstr "%s Categorieën"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:468
+#: plugin-fw/lib/yit-cpt-unlimited.php:582
+msgid "No %s found in Trash"
+msgstr "Geen %s gevonden in prullenbak"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:467
+#: plugin-fw/lib/yit-cpt-unlimited.php:581
+msgid "No %s found"
+msgstr "Geen %s gevonden"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:466
+#: plugin-fw/lib/yit-cpt-unlimited.php:580
+msgid "Search %s"
+msgstr "Zoeken %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:465
+#: plugin-fw/lib/yit-cpt-unlimited.php:579
+#: plugin-fw/lib/yit-cpt-unlimited.php:1251
+#: plugin-fw/lib/yit-cpt-unlimited.php:1305
+msgid "View %s"
+msgstr "Bekijk %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:464
+#: plugin-fw/lib/yit-cpt-unlimited.php:578
+msgid "All %s"
+msgstr "Alle %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:463
+#: plugin-fw/lib/yit-cpt-unlimited.php:577
+msgid "New %s"
+msgstr "Nieuw %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:462
+#: plugin-fw/lib/yit-cpt-unlimited.php:576
+#: plugin-fw/lib/yit-cpt-unlimited.php:1267
+#: plugin-fw/lib/yit-cpt-unlimited.php:1304
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:461
+#: plugin-fw/lib/yit-cpt-unlimited.php:575
+msgid "Add New %s"
+msgstr "Nieuwe toevoegen %s"
+
+#: plugin-fw/lib/yit-cpt-unlimited.php:460
+#: plugin-fw/lib/yit-cpt-unlimited.php:574
+#: plugin-fw/lib/yit-cpt-unlimited.php:719
+#: plugin-fw/lib/yit-cpt-unlimited.php:1632
+msgid "Add %s"
+msgstr "Toevoegen %s"
+
+#: init.php:49
+msgid "YITH WooCommerce Ajax Product Filter is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Ajax Product Filter is ingeschakeld maar werk niet. Het heeft WooCommerce nodig om te werken."
+
+#: includes/functions.yith-wcan.php:124
+msgid "Labels"
+msgstr "Labels"
+
+#: includes/functions.yith-wcan.php:102
+msgctxt "For multicolor: I.E. white and red T-Shirt"
+msgid "Color 2"
+msgstr "Kleur 2"
+
+#: includes/functions.yith-wcan.php:102
+msgctxt "For multicolor: I.E. white and red T-Shirt"
+msgid "Color 1"
+msgstr "Kleur 1"
+
+#: includes/functions.yith-wcan.php:88
+#: widgets/class.yith-wcan-navigation-widget.php:871
+msgid "Color"
+msgstr "Kleur "
+
+#: includes/functions.yith-wcan.php:88 includes/functions.yith-wcan.php:102
+#: includes/functions.yith-wcan.php:124
+msgid "Term"
+msgstr "Voorwaarde"
+
+#: includes/class.yith-wcan-admin.php:134
+#: includes/class.yith-wcan-admin.php:135
+msgid "Ajax Product Filter"
+msgstr "Ajax Product Filter"
+
+#: includes/class.yith-wcan-admin.php:128
+msgid "Premium Version"
+msgstr "Premium versie"
+
+#: includes/class.yith-wcan-admin.php:127 settings/custom-style-options.php:12
+msgid "Custom Style"
+msgstr "Aangepaste stijl"
+
+#: includes/class.yith-wcan-admin.php:126
+msgid "Front end"
+msgstr "Front end"
