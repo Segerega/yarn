@@ -19,7 +19,7 @@ if ( !class_exists( 'YIT_Plugin_Licence' ) ) {
      * Setting Page to Manage Plugins
      *
      * @class      YIT_Plugin_Licence
-     * @package    YITH
+     * @package    Yithemes
      * @since      1.0
      * @author     Andrea Grillo      <andrea.grillo@yithemes.com>
      */
@@ -77,22 +77,13 @@ if ( !class_exists( 'YIT_Plugin_Licence' ) ) {
             add_action( 'yit_licence_after_check', array( $this, 'licence_after_check' ) );
 
             /** @since 3.0.0 */
-	        if( version_compare( PHP_VERSION, '7.0', '>=' ) ) {
-		        add_action( 'admin_notices', function () {
-			        $this->activate_license_notice();
-		        }, 15 );
-	        }
-
-	        else {
-		        add_action( 'admin_notices', array( $this, 'activate_license_notice' ), 15 );
-            }
+            add_action( 'admin_notices', function () {
+                $this->activate_license_notice();
+            }, 15 );
         }
 
         private function _show_activate_license_notice() {
-            $current_screen      = function_exists( 'get_current_screen' ) ? get_current_screen() : false;
-            $show_license_notice = current_user_can( 'update_plugins' ) &&
-                                   ( !isset( $_GET[ 'page' ] ) || 'yith_plugins_activation' !== $_GET[ 'page' ] ) &&
-                                   !( $current_screen && method_exists( $current_screen, 'is_block_editor' ) && $current_screen->is_block_editor() );
+            $show_license_notice = current_user_can( 'update_plugins' ) && ( !isset( $_GET[ 'page' ] ) || 'yith_plugins_activation' !== $_GET[ 'page' ] );
             global $wp_filter;
 
             if ( isset( $wp_filter[ 'yith_plugin_fw_show_activate_license_notice' ] ) ) {
@@ -230,7 +221,7 @@ if ( !class_exists( 'YIT_Plugin_Licence' ) ) {
 /**
  * Main instance of plugin
  *
- * @return YIT_Plugin_Licence object of license class
+ * @return object
  * @since  1.0
  * @author Andrea Grillo <andrea.grillo@yithemes.com>
  */

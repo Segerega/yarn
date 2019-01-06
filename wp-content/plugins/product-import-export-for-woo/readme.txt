@@ -3,8 +3,8 @@ Contributors: webtoffee
 Donate link: https://www.webtoffee.com/plugins/
 Tags: woocommerce product import, woocommerce import products, woocommerce export products, export woocommerce products, import products into woocommerce
 Requires at least: 3.0.1
-Tested up to: 5.0.2
-Stable tag: 1.5.2
+Tested up to: 4.9.8
+Stable tag: 1.4.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -20,7 +20,7 @@ Are you trying to import products into WooCommerce store or export WooCommerce p
 
 &#128312; Export Simple Products  in to a CSV file.
 &#128312; Import Simple Products in CSV format in to WooCommerce Store.
-&#128312; Tested OK with WooCommerce 3.5.2.
+&#128312; Tested OK with WooCommerce 3.4.5.
 
 
 Highlights: WooCommerce Product Export, WooCommerce Product CSV Import Suite, WooCommerce bulk product upload, WooCommerce import products with images, import amazon products to WooCommerce, Export Products to xls. Pro Version supports both Simple and Variable products.
@@ -49,13 +49,12 @@ Product Import Export Plugin for WooCommerce is the leading tool for Woocommerce
 <li> &#9989; Choice to Update or Skip existing imported products. </li>
 <li> &#9989; WPML Supported. French and German (Deutschland) language support Out of the Box.</li>
 <li> &#9989; Import/Export file from/to a remote server via FTP.</li>
-<li> &#9989; Import Product CSV from a remote server via URL.</li>
 <li> &#9989; Automatic scheduled Import/Export.</li>
 <li> &#9989; Supports Product Reviews Export Import.</li>
 <li> &#9989; Excellent Support for setting it up!</li>
 </ul>
 
-Please visit <a rel="nofollow" href="https://www.webtoffee.com/product/product-import-export-woocommerce/">Product Import Export Plugin for WooCommerce</a> for more details
+Please visit <a rel="nofollow" href="https://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/">Product Import Export Plugin for WooCommerce</a> for more details
 
 </blockquote>
 
@@ -98,7 +97,7 @@ WooCommerce variable product import allows you to import all variations of the p
 
 = WooCommerce import products with images =
 
-The plugin facilitates easy import of images related to a product. When the products are imported using the plugin, the first image related to a product in the image column of the CSV file is taken as its featured image. If there are multiple images in the same column, the image(s) after the first one is taken as the gallery images of the product.
+A WooCommerce product importer which supports 'woocommerce import products with images' feature is common requirement. The premium plugin has this feature buit into it.
 
 
 = Other features =
@@ -118,9 +117,9 @@ Supports WooCommerce Google Product Feed Plugin.
 Supports Scheduled Cron Job.
 
 
-= About wbtoffee.com =
+= About XAdapter.com =
 
-WebToffee creates quality WordPress/WooCommerce plugins that are easy to use and customize. We are proud to have thousands of customers actively using our plugins across the globe.
+XAdapter creates quality WordPress/WooCommerce plugins that are easy to use and customize. We are proud to have thousands of customers actively using our plugins across the globe.
 
 
 == Installation ==
@@ -135,10 +134,6 @@ WebToffee creates quality WordPress/WooCommerce plugins that are easy to use and
 
 Yes. You can import or export product images along with other details
 
-= Which is the best free CSV editor suggested? =
-
-LibreOffice.
-
 == Screenshots ==
 
 1. WooCommerce Product Import Screen
@@ -148,26 +143,6 @@ LibreOffice.
 3. Premium Export Settings Screen
 
 == Changelog ==
-
-= 1.5.2 =
-* Updates: Tested OK with WP 5.0.2 and WC 3.5.2
-* Optimized product image import.
-
-= 1.5.1 =
-* Content update.
-
-= 1.5.0 =
-* Tested OK with WC 3.5.1
-* Image importing process optimised
-* Bug fix.
-
-= 1.4.9 =
-* Tested OK with WC 3.5.0
-* Compatible with new meta '_low_stock_amount' which introduced in WC3.5.0
-
-= 1.4.8 =
-* Tested OK with WC 3.4.6
-* Content Update.
 
 = 1.4.7 =
 * Tested OK with WC 3.4.5
@@ -274,6 +249,7 @@ LibreOffice.
 
 == Upgrade Notice ==
 
-= 1.5.2 =
-* Updates: Tested OK with WP 5.0.2 and WC 3.5.2
-* Optimized product image import.
+= 1.4.7 =
+* Tested OK with WC 3.4.5
+* Review link added in footer.
+* Bug fix.

@@ -222,12 +222,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * Render columm: order_date.
 	 */
 	protected function render_order_date_column() {
-		$order_timestamp = $this->object->get_date_created() ? $this->object->get_date_created()->getTimestamp() : '';
-
-		if ( ! $order_timestamp ) {
-			echo '&ndash;';
-			return;
-		}
+		$order_timestamp = $this->object->get_date_created()->getTimestamp();
 
 		// Check if the order was created within the last 24 hours, and not in the future.
 		if ( $order_timestamp > strtotime( '-1 day', current_time( 'timestamp', true ) ) && $order_timestamp <= current_time( 'timestamp', true ) ) {
@@ -433,7 +428,6 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 				'_line_tax',
 				'method_id',
 				'cost',
-				'_reduced_stock',
 			)
 		);
 
@@ -629,7 +623,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * @return string
 	 */
 	public function handle_bulk_actions( $redirect_to, $action, $ids ) {
-		$ids     = apply_filters( 'woocommerce_bulk_action_ids', array_reverse( array_map( 'absint', $ids ) ), $action, 'order' );
+		$ids     = array_map( 'absint', $ids );
 		$changed = 0;
 
 		if ( 'remove_personal_data' === $action ) {
@@ -796,7 +790,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		}
 
 		// Status.
-		if ( empty( $query_vars['post_status'] ) ) {
+		if ( ! isset( $query_vars['post_status'] ) ) {
 			$post_statuses = wc_get_order_statuses();
 
 			foreach ( $post_statuses as $status => $value ) {

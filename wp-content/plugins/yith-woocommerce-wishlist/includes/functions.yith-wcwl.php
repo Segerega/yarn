@@ -180,10 +180,6 @@ if( !function_exists( 'yith_setcookie' ) ) {
      * @since 1.0.0
      */
     function yith_setcookie( $name, $value = array(), $time = null ) {
-    	if( ! apply_filters( 'yith_wcwl_set_cookie', true ) ){
-    		return false;
-	    }
-
         $time = $time != null ? $time : time() + apply_filters( 'yith_wcwl_cookie_expiration', 60 * 60 * 24 * 30 );
 
         $value = json_encode( stripslashes_deep( $value ) );
@@ -191,8 +187,6 @@ if( !function_exists( 'yith_setcookie' ) ) {
 
         $_COOKIE[ $name ] = $value;
 	    wc_setcookie( $name, $value, $expiration, false );
-
-	    return true;
     }
 }
 
@@ -296,11 +290,6 @@ if( !function_exists( 'yith_wcwl_get_hidden_products' ) ){
         }
 
         $hidden_products = $wpdb->get_col( $wpdb->prepare( $query, $query_args ) );
-
-        /**
-         * array_filter was added to prevent errors when previous query returns for some reason just 0 index
-         * @since 2.2.6
-         */
-        return apply_filters( 'yith_wcwl_hidden_products', array_filter( $hidden_products ) );
+        return apply_filters( 'yith_wcwl_hidden_products', $hidden_products );
     }
 }

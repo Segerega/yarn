@@ -150,4 +150,8 @@ jQuery( function( $ ) {
 
 	});
 
+	$(function() {
+		$( ':input.country_to_state' ).change();
+	});
+
 });

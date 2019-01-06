@@ -301,16 +301,10 @@ ul.yith-wcan-list li.chosen a:before{
 .yith-woocommerce-ajax-product-filter.with-checkbox ul.orderby li a.active:before,
 .yith-woocommerce-ajax-product-filter.with-checkbox ul.orderby li a.chosen:before,
 .yith-woocommerce-ajax-product-filter.with-checkbox ul.orderby li.active a:before,
-.yith-woocommerce-ajax-product-filter.with-checkbox ul.orderby li.chosen a:before,
-.widget_layered_nav.with-checkbox .chosen::before{
+.yith-woocommerce-ajax-product-filter.with-checkbox ul.orderby li.chosen a:before{
     content: '';
     background-position: bottom center;
 }
-
-.widget_layered_nav.with-checkbox .chosen::before{
-    display: none;
-}
-
 .yith-woocommerce-ajax-product-filter.with-checkbox ul li a:after,
 .yith-woocommerce-ajax-product-filter.with-checkbox ul li a.active:after,
 .yith-woocommerce-ajax-product-filter.with-checkbox ul li a.chosen:after,

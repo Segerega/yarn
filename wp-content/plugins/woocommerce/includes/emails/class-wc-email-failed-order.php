@@ -56,7 +56,7 @@ if ( ! class_exists( 'WC_Email_Failed_Order', false ) ) :
 		 * @return string
 		 */
 		public function get_default_subject() {
-			return __( '[{site_title}]: Order #{order_number} has failed', 'woocommerce' );
+			return __( '[{site_title}] Failed order ({order_number})', 'woocommerce' );
 		}
 
 		/**
@@ -66,7 +66,7 @@ if ( ! class_exists( 'WC_Email_Failed_Order', false ) ) :
 		 * @return string
 		 */
 		public function get_default_heading() {
-			return __( 'Order Failed: #{order_number}', 'woocommerce' );
+			return __( 'Failed order', 'woocommerce' );
 		}
 
 		/**
@@ -98,6 +98,7 @@ if ( ! class_exists( 'WC_Email_Failed_Order', false ) ) :
 		/**
 		 * Get content html.
 		 *
+		 * @access public
 		 * @return string
 		 */
 		public function get_content_html() {

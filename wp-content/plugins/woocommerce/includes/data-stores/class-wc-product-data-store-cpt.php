@@ -37,7 +37,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 		'_stock',
 		'_stock_status',
 		'_backorders',
-		'_low_stock_amount',
 		'_sold_individually',
 		'_weight',
 		'_length',
@@ -334,7 +333,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 				'stock_quantity'     => get_post_meta( $id, '_stock', true ),
 				'stock_status'       => get_post_meta( $id, '_stock_status', true ),
 				'backorders'         => get_post_meta( $id, '_backorders', true ),
-				'low_stock_amount'   => get_post_meta( $id, '_low_stock_amount', true ),
 				'sold_individually'  => get_post_meta( $id, '_sold_individually', true ),
 				'weight'             => get_post_meta( $id, '_weight', true ),
 				'length'             => get_post_meta( $id, '_length', true ),
@@ -501,7 +499,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 			'_tax_class'             => 'tax_class',
 			'_manage_stock'          => 'manage_stock',
 			'_backorders'            => 'backorders',
-			'_low_stock_amount'      => 'low_stock_amount',
 			'_sold_individually'     => 'sold_individually',
 			'_weight'                => 'weight',
 			'_length'                => 'length',
@@ -744,7 +741,7 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 						continue;
 
 					} elseif ( $attribute->is_taxonomy() ) {
-						wp_set_object_terms( $product->get_id(), wp_list_pluck( (array) $attribute->get_terms(), 'term_id' ), $attribute->get_name() );
+						wp_set_object_terms( $product->get_id(), wp_list_pluck( $attribute->get_terms(), 'term_id' ), $attribute->get_name() );
 					} else {
 						$value = wc_implode_text_attributes( $attribute->get_options() );
 					}
@@ -848,7 +845,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 		$exclude_term_ids            = array();
 		$outofstock_join             = '';
 		$outofstock_where            = '';
-		$non_published_where         = '';
 		$product_visibility_term_ids = wc_get_product_visibility_term_ids();
 
 		if ( 'yes' === get_option( 'woocommerce_hide_out_of_stock_items' ) && $product_visibility_term_ids['outofstock'] ) {
@@ -858,17 +854,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 		if ( count( $exclude_term_ids ) ) {
 			$outofstock_join  = " LEFT JOIN ( SELECT object_id FROM {$wpdb->term_relationships} WHERE term_taxonomy_id IN ( " . implode( ',', array_map( 'absint', $exclude_term_ids ) ) . ' ) ) AS exclude_join ON exclude_join.object_id = id';
 			$outofstock_where = ' AND exclude_join.object_id IS NULL';
-		}
-
-		// Fetch a list of non-published parent products and exlude them, quicker than joining in the main query below.
-		$non_published_products = $wpdb->get_col(
-			"SELECT post.ID as id FROM `$wpdb->posts` AS post
-			WHERE post.post_type = 'product'
-			AND post.post_parent = 0
-			AND post.post_status != 'publish'"
-		);
-		if ( 0 < count( $non_published_products ) ) {
-			$non_published_where = ' AND post.post_parent NOT IN ( ' . implode( ',', $non_published_products ) . ')';
 		}
 
 		return $wpdb->get_results(
@@ -886,7 +871,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 					AND CAST( meta.meta_value AS CHAR ) != ''
 					AND CAST( meta.meta_value AS DECIMAL( 10, %d ) ) = CAST( meta2.meta_value AS DECIMAL( 10, %d ) )
 					$outofstock_where
-					$non_published_where
 				GROUP BY post.ID",
 				$decimals,
 				$decimals
@@ -1365,14 +1349,13 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 	/**
 	 * Search product data for a term and return ids.
 	 *
-	 * @param  string   $term Search term.
-	 * @param  string   $type Type of product.
-	 * @param  bool     $include_variations Include variations in search or not.
-	 * @param  bool     $all_statuses Should we search all statuses or limit to published.
-	 * @param  null|int $limit Limit returned results. @since 3.5.0.
+	 * @param  string $term Search term.
+	 * @param  string $type Type of product.
+	 * @param  bool   $include_variations Include variations in search or not.
+	 * @param  bool   $all_statuses Should we search all statuses or limit to published.
 	 * @return array of ids
 	 */
-	public function search_products( $term, $type = '', $include_variations = false, $all_statuses = false, $limit = null ) {
+	public function search_products( $term, $type = '', $include_variations = false, $all_statuses = false ) {
 		global $wpdb;
 
 		$post_types    = $include_variations ? array( 'product', 'product_variation' ) : array( 'product' );
@@ -1380,7 +1363,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 		$type_join     = '';
 		$type_where    = '';
 		$status_where  = '';
-		$limit_query   = '';
 		$term          = wc_strtolower( $term );
 
 		// See if search term contains OR keywords.
@@ -1421,7 +1403,7 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 			}
 		}
 
-		if ( ! empty( $search_queries ) ) {
+		if ( $search_queries ) {
 			$search_where = 'AND (' . implode( ') OR (', $search_queries ) . ')';
 		}
 
@@ -1434,10 +1416,6 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 			$status_where = " AND posts.post_status IN ('" . implode( "','", $post_statuses ) . "') ";
 		}
 
-		if ( $limit ) {
-			$limit_query = $wpdb->prepare( ' LIMIT %d ', $limit );
-		}
-
 		// phpcs:ignore WordPress.VIP.DirectDatabaseQuery.DirectQuery
 		$search_results = $wpdb->get_results(
 			// phpcs:disable
@@ -1448,9 +1426,7 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 			$search_where
 			$status_where
 			$type_where
-			ORDER BY posts.post_parent ASC, posts.post_title ASC
-			$limit_query
-			"
+			ORDER BY posts.post_parent ASC, posts.post_title ASC"
 			// phpcs:enable
 		);
 
@@ -1641,26 +1617,11 @@ class WC_Product_Data_Store_CPT extends WC_Data_Store_WP implements WC_Object_Da
 
 		// Handle SKU.
 		if ( $manual_queries['sku'] ) {
-			// Check for existing values if wildcard is used.
-			if ( '*' === $manual_queries['sku'] ) {
-				$wp_query_args['meta_query'][] = array(
-					array(
-						'key'     => '_sku',
-						'compare' => 'EXISTS',
-					),
-					array(
-						'key'     => '_sku',
-						'value'   => '',
-						'compare' => '!=',
-					),
-				);
-			} else {
-				$wp_query_args['meta_query'][] = array(
-					'key'     => '_sku',
-					'value'   => $manual_queries['sku'],
-					'compare' => 'LIKE',
-				);
-			}
+			$wp_query_args['meta_query'][] = array(
+				'key'     => '_sku',
+				'value'   => $manual_queries['sku'],
+				'compare' => 'LIKE',
+			);
 		}
 
 		// Handle featured.

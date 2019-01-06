@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - MetaSlider - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-08 13:33:00+0000\n"
+"PO-Revision-Date: 2018-09-19 12:31:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,55 +11,51 @@ msgstr ""
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - MetaSlider - Stable (latest release)\n"
 
-#: themes/manifest.php:140
-msgid "A bold and clear design that works well on a darker images."
-msgstr "En djärv och tydlig design som fungerar bra på mörkare bilder."
-
-#: themes/manifest.php:131
-msgid "This theme has a unique design that gives it a sophisticated look."
-msgstr "Detta tema har en unik design som ger den ett sofistikerat utseende."
-
-#: themes/manifest.php:91
-msgid "A simple theme that neatly blends into any existing website."
-msgstr "Ett enkelt tema som smidigt förenar sig med alla befintliga webbplatser."
-
-#: admin/slideshows/Themes.php:159
-msgid "Your selected theme is no longer available. Was the folder deleted?"
-msgstr "Ditt valda tema är inte längre tillgängligt. Var mappen borttagen?"
-
-#: ml-slider.php:2075
+#: ml-slider.php:2101
 msgid "Copy all code"
 msgstr "Kopiera all kod"
 
-#: ml-slider.php:2072
+#: ml-slider.php:2098
 msgid "Show title"
 msgstr "Visa rubrik"
 
-#: ml-slider.php:1988
+#: ml-slider.php:2014
 msgid "Create a slideshow full of your favorite videos easily and quickly by simply adding a URL to a Vimeo slide."
 msgstr "Skapa enkelt och snabbt ett bildspel som är fyllt med dina favoritvideoklipp genom att bara lägga in URL till en Vimeo-bild."
 
-#: ml-slider.php:1965 ml-slider.php:1992 ml-slider.php:2018 ml-slider.php:2043
+#: ml-slider.php:1991 ml-slider.php:2018 ml-slider.php:2044 ml-slider.php:2069
 msgid "Opens in a new window"
 msgstr "Öppnas i ett nytt fönster"
 
-#: ml-slider.php:1964 ml-slider.php:1991 ml-slider.php:2017 ml-slider.php:2042
+#: ml-slider.php:1990 ml-slider.php:2017 ml-slider.php:2043 ml-slider.php:2068
 msgid "Find out more about all the features of the Add-on Pack here"
 msgstr "Ta reda på mer om alla funktioner i tilläggspaketet här"
 
-#: ml-slider.php:1963
+#: ml-slider.php:1989
 msgid "Additional optimization and customization options including using a video as the slide background, and adjusting the padding and background color of each layer."
 msgstr "Ytterligare optimeringar och anpassningsalternativ, såsom videobakgrund i bilder och justering av padding och bakgrundsfärg för varje lager."
 
-#: ml-slider.php:1962
+#: ml-slider.php:1988
 msgctxt "Translators: %1$s opens and %2$s closes a strong tag"
 msgid "Layers can include %1$s text, HTML, images, videos %2$s and even %1$s shortcodes%2$s!"
 msgstr "Lager kan inkludera %1$stext, HTML, bilder, videoklipp%2$s och till och med %1$skortkoder%2$s!"
 
-#: ml-slider.php:1962
+#: ml-slider.php:1988
 msgctxt "Translators: %s opens and closes a strong tag"
 msgid "Ideal for easily creating eye-catching presentations and slideshows using stunning effects with %s 30 animation options %s and a beautiful, easy to use interface."
 msgstr "Idealiskt för att enkelt skapa iögonfallande presentationer och bildspel med fantastiska övergångseffekter med %s30 animeringsvarianter%s och med ett vackert och lättanvänt användargränssnitt."
+
+#: ml-slider.php:1584
+msgid "Read about it here"
+msgstr "Här kan du läsa mer om det"
+
+#: ml-slider.php:1584
+msgid "We're bringing themes to MetaSlider! Preview and apply a professional theme to really make your website stand out."
+msgstr "Nu skapar vi teman för MetaSlider! Förhandsvisa och tillämpa ett professionellt tema för att din webbplats verkligen ska märkas i mängden."
+
+#: ml-slider.php:1584
+msgid "Coming Soon"
+msgstr "Kommer snart"
 
 #: inc/slide/metaslide.image.class.php:363
 msgid "Schedule"
@@ -118,11 +114,11 @@ msgstr "Detta bildspel är inte längre tillgängligt."
 msgid "The request format was not valid."
 msgstr "Förfrågans format var ogiltigt."
 
-#: ml-slider.php:1636
+#: ml-slider.php:1662
 msgid "Fade in the first slide"
 msgstr "Tona in den första bilden"
 
-#: ml-slider.php:1633
+#: ml-slider.php:1659
 msgid "Fade in"
 msgstr "Tona in"
 
@@ -180,23 +176,23 @@ msgstr "Aktivera detta för att ärva bildens bildtext"
 msgid "Dismiss"
 msgstr "Avfärda"
 
-#: ml-slider.php:2181
+#: ml-slider.php:2207
 msgid "Add-ons / Other Plugins"
 msgstr "Utökningar/andra tillägg"
 
-#: ml-slider.php:2181
+#: ml-slider.php:2207
 msgid "View Add-ons / Other Plugins"
 msgstr "Visa utökningar/andra tillägg"
 
-#: ml-slider.php:2083
-msgid "To display your slideshow using id or title, add the following shortcodes (in orange) to your page. If adding the slideshow to your theme files, additionally include the surrounding PHP function (in gray)."
-msgstr "För att visa ditt bildspel med id eller rubrik lägger du till följande kortkoder (i orange) på din sida. Om du lägger till bildspelet i dina temafiler, behöver du dessutom inkludera den omgivande PHP-funktionen (i grått)."
+#: ml-slider.php:2109
+msgid "To display your slideshow using id or title , add the following shortcodes (in orange) to your page. If adding the slideshow to your theme files, additionally include the surrounding PHP function (in gray)."
+msgstr "För att visa ditt bildspel med hjälp av id eller rubrik lägger du till nedanstående kortkod (i orange) på din sida. Om du lägger till bildspelet i filerna för ditt tema behöver du dessutom inkludera den omgivande PHP-funktionen (i grått)."
 
-#: ml-slider.php:1565
+#: ml-slider.php:1591
 msgid "Click to toggle"
 msgstr "Klicka för att slå på/av"
 
-#: ml-slider.php:2069
+#: ml-slider.php:2095
 msgid "How to Use"
 msgstr "Hur man använder"
 
@@ -208,55 +204,55 @@ msgstr "Objektet har kopierats till ditt urklipp"
 msgid "Success"
 msgstr "Klart"
 
-#: ml-slider.php:2190
+#: ml-slider.php:2216
 msgid "View The Documentation"
 msgstr "Se dokumentationen"
 
-#: ml-slider.php:2171
+#: ml-slider.php:2197
 msgid "Layout"
 msgstr "Layout"
 
-#: ml-slider.php:2151
+#: ml-slider.php:2177
 msgid "Get The Pro Pack Today!"
 msgstr "Skaffa Pro Pack idag!"
 
-#: ml-slider.php:2149
+#: ml-slider.php:2175
 msgid "Upgrade Now"
 msgstr "Uppgradera nu"
 
-#: ml-slider.php:2113
+#: ml-slider.php:2139
 msgid "Leave a review"
 msgstr "Lämna en recension"
 
-#: ml-slider.php:2106
+#: ml-slider.php:2132
 msgid "Premium Support"
 msgstr "Premium support"
 
-#: ml-slider.php:2110
+#: ml-slider.php:2136
 msgid "Support"
 msgstr "Support"
 
-#: ml-slider.php:2104
+#: ml-slider.php:2130
 msgid "Take a tour"
 msgstr "Ta en rundtur"
 
-#: ml-slider.php:1854
+#: ml-slider.php:1880
 msgid "Delete Slideshow"
 msgstr "Ta bort bildspel"
 
-#: ml-slider.php:1546
+#: ml-slider.php:1568
 msgid "Trash"
 msgstr "Papperskorg"
 
-#: ml-slider.php:1545
+#: ml-slider.php:1567
 msgid "View trashed slides"
 msgstr "Visa bilder i papperskorgen"
 
-#: ml-slider.php:1513
+#: ml-slider.php:1535
 msgid "Filmstrip"
 msgstr "Filmremsa"
 
-#: ml-slider.php:1509
+#: ml-slider.php:1531
 msgid "Thumbnail"
 msgstr "Miniatyr"
 
@@ -547,9 +543,9 @@ msgstr "Installerad"
 msgid "pro"
 msgstr "pro"
 
-#: admin/views/pages/upgrade.php:21 ml-slider.php:350 ml-slider.php:2109
+#: admin/views/pages/upgrade.php:21 ml-slider.php:350 ml-slider.php:2135
 msgid "Add-ons"
-msgstr "Utökningar"
+msgstr "Tillägg"
 
 #: admin/views/pages/upgrade.php:20
 msgid "free"
@@ -779,16 +775,16 @@ msgid "Summer sale - 20% off the MetaSlider Add-on Pack until July 31st"
 msgstr "Sommarrea – 50&nbsp;% rabatt på MetaSlider Add-on Pack till 31 juli"
 
 #: admin/Notices.php:254
-msgid "Spring sale - 20% off the MetaSlider Add-on Pack until April 30th"
-msgstr "Vårrea – 20&nbsp;% rabatt på MetaSlider Add-on Pack till 30 april"
+msgid "Spring sale - 50% off the MetaSlider Add-on Pack until April 30th"
+msgstr "Vårrea – 50&nbsp;% rabatt på MetaSlider Add-on Pack till 30 april"
 
 #: admin/Notices.php:241
-msgid "Happy New Year - 20% off the MetaSlider Add-on Pack until January 14th"
-msgstr "Nyårserbjudande – 20&nbsp;% rabatt på MetaSlider Add-on Pack till 14 januari"
+msgid "Happy New Year - 50% off the MetaSlider Add-on Pack until January 14th"
+msgstr "Nyårserbjudande – 50&nbsp;% rabatt på MetaSlider Add-on Pack till 14 januari"
 
 #: admin/Notices.php:228
-msgid "Christmas sale - 20% off the MetaSlider Add-on Pack until December 25th"
-msgstr "Julrea – 20&nbsp;% rabatt på MetaSlider Add-on Pack till 25 december"
+msgid "Christmas sale - 50% off the MetaSlider Add-on Pack until December 25th"
+msgstr "Julrea – 50&nbsp;% rabatt på MetaSlider Add-on Pack till 25 december"
 
 #: admin/Notices.php:216 admin/Notices.php:229 admin/Notices.php:242
 #: admin/Notices.php:255 admin/Notices.php:268
@@ -796,8 +792,8 @@ msgid "To benefit, use this discount code:"
 msgstr "Använd denna rabattkod för att utnytta erbjudandet:"
 
 #: admin/Notices.php:215
-msgid "Black Friday - 20% off the MetaSlider Add-on Pack until November 30th"
-msgstr "Black Friday – 20&nbsp;% rabatt på MetaSlider Add-on Pack till 30 november"
+msgid "Black Friday - 50% off the MetaSlider Add-on Pack until November 30th"
+msgstr "Black Friday – 50&nbsp;% rabatt på MetaSlider Add-on Pack till 30 november"
 
 #: admin/Notices.php:173
 msgid "Supercharge & secure your WordPress site with our other top plugins:"
@@ -887,387 +883,411 @@ msgstr "Inläggsflöde"
 msgid "Easy to use slideshow plugin. Create SEO optimised responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides."
 msgstr "Lättanvänt tillägg för bildspel. Skapa SEO-optimerade responsiva bildspel med Nivo Slider, Flex Slider, Coin Slider och Responsive Slides."
 
-#. #-#-#-#-#  ml-slider-code.pot (MetaSlider 3.10.0)  #-#-#-#-#
+#. #-#-#-#-#  ml-slider-code.pot (MetaSlider 3.9.0)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  ml-slider-code.pot (MetaSlider 3.10.0)  #-#-#-#-#
+#. #-#-#-#-#  ml-slider-code.pot (MetaSlider 3.9.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "https://www.metaslider.com"
 msgstr "https://www.metaslider.com"
 
-#: ml-slider.php:1931
+#: ml-slider.php:1957
 msgid "Insert slideshow"
 msgstr "Infoga bildspel"
 
-#: ml-slider.php:1925
+#: ml-slider.php:1951
 msgid "Choose slideshow"
 msgstr "Välj bildspel"
 
-#: ml-slider.php:1923
+#: ml-slider.php:1949
 msgid "Insert MetaSlider"
 msgstr "Infoga MetaSlider"
 
-#: ml-slider.php:1889
+#: ml-slider.php:1915
 msgid "Add slider"
 msgstr "Lägg till bildspel"
 
-#: ml-slider.php:1886
+#: ml-slider.php:1912
 msgid "Select slideshow to insert into post"
 msgstr "Välj bildspel att infoga i inlägg"
 
-#: ml-slider.php:1839
+#: ml-slider.php:1865
 msgid "Delay adding the flexslider class to the slideshow"
 msgstr "Fördröjning innan flexslider-klassen läggs till i bildspelet"
 
-#: ml-slider.php:1836
+#: ml-slider.php:1862
 msgid "No conflict mode"
 msgstr "Inget konfliktläge"
 
-#: ml-slider.php:1831
+#: ml-slider.php:1857
 msgid "Uncheck this is you would like to include your own Javascript"
 msgstr "Avmarkera det här är du vill inkludera ditt eget Javascript"
 
-#: ml-slider.php:1828
+#: ml-slider.php:1854
 msgid "Print JS"
 msgstr "Skriv ut JS"
 
-#: ml-slider.php:1823
+#: ml-slider.php:1849
 msgid "Uncheck this is you would like to include your own CSS"
 msgstr "Avmarkera det här om du vill inkludera din egen CSS"
 
-#: ml-slider.php:1820
+#: ml-slider.php:1846
 msgid "Print CSS"
 msgstr "Skriv ut CSS"
 
-#: ml-slider.php:1814
+#: ml-slider.php:1840
 msgid "Specify any custom CSS Classes you would like to be added to the slider wrapper"
 msgstr "Ange eventuella anpassade CSS-klasser som du vill lägga till i reglaget för bildspelet"
 
-#: ml-slider.php:1812
+#: ml-slider.php:1838
 msgid "CSS classes"
 msgstr "CSS-klasser"
 
-#: ml-slider.php:1807
+#: ml-slider.php:1833
 msgid "Developer options"
 msgstr "Utvecklaralternativ"
 
-#: ml-slider.php:1800
+#: ml-slider.php:1826
 msgid "Set the fade in speed of the caption"
 msgstr "Ange hur snabbt bildtexten tonas in"
 
-#: ml-slider.php:1798
+#: ml-slider.php:1824
 msgid "Caption speed"
 msgstr "Hastighet för bildtexter"
 
-#: ml-slider.php:1787
+#: ml-slider.php:1813
 msgid "Opacity of title and navigation"
 msgstr "Opacitet för rubrik och navigering"
 
-#: ml-slider.php:1785
+#: ml-slider.php:1811
 msgid "Opacity"
 msgstr "Opacitet"
 
-#: ml-slider.php:1774
+#: ml-slider.php:1800
 msgid "Delay between squares in ms"
 msgstr "Fördröjning mellan kvadrater i ms"
 
-#: ml-slider.php:1772
+#: ml-slider.php:1798
 msgid "Square delay"
 msgstr "Kvadratfördröjning"
 
-#: ml-slider.php:1761
+#: ml-slider.php:1787
 msgid "Set the text for the 'next' direction item"
 msgstr "Ange texten för riktningen till ”nästa” objekt"
 
-#: ml-slider.php:1759
+#: ml-slider.php:1785
 msgid "Next text"
 msgstr "Nästa text"
 
-#: ml-slider.php:1753
+#: ml-slider.php:1779
 msgid "Set the text for the 'previous' direction item"
 msgstr "Ange texten för riktningen till ”föregående” objekt"
 
-#: ml-slider.php:1751
+#: ml-slider.php:1777
 msgid "Previous text"
 msgstr "Föregående text"
 
-#: ml-slider.php:1744
+#: ml-slider.php:1770
 msgid "Animation easing effect"
 msgstr "Upplättande effekt av animeringen"
 
-#: ml-slider.php:1742
+#: ml-slider.php:1768
 msgid "Easing"
 msgstr "Upplättning"
 
-#: ml-slider.php:1736
+#: ml-slider.php:1762
 msgid "Vertical"
 msgstr "Vertikal"
 
-#: ml-slider.php:1735
+#: ml-slider.php:1761
 msgid "Horizontal"
 msgstr "Horisontell"
 
-#: ml-slider.php:1732
+#: ml-slider.php:1758
 msgid "Select the sliding direction"
 msgstr "Välj skjutriktning"
 
-#: ml-slider.php:1730
+#: ml-slider.php:1756
 msgid "Slide direction"
 msgstr "Skjutriktning"
 
-#: ml-slider.php:1709 ml-slider.php:1711 ml-slider.php:1722 ml-slider.php:1724
+#: ml-slider.php:1735 ml-slider.php:1737 ml-slider.php:1748 ml-slider.php:1750
 msgid "Number of squares"
 msgstr "Antal fyrkanter"
 
-#: ml-slider.php:1696 ml-slider.php:1698
+#: ml-slider.php:1722 ml-slider.php:1724
 msgid "Number of slices"
 msgstr "Antal persienner"
 
-#: ml-slider.php:1685
+#: ml-slider.php:1711
 msgid "Set the speed of animations, in milliseconds"
 msgstr "Ange animationshastighet, i millisekunder"
 
-#: ml-slider.php:1683
+#: ml-slider.php:1709
 msgid "Animation speed"
 msgstr "Animationshastighet"
 
-#: ml-slider.php:1673 ml-slider.php:1686 ml-slider.php:1699 ml-slider.php:1775
-#: ml-slider.php:1801
+#: ml-slider.php:1699 ml-slider.php:1712 ml-slider.php:1725 ml-slider.php:1801
+#: ml-slider.php:1827
 msgid "ms"
 msgstr "ms"
 
-#: ml-slider.php:1672
+#: ml-slider.php:1698
 msgid "How long to display each slide, in milliseconds"
 msgstr "Hur länge varje bild visas i millisekunder"
 
-#: ml-slider.php:1670
+#: ml-slider.php:1696
 msgid "Slide delay"
 msgstr "Fördröjning mellan bilder"
 
-#: ml-slider.php:1660
+#: ml-slider.php:1686
 msgid "Reverse the animation direction"
 msgstr "Vänd animationsriktningen"
 
-#: ml-slider.php:1657
+#: ml-slider.php:1683
 msgid "Reverse"
 msgstr "Omvänd"
 
-#: ml-slider.php:1652
+#: ml-slider.php:1678
 msgid "Pause the slideshow when hovering over slider, then resume when no longer hovering."
 msgstr "Gör paus i bildvisningen när markören befinner sig över bildspelet, återuppta därefter."
 
-#: ml-slider.php:1649
+#: ml-slider.php:1675
 msgid "Hover pause"
 msgstr "Gör paus när markören befinner sig över objektet"
 
-#: ml-slider.php:1644
+#: ml-slider.php:1670
 msgid "Randomise the order of the slides"
 msgstr "Sortera bilderna slumpmässigt"
 
-#: ml-slider.php:1627
+#: ml-slider.php:1653
 msgid "Pixel margin between slides in carousel."
 msgstr "Marginal i pixlar mellan bilder i karusellen."
 
-#: ml-slider.php:1624
+#: ml-slider.php:1650
 msgid "Carousel margin"
 msgstr "Karusellmarginal"
 
-#: ml-slider.php:1616
+#: ml-slider.php:1642
 msgid "Display multiple slides at once. Slideshow output will be 100% wide."
 msgstr "Visa flera bilder samtidigt. Bildspelets utmatning kommer att fylla 100 % av bredden."
 
-#: ml-slider.php:1613
+#: ml-slider.php:1639
 msgid "Carousel mode"
 msgstr "Karusellläge"
 
-#: ml-slider.php:1608
+#: ml-slider.php:1634
 msgid "Smart Crop ensures your responsive slides are cropped to a ratio that results in a consistent slideshow size"
 msgstr "Smart Crop säkerställer att dina responsiva bilder beskärs till ett bildformat som ger en konsekvent storlek på bildspelet"
 
-#: ml-slider.php:1606
+#: ml-slider.php:1632
 msgid "Disabled (Smart Pad)"
 msgstr "Inaktiverad (Smart Pad)"
 
-#: ml-slider.php:1605
+#: ml-slider.php:1631
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: ml-slider.php:1604
+#: ml-slider.php:1630
 msgid "Standard"
 msgstr "Standard"
 
-#: ml-slider.php:1603
+#: ml-slider.php:1629
 msgid "Smart Crop"
 msgstr "Smart beskärning"
 
-#: ml-slider.php:1599
+#: ml-slider.php:1625
 msgid "Image Crop"
 msgstr "Bildbeskärning"
 
-#: ml-slider.php:1594
+#: ml-slider.php:1620
 msgid "Transition between slides automatically"
 msgstr "Växla automatiskt mellan bilder"
 
-#: ml-slider.php:1591
+#: ml-slider.php:1617
 msgid "Auto play"
 msgstr "Autospela"
 
-#: ml-slider.php:1586
+#: ml-slider.php:1612
 msgid "Center align the slideshow"
 msgstr "Centrera bildspelet"
 
-#: ml-slider.php:1583
+#: ml-slider.php:1609
 msgid "Center align"
 msgstr "Centrerat"
 
-#: ml-slider.php:1578
+#: ml-slider.php:1604
 msgid "Stretch the slideshow output to fill it's parent container"
 msgstr "Sträck ut bildspelet så att det fyller överordnad container"
 
-#: ml-slider.php:1576
+#: ml-slider.php:1602
 msgid "100% wide output"
 msgstr "Utmatning med 100 % bredd"
 
-#: ml-slider.php:1574
+#: ml-slider.php:1600
 msgid "Stretch"
 msgstr "Sträck ut"
 
-#: ml-slider.php:1565
+#: ml-slider.php:1591
 msgid "Advanced Settings"
 msgstr "Avancerade inställningar"
 
-#: ml-slider.php:1527
+#: ml-slider.php:1549
 msgid "Slideshow title"
 msgstr "Bildspelsrubrik"
 
-#: ml-slider.php:1526
+#: ml-slider.php:1548
 msgid "Title"
 msgstr "Titel"
 
-#: ml-slider.php:1507
+#: ml-slider.php:1529
 msgid "Dots"
 msgstr "Punkter"
 
-#: ml-slider.php:1506
+#: ml-slider.php:1528
 msgid "Hidden"
 msgstr "Dold"
 
-#: ml-slider.php:1504
+#: ml-slider.php:1526
 msgid "Show the slide navigation bullets"
 msgstr "Visa bildnavigeringspunkterna"
 
-#: ml-slider.php:1501
+#: ml-slider.php:1523
 msgid "Navigation"
 msgstr "Navigering"
 
-#: ml-slider.php:1496
+#: ml-slider.php:1518
 msgid "Show the previous/next arrows"
 msgstr "Visa pilar för föregående/nästa"
 
-#: ml-slider.php:1493
+#: ml-slider.php:1515
 msgid "Arrows"
 msgstr "Pilar"
 
-#: ml-slider.php:1487
+#: admin/lib/temporary.php:35
+msgid "Bar (Nivo)"
+msgstr "Fält (Nivo)"
+
+#: admin/lib/temporary.php:34
+msgid "Light (Nivo)"
+msgstr "Ljus (Nivo)"
+
+#: admin/lib/temporary.php:33
+msgid "Dark (Nivo)"
+msgstr "Mörk (Nivo)"
+
+#: admin/lib/temporary.php:32
+msgid "Default"
+msgstr "Standard"
+
+#: admin/lib/temporary.php:30
+msgid "Slideshow theme"
+msgstr "Bildspelstema"
+
+#: admin/lib/temporary.php:28
+msgid "Theme"
+msgstr "Tema"
+
+#: ml-slider.php:1509
 msgid "Slide"
 msgstr "Bild"
 
-#: ml-slider.php:1486
+#: ml-slider.php:1508
 msgid "Box Rain Grow Reverse"
 msgstr "Box regn väx och vänd"
 
-#: ml-slider.php:1485
+#: ml-slider.php:1507
 msgid "Box Rain Reverse"
 msgstr "Box omvänt regn"
 
-#: ml-slider.php:1484
+#: ml-slider.php:1506
 msgid "Box Rain"
 msgstr "Box regn"
 
-#: ml-slider.php:1483
+#: ml-slider.php:1505
 msgid "Box Random"
 msgstr "Box Slumpmässigt"
 
-#: ml-slider.php:1482
+#: ml-slider.php:1504
 msgid "Slide In Left"
 msgstr "Skjut in vänster"
 
-#: ml-slider.php:1481
+#: ml-slider.php:1503
 msgid "Slide In Right"
 msgstr "Skut in höger"
 
-#: ml-slider.php:1480
+#: ml-slider.php:1502
 msgid "Fade"
 msgstr "Tona"
 
-#: ml-slider.php:1479
+#: ml-slider.php:1501
 msgid "Fold"
 msgstr "Vik samman"
 
-#: ml-slider.php:1478
+#: ml-slider.php:1500
 msgid "Slide Up Down Left"
 msgstr "Förskjutning uppåt, nedåt, åt vänster"
 
-#: ml-slider.php:1477
+#: ml-slider.php:1499
 msgid "Slice Up Down"
 msgstr "Persienner uppåt och nedåt"
 
-#: ml-slider.php:1476
+#: ml-slider.php:1498
 msgid "Slide Up Left"
 msgstr "Förskjut uppåt åt vänster"
 
-#: ml-slider.php:1475
+#: ml-slider.php:1497
 msgid "Slice Up"
 msgstr "Persienner uppåt"
 
-#: ml-slider.php:1474
+#: ml-slider.php:1496
 msgid "Slide Down"
 msgstr "Glid ned"
 
-#: ml-slider.php:1473
+#: ml-slider.php:1495
 msgid "Straight"
 msgstr "Rakt"
 
-#: ml-slider.php:1472
+#: ml-slider.php:1494
 msgid "Rain"
 msgstr "Regn"
 
-#: ml-slider.php:1471
+#: ml-slider.php:1493
 msgid "Swirl"
 msgstr "Virvel"
 
-#: ml-slider.php:1470 ml-slider.php:1641
+#: ml-slider.php:1492 ml-slider.php:1667
 msgid "Random"
 msgstr "Slumpat"
 
-#: ml-slider.php:1468
+#: ml-slider.php:1490
 msgid "Slide transition effect"
 msgstr "Övergångseffekt mellan bilder"
 
-#: ml-slider.php:1466
+#: ml-slider.php:1488
 msgid "Effect"
 msgstr "Effekt"
 
-#: ml-slider.php:1459
+#: ml-slider.php:1481
 msgid "Slideshow height"
 msgstr "Bildspelets höjd"
 
-#: ml-slider.php:1457 ml-slider.php:1722
+#: ml-slider.php:1479 ml-slider.php:1748
 msgid "Height"
 msgstr "Höjd"
 
-#: ml-slider.php:1447 ml-slider.php:1460 ml-slider.php:1628
+#: ml-slider.php:1469 ml-slider.php:1482 ml-slider.php:1654
 msgid "px"
 msgstr "px"
 
-#: ml-slider.php:1446
+#: ml-slider.php:1468
 msgid "Slideshow width"
 msgstr "Bildspelets bredd"
 
-#: ml-slider.php:1444 ml-slider.php:1709
+#: ml-slider.php:1466 ml-slider.php:1735
 msgid "Width"
 msgstr "Bredd"
 
-#: ml-slider.php:1416
+#: ml-slider.php:1438
 msgid "Save"
 msgstr "Spara"
 
@@ -1283,11 +1303,11 @@ msgstr "Lägg till ett nytt bildspel"
 msgid "or"
 msgstr "eller"
 
-#: ml-slider.php:2169
+#: ml-slider.php:2195
 msgid "Switch to Tab view"
 msgstr "Byt till flikvy"
 
-#: ml-slider.php:2169
+#: ml-slider.php:2195
 msgid "Switch to Dropdown view"
 msgstr "Byt till rullgardinsmeny"
 
@@ -1307,7 +1327,7 @@ msgstr "Välj ersättningsbild"
 msgid "Are you sure?"
 msgstr "Är du säker?"
 
-#: ml-slider.php:2112 ml-slider.php:2190
+#: ml-slider.php:2138 ml-slider.php:2216
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -1399,7 +1419,7 @@ msgstr "Det gick inte att lägga till bilden. Bilden är ingen bildfil."
 msgid "Delete slide"
 msgstr "Radera bild"
 
-#: inc/metaslider.widget.class.php:119 ml-slider.php:1933
+#: inc/metaslider.widget.class.php:119 ml-slider.php:1959
 msgid "No slideshows found"
 msgstr "Inga bildspel hittade"
 

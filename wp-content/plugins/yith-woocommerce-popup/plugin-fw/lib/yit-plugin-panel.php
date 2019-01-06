@@ -19,7 +19,7 @@ if ( !class_exists( 'YIT_Plugin_Panel' ) ) {
      * Setting Page to Manage Plugins
      *
      * @class      YIT_Plugin_Panel
-     * @package    YITH
+     * @package    Yithemes
      * @since      1.0
      * @author     Your Inspiration Themes
      */
@@ -158,7 +158,7 @@ if ( !class_exists( 'YIT_Plugin_Panel' ) ) {
 
                 //  YITH text must not be translated
                 if ( !!$show ) {
-                    add_menu_page( 'yith_plugin_panel', 'YITH', $capability, 'yith_plugin_panel', null, yith_plugin_fw_get_default_logo(), $position );
+                    add_menu_page( 'yith_plugin_panel', 'YITH', $capability, 'yith_plugin_panel', null, YIT_CORE_PLUGIN_URL . '/assets/images/yithemes-icon.png', $position );
                     $admin_page_hooks[ 'yith_plugin_panel' ] = 'yith-plugins'; // prevent issues for backward compatibility
                 }
             }
@@ -337,13 +337,6 @@ if ( !class_exists( 'YIT_Plugin_Panel' ) ) {
                     '//support.yithemes.com/hc/en-us/articles/217840988',
                     __( 'How to install premium version', 'yith-plugin-fw' ),
                 );
-
-	            $submenu[ 'yith_plugin_panel' ][ 'frequently_license_issues' ] = array(
-		            sprintf( '%s%s%s', '<span id="yith-license-issues-premium">', __( 'Frequently license issues', 'yith-plugin-fw' ), '</span>' ),
-		            'install_plugins',
-		            '//support.yithemes.com/hc/en-us/articles/360012568594-License-activation-issues',
-		            __( 'Frequently license issues', 'yith-plugin-fw' ),
-	            );
             }
         }
 

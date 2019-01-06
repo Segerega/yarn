@@ -119,9 +119,8 @@ class MetaSlider_Themes {
 
 		$theme = get_post_meta($slideshow_id, 'metaslider_slideshow_theme', true);
 
-		// If the theme is none, it means no theme is set (happens if they remove a theme)
-		// $theme may be WP_Error due to a bug in 3.9.1
-		if ('none' === $theme || is_wp_error($theme)) return false;
+		// if the theme is none, it means no theme is set (happens if they remove a theme)
+		if ('none' === $theme) return false;
 
 		$is_a_custom_theme = (isset($theme['folder']) && ('_theme' === substr($theme['folder'], 0, 6)));
 
@@ -149,16 +148,6 @@ class MetaSlider_Themes {
 			$theme['version'] = $this->get_latest_version($theme['folder']);
 		}
 
-        // At this point, if it's a custom theme we are okay
-        if ($is_a_custom_theme) return $theme;
-
-        // If the folder physically doesn't exist then we need to send an error
-        if (!file_exists(METASLIDER_THEMES_PATH . trailingslashit($theme['folder']) . $theme['version'])) {
-
-			// TODO in the future if we add versioning this could switch to an older version and message them about it.
-            return new WP_Error('theme_not_found', __('Your selected theme is no longer available. Was the folder deleted?', 'ml-slider'));
-		}
-		
 		return $theme;
 	}
 
@@ -188,7 +177,7 @@ class MetaSlider_Themes {
 	public function set($slideshow_id, $theme) {
 
 		// If the theme isn't set, then they attempted to remove the theme
-		if (!isset($theme['folder']) || is_wp_error($theme)) {
+		if (!isset($theme['folder'])) {
 			return update_post_meta($slideshow_id, 'metaslider_slideshow_theme', 'none');
 		}
 
@@ -222,6 +211,9 @@ class MetaSlider_Themes {
 	 */
 	public function load_theme($slideshow_id, $theme_id = null) {
 
+		// TODO remove in next release
+        return false; // disable themes for this release
+
 		// Don't load a theme on the editor page.
 		if (is_admin() && function_exists('get_current_screen')) {
 			if ('metaslider-pro_page_metaslider-theme-editor' === get_current_screen()->id) return false;
@@ -235,7 +227,7 @@ class MetaSlider_Themes {
 
 		// We have a theme, so lets add the class to the body
 		$this->theme_id = $theme['folder'];
-		add_filter('metaslider_css_classes', array($this, 'add_theme_class'), 10, 3);
+		add_action('metaslider_css_classes', array($this, 'add_theme_class'), 10, 3);
 		
 		// Custom themes don't need any special file loading.
 		if (!file_exists(METASLIDER_THEMES_PATH . trailingslashit($theme['folder']))) {

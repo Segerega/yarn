@@ -45,8 +45,9 @@ class WC_Gateway_Paypal_IPN_Handler extends WC_Gateway_Paypal_Response {
 		if ( ! empty( $_POST ) && $this->validate_ipn() ) { // WPCS: CSRF ok.
 			$posted = wp_unslash( $_POST ); // WPCS: CSRF ok, input var ok.
 
-			// phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
+			// @codingStandardsIgnoreStart
 			do_action( 'valid-paypal-standard-ipn-request', $posted );
+			// @codingStandardsIgnoreEnd
 			exit;
 		}
 

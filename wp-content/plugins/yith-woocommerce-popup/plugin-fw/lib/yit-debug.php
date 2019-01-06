@@ -17,7 +17,7 @@ if ( !class_exists( 'YITH_Debug' ) ) {
      * manages debug
      *
      * @class       YITH_Debug
-     * @package     YITH
+     * @package     Yithemes
      * @since       1.0.0
      * @author      Leanza Francesco <leanzafrancesco@gmail.com>
      *

@@ -17,7 +17,7 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 	 * An email sent to the customer via admin.
 	 *
 	 * @class       WC_Email_Customer_Invoice
-	 * @version     3.5.0
+	 * @version     2.3.0
 	 * @package     WooCommerce/Classes/Emails
 	 * @extends     WC_Email
 	 */
@@ -54,9 +54,9 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 		 */
 		public function get_default_subject( $paid = false ) {
 			if ( $paid ) {
-				return __( 'Invoice for order #{order_number} on {site_title}', 'woocommerce' );
+				return __( 'Your {site_title} order from {order_date}', 'woocommerce' );
 			} else {
-				return __( 'Your latest {site_title} invoice', 'woocommerce' );
+				return __( 'Invoice for order {order_number}', 'woocommerce' );
 			}
 		}
 
@@ -69,15 +69,16 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 		 */
 		public function get_default_heading( $paid = false ) {
 			if ( $paid ) {
-				return __( 'Invoice for order #{order_number}', 'woocommerce' );
+				return __( 'Your order details', 'woocommerce' );
 			} else {
-				return __( 'Your invoice for order #{order_number}', 'woocommerce' );
+				return __( 'Invoice for order {order_number}', 'woocommerce' );
 			}
 		}
 
 		/**
 		 * Get email subject.
 		 *
+		 * @access public
 		 * @return string
 		 */
 		public function get_subject() {
@@ -94,6 +95,7 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 		/**
 		 * Get email heading.
 		 *
+		 * @access public
 		 * @return string
 		 */
 		public function get_heading() {
@@ -136,6 +138,7 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 		/**
 		 * Get content html.
 		 *
+		 * @access public
 		 * @return string
 		 */
 		public function get_content_html() {
@@ -153,6 +156,7 @@ if ( ! class_exists( 'WC_Email_Customer_Invoice', false ) ) :
 		/**
 		 * Get content plain.
 		 *
+		 * @access public
 		 * @return string
 		 */
 		public function get_content_plain() {

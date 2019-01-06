@@ -216,6 +216,9 @@ class WC_Addons_Gateway_Simplify_Commerce extends WC_Gateway_Simplify_Commerce {
 					throw new Simplify_ApiException( $error_msg );
 				}
 
+				// Reduce stock levels
+				wc_reduce_stock_levels( $order->get_id() );
+
 				// Remove cart
 				WC()->cart->empty_cart();
 

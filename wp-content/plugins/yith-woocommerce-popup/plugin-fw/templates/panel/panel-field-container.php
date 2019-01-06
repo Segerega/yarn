@@ -11,7 +11,7 @@
 /**
  * Field Container for YIT Panel
  *
- * @package    YITH
+ * @package    Yithemes
  * @author     Leanza Francesco <leanzafrancesco@gmail.com>
  * @since      3.0.0
  */

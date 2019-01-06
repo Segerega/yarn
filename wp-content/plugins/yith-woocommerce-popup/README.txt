@@ -2,8 +2,8 @@
 Contributors: yithemes
 Tags: popup, popups, custom popup, woocommerce popup, pop-up
 Requires at least: 4.0.0
-Tested up to: 5.0
-Stable tag: 1.2.8
+Tested up to: 4.9
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,17 +55,6 @@ During this transition step, .po and .mo files will be used as always, but in or
 4. Popup in front page
 
 == Changelog ==
-= 1.2.8 - Released on Dec 06, 2018 =
-* New: Support to WordPress 5.0
-* Update: Plugin Core 3.1.5
-
-= 1.2.7 - Released on Oct 24, 2018 =
-Update: Plugin Core 3.0.28
-
-= 1.2.6 - Released on Oct 17, 2018 =
-New: Support to WooCommerce 3.5.0 RC2
-Update: Plugin Core 3.0.25
-
 = 1.2.5 - Released on Sep 26, 2018 =
 Update: Plugin Core 3.0.23
 Update: Language files

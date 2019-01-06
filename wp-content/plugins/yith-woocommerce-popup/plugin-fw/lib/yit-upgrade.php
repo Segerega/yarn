@@ -18,7 +18,7 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 	 * Notify and Update plugin
 	 *
 	 * @class       YIT_Upgrade
-	 * @package     YITH
+	 * @package     Yithemes
 	 * @since       1.0
 	 * @author      Your Inspiration Themes
 	 * @see         WP_Updater Class
@@ -236,23 +236,12 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 		 * @author   Andrea Grillo <andrea.grillo@yithemes.com>
 		 */
 		public function upgrader_pre_download( $reply, $package, $upgrader ) {
-			$plugin       = false;
-			$is_bulk      = $upgrader->skin instanceof Bulk_Plugin_Upgrader_Skin;
-			$is_bulk_ajax = $upgrader->skin instanceof WP_Ajax_Upgrader_Skin;
+			$plugin  = false;
+			$is_bulk = $upgrader->skin instanceof Bulk_Plugin_Upgrader_Skin;
 
-			if ( ! $is_bulk && ! $is_bulk_ajax ) {
-				//Bulk Action: Support for old WordPress Version
+			if ( ! $is_bulk ) {
 				$plugin = isset( $upgrader->skin->plugin ) ? $upgrader->skin->plugin : false;
-			}
-
-			elseif( $is_bulk_ajax ){
-				//Bulk Update for WordPress 4.9 or greater
-				if( ! empty( $_POST['plugin'] ) ){
-					$plugin = plugin_basename( sanitize_text_field( wp_unslash( $_POST['plugin'] ) ) );
-				}
-			}
-
-			else {
+			} else {
 				//Bulk action upgrade
 				$action_url = parse_url( $upgrader->skin->options['url'] );
 				parse_str( rawurldecode( htmlspecialchars_decode( $action_url['query'] ) ), $output );
@@ -284,11 +273,6 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 
 			$licence    = YIT_Plugin_Licence()->get_licence();
 			$product_id = $plugin_info['product_id'];
-
-			if( empty( $licence[ $product_id ] ) ){
-				return new WP_Error( 'license_not_valid', __( 'You have to activate the plugin to benefit from automatic updates.', '[Update Plugin Message: License not enabled]', 'yith-plugin-fw' ) );
-			}
-
 			$args       = array(
 				'email'       => $licence[ $product_id ]['email'],
 				'licence_key' => $licence[ $product_id ]['licence_key'],
@@ -342,7 +326,7 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 
 			//WARNING: The file is not automatically deleted, The script must unlink() the file.
 			if ( ! $url ) {
-				return new WP_Error( 'http_no_url', __( 'Invalid URL Provided.', 'yith-plugin-fw' ) );
+				return new WP_Error( 'http_no_url', __( 'Invalid URL Provided.', 'yit' ) );
 			}
 
 			$tmpfname = wp_tempnam( $url );
@@ -355,7 +339,7 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 			);
 
 			if ( ! $tmpfname ) {
-				return new WP_Error( 'http_no_file', __( 'Could not create Temporary file.', 'yith-plugin-fw' ) );
+				return new WP_Error( 'http_no_file', __( 'Could not create Temporary file.', 'yit' ) );
 			}
 
 			$response = wp_safe_remote_post( $url, $args );
@@ -447,25 +431,12 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 
 							$package = YIT_Plugin_Licence()->check( $init ) ? $this->_package_url : null;
 
-							$tested_up_to   = (string) str_replace( '.x', '', $plugin_remote_info->{"up-to"} );
-							$tested_up_to   = preg_replace( '/-.*$/', '', $tested_up_to );
-							$wp_version     = preg_replace( '/-.*$/', '', get_bloginfo( 'version' ) );
-
-							if( strpos( $wp_version, $tested_up_to ) !== false ){
-								$tested_up_to = $wp_version;
-							}
 							$obj                          = new stdClass();
 							$obj->slug                    = (string) $init;
 							$obj->new_version             = (string) $plugin_remote_info->latest;
 							$obj->changelog               = (string) $plugin_remote_info->changelog;
 							$obj->package                 = $package;
 							$obj->plugin                  = $init;
-							$obj->tested                  = $tested_up_to;
-
-							if( ! empty( $plugin_remote_info->icons ) ){
-								$obj->icons = (array) $plugin_remote_info->icons;
-							}
-
 							$transient->response[ $init ] = $obj;
 						}
 
@@ -649,14 +620,12 @@ if ( ! class_exists( 'YIT_Upgrade' ) ) {
 				//Get license for YITH Plugins
 				$enabled_license = YIT_Plugin_Licence()->get_licence();
 
-				if( isset( $enabled_license[ $slug ]['activated'] ) && false !== $enabled_license[ $slug ]['activated'] ){
-					if( isset( $enabled_license[ $slug ]['licence_key'] ) ){
-						$license = $enabled_license[ $slug ]['licence_key'];
-					}
+				if( isset( $enabled_license[ $slug ]['licence_key'] ) ){
+					$license = $enabled_license[ $slug ]['licence_key'];
+				}
 
-					if( isset( $enabled_license[ $slug ]['is_membership'] ) ){
-						$is_membership_license = $enabled_license[ $slug ]['is_membership'];
-					}
+				if( isset( $enabled_license[ $slug ]['is_membership'] ) ){
+					$is_membership_license = $enabled_license[ $slug ]['is_membership'];
 				}
 			}
 

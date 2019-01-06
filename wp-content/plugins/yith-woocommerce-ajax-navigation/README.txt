@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: woocommerce ajax product filter download, woocommerce, widget, ajax, ajax filtered nav, ajax navigation, ajax filtered navigation, woocommerce layered navigation, woocommerce layered nav, product filter, product filters, ajax product filter, woocommerce ajax product filter, woocommerce filters, sidebar filter, sidebar ajax filter, ajax price filter, price filter, product sorting, woocommerce filter, taxonomy filter, attribute filter, attributes filter, woocommerce product sort, ajax sort, woocommerce ajax product filter, advanced product filters, ajax product filters, filters, woocommerce ajax product filters, woocommerce product filters, woocommerce product filters, category filter, attribute filters, woocommerce products filter, woocommerce price filter, yit, yith, yithemes
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 3.6.1
+Tested up to: 4.9.4
+Stable tag: 3.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ All this can be done in a quick and very intuitive way that will certainly help 
 Working demos for YITH WooCommerce Ajax Product Filter are available here:
 **[LIVE DEMO](https://plugins.yithemes.com/yith-woocommerce-ajax-product-filter/)**
 
-Full documentation for YITH WooCommerce Ajax Product Filter is available [here](https://docs.yithemes.com/yith-woocommerce-ajax-product-filter/).
+Full documentation for YITH WooCommerce Ajax Product Filter is available [here](http://yithemes.com/docs-plugins/yith-woocommerce-ajax-product-filter/).
 
 **Main Features of YITH WooCommerce Ajax Product Filter:**
 
@@ -158,26 +158,6 @@ If you want to see a demonstration version of the premium plugin, you can see it
 10. Admin: YIT Plugins -> Ajax Product Filter -> Custom Style
 
 == Changelog ==
-
-= 3.6.1 - Released on 22th October, 2018 =
-
-* Update: Plugin Core Framework
-
-= 3.6.0 - Released on 11th October, 2018 =
-
-* New: Support for WooCommerce 3.5
-* New: Support for Aardvark theme
-* New: Support for Aurum theme
-* New: Support for UX Shop theme
-* New: Support for YooTheme theme
-* Fix: Wrong results with search query string
-* Fix: Double chosen icon with themes that override layered navigation style
-* Tweak: Widget reinit after ajax call
-* Tweak: Flatsome optimization
-* Tweak: Prevent untrailingslashit on filter url for SEO optimization
-* Update: Spanish language
-* Update: Italian Language
-* Dev: yith_wcan_skip_no_products_label hook
 
 = 3.5.1 - Released on 14th March, 2018 =
 
@@ -600,7 +580,7 @@ If you have created your own language pack, or have an update for an existing on
 
 == Documentation ==
 
-Full documentation is available [here](https://docs.yithemes.com/yith-woocommerce-ajax-product-filter/).
+Full documentation is available [here](http://yithemes.com/docs-plugins/yith_woocommerce_ajax_navigation/).
 
 == Upgrade notice ==
 

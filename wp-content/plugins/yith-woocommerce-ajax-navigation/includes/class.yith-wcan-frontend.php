@@ -124,24 +124,11 @@ if ( ! class_exists( 'YITH_WCAN_Frontend' ) ) {
                 $queried_post_ids = array();
 
                 $problematic_theme = array(
-                    'basel',
-                    'ux-shop',
-	                'aurum',
-	                'aardvark'
+                    'basel'
                 );
 
-                $wp_theme       = wp_get_theme();
-	            $template_name  = $wp_theme->get_template();
-
-	            /**
-	             * Support for Flatsome Theme lower then 3.6.0
-	             */
-	            if( 'flatsome' == $template_name && version_compare( '3.6.0', $wp_theme->Version, '<' ) ){
-		            $problematic_theme[] = 'flatsome';
-	            }
-
                 $is_qTranslateX_and_yit_core_1_0_0 = class_exists( 'QTX_Translator' ) && defined('YIT_CORE_VERSION') && '1.0.0' == YIT_CORE_VERSION;
-                $is_problematic_theme = in_array( $template_name, $problematic_theme );
+                $is_problematic_theme = in_array( wp_get_theme()->get_template(), $problematic_theme );
 
                 if( $is_qTranslateX_and_yit_core_1_0_0 || $is_problematic_theme || class_exists( 'SiteOrigin_Panels' ) ){
                     add_filter( 'yith_wcan_skip_layered_nav_query', '__return_true' );
@@ -185,8 +172,8 @@ if ( ! class_exists( 'YITH_WCAN_Frontend' ) ) {
                         'update_post_meta_cache' => false,
                         'update_post_term_cache' => false,
                         'pagename'               => '',
-                        'wc_query'               => 'get_products_in_view', //Only for WC <= 2.6.x
-                        'suppress_filters'       => true,
+                        'wc_query'               => 'get_products_in_view',
+                        'suppress_filters'       => true
                     )
                 );
 
@@ -233,9 +220,7 @@ if ( ! class_exists( 'YITH_WCAN_Frontend' ) ) {
                 wp_enqueue_style( 'yith-wcan-frontend', YITH_WCAN_URL . 'assets/css/frontend.css', false, $this->version );
                 wp_enqueue_script( 'yith-wcan-script', YITH_WCAN_URL . 'assets/js/yith-wcan-frontend' . $suffix . '.js', array( 'jquery' ), $this->version, true );
 
-	            $custom_style     = yith_wcan_get_option( 'yith_wcan_custom_style', '' );
-	            $current_theme    = function_exists( 'wp_get_theme' ) ? wp_get_theme() : null;
-	            $current_template = $current_theme instanceof WP_Theme ? $current_theme->get_template() : '';
+                $custom_style = yith_wcan_get_option( 'yith_wcan_custom_style', '' );
 
                 ! empty( $custom_style ) && wp_add_inline_style( 'yith-wcan-frontend', sanitize_text_field( $custom_style ) );
 
@@ -261,10 +246,6 @@ if ( ! class_exists( 'YITH_WCAN_Frontend' ) ) {
                         'flatsome'              => array(
                             'is_enabled'         => function_exists( 'flatsome_option' ),
                             'lazy_load_enabled'  => get_theme_mod( 'lazy_load_images' )
-                        ),
-		                /* === YooThemes Theme Support === */
-                        'yootheme' => array(
-	                        'is_enabled' => 'yootheme' === $current_template
                         ),
                     )
                 );

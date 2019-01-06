@@ -5,8 +5,8 @@
   Description: Import and Export Products From and To your WooCommerce Store.
   Author: WebToffee
   Author URI: https://www.webtoffee.com/product/product-import-export-woocommerce/
-  Version: 1.5.2
-  WC tested up to: 3.5.2
+  Version: 1.4.7
+  WC tested up to: 3.4.5
   License:           GPLv3
   License URI:       https://www.gnu.org/licenses/gpl-3.0.html
   Text Domain: wf_csv_import_export
@@ -18,7 +18,7 @@ if (!defined('ABSPATH') || !is_admin()) {
 
 
 if (!defined('WF_PIPE_CURRENT_VERSION')) {
-    define("WF_PIPE_CURRENT_VERSION", "1.5.2");
+    define("WF_PIPE_CURRENT_VERSION", "1.4.7");
 }
 if (!defined('WF_PROD_IMP_EXP_ID')) {
     define("WF_PROD_IMP_EXP_ID", "wf_prod_imp_exp");
@@ -81,8 +81,8 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             public function wf_plugin_action_links($links) {
                 $plugin_links = array(
                     '<a href="' . admin_url('admin.php?page=wf_woocommerce_csv_im_ex&tab=export') . '">' . __('Import Export', 'wf_csv_import_export') . '</a>',
-                    '<a target="_blank" href="https://www.webtoffee.com/product/product-import-export-woocommerce/" style="color:#3db634;"> ' . __('Premium Upgrade', 'wf_csv_import_export') . '</a>',
-                    '<a target="_blank" href="https://www.webtoffee.com/support/">' . __('Support', 'wf_csv_import_export') . '</a>',
+                    '<a target="_blank" href="https://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/" target="_blank">' . __('Premium Upgrade', 'wf_csv_import_export') . '</a>',
+                    '<a target="_blank" href="https://wordpress.org/support/plugin/product-import-export-for-woo/">' . __('Support', 'wf_csv_import_export') . '</a>',
                     '<a target="_blank" href="https://wordpress.org/support/plugin/product-import-export-for-woo/reviews/">' . __('Review', 'wf_csv_import_export') . '</a>',
                 );
                 if (array_key_exists('deactivate', $links)) {
@@ -480,7 +480,7 @@ register_activation_hook(__FILE__, 'hf_welcome_screen_activate_basic');
 function hf_welcome_screen_activate_basic() {
     if (is_plugin_active('product-csv-import-export-for-woocommerce/product-csv-import-export.php')) {
         deactivate_plugins(basename(__FILE__));
-        wp_die(__("Is everything fine? You already have the Premium version installed in your website. For any issues, kindly raise a ticket via <a target='_blank' href='https://www.webtoffee.com/support/'>support</a>", "wf_csv_import_export"), "", array('back_link' => 1));
+        wp_die(__("Is everything fine? You already have the Premium version installed in your website. For any issues, kindly raise a ticket via <a target='_blank' href='//support.xadapter.com/'>support.xadapter.com</a>", "wf_csv_import_export"), "", array('back_link' => 1));
     }
     update_option('xa_pipe_plugin_installed_date', date('Y-m-d H:i:s'));
     set_transient('_welcome_screen_activation_redirect', true, 30);

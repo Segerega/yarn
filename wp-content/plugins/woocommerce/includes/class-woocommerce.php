@@ -20,7 +20,7 @@ final class WooCommerce {
 	 *
 	 * @var string
 	 */
-	public $version = '3.5.3';
+	public $version = '3.4.5';
 
 	/**
 	 * The single instance of the class.
@@ -183,16 +183,14 @@ final class WooCommerce {
 	 */
 	public function log_errors() {
 		$error = error_get_last();
-		if ( in_array( $error['type'], array( E_ERROR, E_PARSE, E_COMPILE_ERROR, E_USER_ERROR, E_RECOVERABLE_ERROR ) ) ) {
+		if ( E_ERROR === $error['type'] ) {
 			$logger = wc_get_logger();
 			$logger->critical(
-				/* translators: 1: error message 2: file name and path 3: line number */
-				sprintf( __( '%1$s in %2$s on line %3$s', 'woocommerce' ), $error['message'], $error['file'], $error['line'] ) . PHP_EOL,
+				$error['message'] . PHP_EOL,
 				array(
 					'source' => 'fatal-errors',
 				)
 			);
-			do_action( 'woocommerce_shutdown_error', $error );
 		}
 	}
 
@@ -242,7 +240,7 @@ final class WooCommerce {
 			case 'cron':
 				return defined( 'DOING_CRON' );
 			case 'frontend':
-				return ( ! is_admin() || defined( 'DOING_AJAX' ) ) && ! defined( 'DOING_CRON' ) && ! defined( 'REST_REQUEST' );
+				return ( ! is_admin() || defined( 'DOING_AJAX' ) ) && ! defined( 'DOING_CRON' );
 		}
 	}
 
@@ -276,7 +274,6 @@ final class WooCommerce {
 		include_once WC_ABSPATH . 'includes/interfaces/class-wc-logger-interface.php';
 		include_once WC_ABSPATH . 'includes/interfaces/class-wc-log-handler-interface.php';
 		include_once WC_ABSPATH . 'includes/interfaces/class-wc-webhooks-data-store-interface.php';
-		include_once WC_ABSPATH . 'includes/interfaces/class-wc-queue-interface.php';
 
 		/**
 		 * Abstract classes.
@@ -334,8 +331,6 @@ final class WooCommerce {
 		include_once WC_ABSPATH . 'includes/class-wc-structured-data.php';
 		include_once WC_ABSPATH . 'includes/class-wc-shortcodes.php';
 		include_once WC_ABSPATH . 'includes/class-wc-logger.php';
-		include_once WC_ABSPATH . 'includes/queue/class-wc-action-queue.php';
-		include_once WC_ABSPATH . 'includes/queue/class-wc-queue.php';
 
 		/**
 		 * Data stores - used to store and retrieve CRUD object data from the database.
@@ -373,11 +368,6 @@ final class WooCommerce {
 		include_once WC_ABSPATH . 'includes/class-wc-auth.php';
 		include_once WC_ABSPATH . 'includes/class-wc-register-wp-admin-settings.php';
 
-		/**
-		 * Libraries
-		 */
-		include_once WC_ABSPATH . 'includes/libraries/action-scheduler/action-scheduler.php';
-
 		if ( defined( 'WP_CLI' ) && WP_CLI ) {
 			include_once WC_ABSPATH . 'includes/class-wc-cli.php';
 		}
@@ -405,7 +395,7 @@ final class WooCommerce {
 	 * @since 3.3.0
 	 */
 	private function theme_support_includes() {
-		if ( wc_is_active_theme( array( 'twentynineteen', 'twentyseventeen', 'twentysixteen', 'twentyfifteen', 'twentyfourteen', 'twentythirteen', 'twentyeleven', 'twentytwelve', 'twentyten' ) ) ) {
+		if ( wc_is_active_theme( array( 'twentyseventeen', 'twentysixteen', 'twentyfifteen', 'twentyfourteen', 'twentythirteen', 'twentyeleven', 'twentytwelve', 'twentyten' ) ) ) {
 			switch ( get_template() ) {
 				case 'twentyten':
 					include_once WC_ABSPATH . 'includes/theme-support/class-wc-twenty-ten.php';
@@ -430,9 +420,6 @@ final class WooCommerce {
 					break;
 				case 'twentyseventeen':
 					include_once WC_ABSPATH . 'includes/theme-support/class-wc-twenty-seventeen.php';
-					break;
-				case 'twentynineteen':
-					include_once WC_ABSPATH . 'includes/theme-support/class-wc-twenty-nineteen.php';
 					break;
 			}
 		}
@@ -489,9 +476,8 @@ final class WooCommerce {
 			$this->session = new $session_class();
 			$this->session->init();
 
+			$this->cart     = new WC_Cart();
 			$this->customer = new WC_Customer( get_current_user_id(), true );
-			// Cart needs the customer info.
-			$this->cart = new WC_Cart();
 
 			// Customer should be saved during shutdown.
 			add_action( 'shutdown', array( $this->customer, 'save' ), 10 );
@@ -661,15 +647,6 @@ final class WooCommerce {
 			$wpdb->woocommerce_termmeta = $wpdb->prefix . 'woocommerce_termmeta';
 			$wpdb->tables[]             = 'woocommerce_termmeta';
 		}
-	}
-
-	/**
-	 * Get queue instance.
-	 *
-	 * @return WC_Queue_Interface
-	 */
-	public function queue() {
-		return WC_Queue::instance();
 	}
 
 	/**

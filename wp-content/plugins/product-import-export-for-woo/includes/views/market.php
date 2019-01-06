@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         ?>
     </div>
     <div class="pipe-premium-features">
-    <center><a href="https://www.webtoffee.com/product/product-import-export-woocommerce/" target="_blank" class="button button-primary button-go-pro"><?php _e('Upgrade to Premium Version', 'wf_csv_import_export'); ?></a></center>
+    <center><a href="https://www.xadapter.com/product/product-import-export-plugin-for-woocommerce/" target="_blank" class="button button-primary button-go-pro"><?php _e('Upgrade to Premium Version', 'wf_csv_import_export'); ?></a></center>
     <span>
         <ul>
             <li><?php _e('Export simple, group, external and variation products.', 'wf_csv_import_export');?></li>
@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     </span>
     <center> 
         <a href="http://productimportexport.webtoffee.com/" target="_blank" class="button button-doc-demo"><?php _e('Live Demo', 'wf_csv_import_export'); ?></a> 
-        <a href="https://www.webtoffee.com/category/documentation/product-import-export-plugin-for-woocommerce/" target="_blank" class="button button-doc-demo"><?php _e('Documentation', 'wf_csv_import_export'); ?></a></center>
+        <a href="https://www.xadapter.com/category/product/product-import-export-plugin-for-woocommerce/" target="_blank" class="button button-doc-demo"><?php _e('Documentation', 'wf_csv_import_export'); ?></a></center>
     </div>
     
     </div>

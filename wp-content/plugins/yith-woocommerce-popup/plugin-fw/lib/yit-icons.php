@@ -20,7 +20,7 @@ if ( !class_exists( 'YIT_Icons' ) ) {
      * Class to manage icons
      *
      * @class       YIT_Icons
-     * @package     YITH
+     * @package     Yithemes
      * @since       1.0.0
      * @author      Leanza Francesco <leanzafrancesco@gmail.com>
      *

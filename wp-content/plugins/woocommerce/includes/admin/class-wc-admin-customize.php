@@ -38,8 +38,8 @@ if ( ! class_exists( 'WC_Admin_Customize', false ) ) :
 		 */
 		public function register_customize_nav_menu_item_types( $item_types ) {
 			$item_types[] = array(
-				'title'      => __( 'WooCommerce Endpoints', 'woocommerce' ),
-				'type_label' => __( 'WooCommerce Endpoint', 'woocommerce' ),
+				'title'      => __( 'WooCommerce endpoints', 'woocommerce' ),
+				'type_label' => __( 'WooCommerce endpoint', 'woocommerce' ),
 				'type'       => 'woocommerce_nav',
 				'object'     => 'woocommerce_endpoint',
 			);

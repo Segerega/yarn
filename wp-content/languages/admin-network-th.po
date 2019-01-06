@@ -1,5 +1,5 @@
-# Translation of WordPress - 5.0.x - Development - Administration - Network Admin in Thai
-# This file is distributed under the same license as the WordPress - 5.0.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 4.9.x - Development - Administration - Network Admin in Thai
+# This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2017-10-24 01:07:58+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: th\n"
-"Project-Id-Version: WordPress - 5.0.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 4.9.x - Development - Administration - Network Admin\n"
 
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
 #: wp-admin/includes/network.php:107
@@ -91,8 +91,8 @@ msgstr "ขอโทษครับ คุณไม่ได้รับอน�
 msgid "Sorry, you are not allowed to add sites to this network."
 msgstr "ขอโทษครับ คุณไม่ได้รับอนุญาตให้เพิ่มเว็บเข้ามาที่เครือข่ายนี้"
 
-#: wp-admin/network/site-info.php:14 wp-admin/network/site-users.php:14
-#: wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "ขอโทษครับ คุณไม่ได้รับอนุญาตให้แก้ไขเว็บนี้"
 
@@ -104,6 +104,10 @@ msgstr "ที่อยู่อีเมลของผู้เขียนค
 msgid "First Comment Email"
 msgstr "อีเมลความเห็นแรก"
 
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
 #: wp-admin/includes/network.php:436
 msgid "That&#8217;s all, stop editing! Happy blogging."
 msgstr "นี่คือทั้งหมดแล้ว  หยุดการแก้ไข และมีความสุขกับการเขียนบล็อก"
@@ -366,7 +370,7 @@ msgstr "สแปม"
 msgid "Archived"
 msgstr "คลังเก็บ"
 
-#: wp-admin/network/user-new.php:117 wp-admin/network/site-users.php:346
+#: wp-admin/network/site-users.php:346 wp-admin/network/user-new.php:117
 msgid "A password reset link will be sent to the user via email."
 msgstr "ลิงก์ล้างค่ารหัสผ่านจะถูกส่งให้ผู้ใช้ผ่านทางอีเมล"
 
@@ -460,8 +464,8 @@ msgstr "คุณกำลังปิดใช้งานเว็บ %s"
 msgid "You are about to activate the site %s."
 msgstr "คุณกำลังเปิดใช้เว็บ %s"
 
-#: wp-admin/network/site-info.php:28 wp-admin/network/site-users.php:42
-#: wp-admin/network/site-themes.php:49 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:49 wp-admin/network/site-users.php:42
 msgid "The requested site does not exist."
 msgstr "เว็บที่ร้องขอนั้นไม่มีอยู่จริง"
 
@@ -510,12 +514,12 @@ msgstr "ธีมเหล่านี้อาจจะใช้งานอย
 msgid "Are you sure you wish to delete this theme?"
 msgstr "คุณแน่ใจว่าต้องการลบธีมนี้"
 
-#: wp-admin/network/themes.php:279 wp-admin/network/site-themes.php:183
+#: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:279
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "เลิกใช้ %s ธีมแล้ว"
 
-#: wp-admin/network/themes.php:271 wp-admin/network/site-themes.php:175
+#: wp-admin/network/site-themes.php:175 wp-admin/network/themes.php:271
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "เปิดใช้ %s ธีมแล้ว"
@@ -626,8 +630,8 @@ msgstr "อัปเดตเวิร์ดเพรสแล้ว  ก่อ�
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "เฉพาะการใช้หน้าจอนี้  คุณจะอัปเดตไปยังรุ่นใหม่ล่าสุดของเวิร์ดเพรสผ่านทาง อัปเดต/การอัปเดตที่ใช้ได้ (ผ่านเมนูควบคุมเครือข่าย หรือ แถบเครื่องมือ)  การกดที่ปุ่มอัปเกรดเครือข่ายจะทำการอัปเดตทีละเว็บในเครือข่าย  ครั้งละห้าเว็บไซต์  และทำให้แน่ใจว่าการอัปเดตฐานข้อมูลใด ๆ นั้นได้อัปเดตด้วย"
 
-#: wp-admin/network/upgrade.php:15 wp-admin/network/upgrade.php:40
-#: wp-admin/network/upgrade.php:131 wp-admin/network/menu.php:34
+#: wp-admin/network/menu.php:34 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:40 wp-admin/network/upgrade.php:131
 msgid "Upgrade Network"
 msgstr "อัปเกรดเครือข่าย"
 
@@ -681,7 +685,7 @@ msgstr "การลบจะเป็นการลบอย่างถาว
 msgid "Clicking on bold headings can re-sort this table."
 msgstr "กดที่ตัวหนาส่วนหัวจะสามารถเรียงตารางนี้ใหม่ได้"
 
-#: wp-admin/network/themes.php:253 wp-admin/network/menu.php:53
+#: wp-admin/network/menu.php:53 wp-admin/network/themes.php:253
 msgctxt "theme"
 msgid "Add New"
 msgstr "เพิ่มธีมใหม่"
@@ -728,25 +732,25 @@ msgid "No, return me to the theme list"
 msgstr "ไม่ต้อง พาฉันกลับไปที่รายชื่อธีม"
 
 #. translators: %s: site name
-#: wp-admin/network/site-info.php:117 wp-admin/network/site-users.php:196
-#: wp-admin/network/site-themes.php:153 wp-admin/network/site-settings.php:70
+#: wp-admin/network/site-info.php:117 wp-admin/network/site-settings.php:70
+#: wp-admin/network/site-themes.php:153 wp-admin/network/site-users.php:196
 msgid "Edit Site: %s"
 msgstr "แก้ไขเว็บไซต์: %s"
 
-#: wp-admin/network/themes.php:291 wp-admin/network/site-themes.php:187
+#: wp-admin/network/site-themes.php:187 wp-admin/network/themes.php:291
 msgid "No theme selected."
 msgstr "ไม่มีธีมที่ถูกเลือก"
 
-#: wp-admin/network/themes.php:269 wp-admin/network/site-themes.php:173
+#: wp-admin/network/site-themes.php:173 wp-admin/network/themes.php:269
 msgid "Theme enabled."
 msgstr "เปิดใช้งาน %s ธีมแล้ว"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-users.php:38
-#: wp-admin/network/site-themes.php:43 wp-admin/network/site-settings.php:22
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:22
+#: wp-admin/network/site-themes.php:43 wp-admin/network/site-users.php:38
 msgid "Invalid site ID."
 msgstr "เลขที่เว็บไซต์ไม่ถูกต้อง"
 
-#: wp-admin/network/themes.php:277 wp-admin/network/site-themes.php:181
+#: wp-admin/network/site-themes.php:181 wp-admin/network/themes.php:277
 msgid "Theme disabled."
 msgstr "ปิดการใช้งาน %s ธีมแล้ว"
 
@@ -758,7 +762,7 @@ msgstr "เพิ่มผู้ใช้จะตั้งค่าบัญช
 msgid "Network enabled themes are not shown on this screen."
 msgstr "เครือข่ายเปิดใช้ธีมที่ไม่ได้แสดงบนหน้าจอนี้"
 
-#: wp-admin/network/settings.php:19 wp-admin/network/menu.php:67
+#: wp-admin/network/menu.php:67 wp-admin/network/settings.php:19
 msgid "Network Settings"
 msgstr "การตั้งค่าเครือข่าย"
 
@@ -810,7 +814,7 @@ msgstr "ขอโทษครับ คุณไม่ได้รับอน�
 msgid "Cannot add user."
 msgstr "ไม่สามารถเพิ่มผู้ใช้"
 
-#: wp-admin/network/user-new.php:129 wp-admin/network/site-users.php:310
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:129
 msgid "Add User"
 msgstr "เพิ่มผู้ใช้"
 

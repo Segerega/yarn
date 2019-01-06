@@ -205,6 +205,7 @@ return array(
 		'countries' => array(
 			'AG',
 			'AI',
+			'AN',
 			'AW',
 			'BB',
 			'BL',

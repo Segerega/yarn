@@ -31,7 +31,7 @@ class MC4WP_WPForms_Integration extends MC4WP_Integration {
      * @return bool
      */
     public function is_installed() {
-        return defined( 'WPFORMS_VERSION' );
+        return class_exists( 'WPForms' );
     }
 
     /**

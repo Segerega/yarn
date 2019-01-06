@@ -6,29 +6,31 @@ var events = mc4wp.events;
 var notice = document.getElementById('notice-additional-fields');
 
 function checkRequiredListFields() {
-  var lists = settings.getSelectedLists();
-  var showNotice = false;
-  var allowedFields = ['EMAIL', 'FNAME', 'NAME', 'LNAME'];
 
-  loop: for (var i = 0; i < lists.length; i++) {
-    var list = lists[i];
+	var lists = settings.getSelectedLists();
 
-    for (var j = 0; j < list.merge_fields.length; j++) {
-      var f = list.merge_fields[j];
+	var showNotice = false;
+	var allowedFields = ['EMAIL', 'FNAME', 'NAME', 'LNAME'];
 
-      if (f.required && allowedFields.indexOf(f.tag) < 0) {
-        showNotice = true;
-        break loop;
-      }
-    }
-  }
+	loop: for (var i = 0; i < lists.length; i++) {
+		var list = lists[i];
 
-  notice.style.display = showNotice ? '' : 'none';
+		for (var j = 0; j < list.merge_fields.length; j++) {
+			var f = list.merge_fields[j];
+
+			if (f.required && allowedFields.indexOf(f.tag) < 0) {
+				showNotice = true;
+				break loop;
+			}
+		}
+	}
+
+	notice.style.display = showNotice ? '' : 'none';
 }
 
 if (notice) {
-  checkRequiredListFields();
-  events.on('selectedLists.change', checkRequiredListFields);
+	checkRequiredListFields();
+	events.on('selectedLists.change', checkRequiredListFields);
 }
 
 },{}]},{},[1]);

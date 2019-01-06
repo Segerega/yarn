@@ -17,9 +17,10 @@ class WC_Privacy_Exporters {
 	 *
 	 * @since 3.4.0
 	 * @param string $email_address The user email address.
+	 * @param int    $page  Page.
 	 * @return array An array of personal data in name value pairs
 	 */
-	public static function customer_data_exporter( $email_address ) {
+	public static function customer_data_exporter( $email_address, $page ) {
 		$user           = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export = array();
 
@@ -52,7 +53,7 @@ class WC_Privacy_Exporters {
 	 * @return array An array of personal data in name value pairs
 	 */
 	public static function order_data_exporter( $email_address, $page ) {
-		$done           = true;
+		$done           = false;
 		$page           = (int) $page;
 		$user           = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export = array();
@@ -78,6 +79,8 @@ class WC_Privacy_Exporters {
 				);
 			}
 			$done = 10 > count( $orders );
+		} else {
+			$done = true;
 		}
 
 		return array(
@@ -92,11 +95,10 @@ class WC_Privacy_Exporters {
 	 * @since 3.4.0
 	 * @param string $email_address The user email address.
 	 * @param int    $page  Page.
-	 * @throws Exception When WC_Data_Store validation fails.
 	 * @return array An array of personal data in name value pairs
 	 */
 	public static function download_data_exporter( $email_address, $page ) {
-		$done            = true;
+		$done            = false;
 		$page            = (int) $page;
 		$user            = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export  = array();
@@ -151,6 +153,8 @@ class WC_Privacy_Exporters {
 				}
 			}
 			$done = 10 > count( $downloads );
+		} else {
+			$done = true;
 		}
 
 		return array(
@@ -164,7 +168,6 @@ class WC_Privacy_Exporters {
 	 *
 	 * @since 3.4.0
 	 * @param WP_User $user user object.
-	 * @throws Exception If customer cannot be read/found and $data is set to WC_Customer class.
 	 * @return array
 	 */
 	protected static function get_customer_personal_data( $user ) {

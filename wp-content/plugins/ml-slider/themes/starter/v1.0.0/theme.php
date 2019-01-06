@@ -1,6 +1,5 @@
 <?php
 if (!defined('ABSPATH')) die('No direct access.');
-
 /*
 	Replace 'starter' by the theme's id
 	Replace 
@@ -17,6 +16,11 @@ if (!isset(MetaSlider_Theme_Base::$themes['starter'])) {
 				'file' => '/v1.0.0/style.css',
 				'dependencies' => array('metaslider-public')
 			),
+			// array(
+			// 	'type' => 'js',
+			// 	'file' => '/v1.0.0/script.js',
+			// 	'dependencies' => array('jquery')
+			// )
 		)
 	);
 

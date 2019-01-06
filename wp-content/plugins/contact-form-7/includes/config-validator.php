@@ -56,8 +56,8 @@ class WPCF7_ConfigValidator {
 			}
 
 			if ( $args['section']
-			and $key != $args['section']
-			and preg_replace( '/\..*$/', '', $key, 1 ) != $args['section'] ) {
+			&& $key != $args['section']
+			&& preg_replace( '/\..*$/', '', $key, 1 ) != $args['section'] ) {
 				continue;
 			}
 
@@ -66,7 +66,7 @@ class WPCF7_ConfigValidator {
 					continue;
 				}
 
-				if ( $args['code'] and $error['code'] != $args['code'] ) {
+				if ( $args['code'] && $error['code'] != $args['code'] ) {
 					continue;
 				}
 
@@ -170,8 +170,7 @@ class WPCF7_ConfigValidator {
 		}
 
 		foreach ( (array) $this->errors[$section] as $key => $error ) {
-			if ( isset( $error['code'] )
-			and $error['code'] == $code ) {
+			if ( isset( $error['code'] ) && $error['code'] == $code ) {
 				unset( $this->errors[$section][$key] );
 			}
 		}
@@ -270,7 +269,7 @@ class WPCF7_ConfigValidator {
 					$last_item = array_pop( $form_tag->values );
 				}
 
-				if ( $last_item and wpcf7_is_mailbox_list( $last_item ) ) {
+				if ( $last_item && wpcf7_is_mailbox_list( $last_item ) ) {
 					return $example_email;
 				} else {
 					return $example_text;
@@ -408,8 +407,7 @@ class WPCF7_ConfigValidator {
 			return;
 		}
 
-		if ( 'mail' != $template
-		and empty( $components['active'] ) ) {
+		if ( 'mail' != $template && empty( $components['active'] ) ) {
 			return;
 		}
 
@@ -438,7 +436,7 @@ class WPCF7_ConfigValidator {
 		$sender = wpcf7_strip_newline( $sender );
 
 		if ( ! $this->detect_invalid_mailbox_syntax( sprintf( '%s.sender', $template ), $sender )
-		and ! wpcf7_is_email_in_site_domain( $sender ) ) {
+		&& ! wpcf7_is_email_in_site_domain( $sender ) ) {
 			$this->add_error( sprintf( '%s.sender', $template ),
 				self::error_email_not_in_site_domain, array(
 					'link' => self::get_doc_link( 'email_not_in_site_domain' ),
@@ -510,8 +508,7 @@ class WPCF7_ConfigValidator {
 			foreach ( explode( "\n", $components['attachments'] ) as $line ) {
 				$line = trim( $line );
 
-				if ( '' === $line
-				or '[' == substr( $line, 0, 1 ) ) {
+				if ( '' === $line || '[' == substr( $line, 0, 1 ) ) {
 					continue;
 				}
 
@@ -519,8 +516,7 @@ class WPCF7_ConfigValidator {
 					sprintf( '%s.attachments', $template ), $line
 				);
 
-				if ( ! $has_file_not_found
-				and ! $has_file_not_in_content_dir ) {
+				if ( ! $has_file_not_found && ! $has_file_not_in_content_dir ) {
 					$has_file_not_in_content_dir = $this->detect_file_not_in_content_dir(
 						sprintf( '%s.attachments', $template ), $line
 					);
@@ -559,8 +555,7 @@ class WPCF7_ConfigValidator {
 	public function detect_file_not_found( $section, $content ) {
 		$path = path_join( WP_CONTENT_DIR, $content );
 
-		if ( ! is_readable( $path )
-		or ! is_file( $path ) ) {
+		if ( ! is_readable( $path ) || ! is_file( $path ) ) {
 			return $this->add_error( $section,
 				self::error_file_not_found,
 				array(
@@ -578,7 +573,7 @@ class WPCF7_ConfigValidator {
 	public function detect_file_not_in_content_dir( $section, $content ) {
 		$path = path_join( WP_CONTENT_DIR, $content );
 
-		if ( ! wpcf7_is_file_path_in_content_dir( $path ) ) {
+		if ( 0 !== strpos( realpath( $path ), WP_CONTENT_DIR ) ) {
 			return $this->add_error( $section,
 				self::error_file_not_in_content_dir,
 				array(
@@ -600,7 +595,7 @@ class WPCF7_ConfigValidator {
 		}
 
 		if ( isset( $messages['captcha_not_match'] )
-		and ! wpcf7_use_really_simple_captcha() ) {
+		&& ! wpcf7_use_really_simple_captcha() ) {
 			unset( $messages['captcha_not_match'] );
 		}
 

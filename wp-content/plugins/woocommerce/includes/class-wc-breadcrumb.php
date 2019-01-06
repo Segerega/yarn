@@ -140,10 +140,6 @@ class WC_Breadcrumb {
 			$post = get_post( $post_id ); // WPCS: override ok.
 		}
 
-		if ( ! $permalink ) {
-			$permalink = get_permalink( $post );
-		}
-
 		if ( 'product' === get_post_type( $post ) ) {
 			$this->prepend_shop_page();
 
@@ -213,7 +209,7 @@ class WC_Breadcrumb {
 
 		$this->prepend_shop_page();
 		$this->term_ancestors( $current_term->term_id, 'product_cat' );
-		$this->add_crumb( $current_term->name, get_term_link( $current_term, 'product_cat' ) );
+		$this->add_crumb( $current_term->name );
 	}
 
 	/**
@@ -225,7 +221,7 @@ class WC_Breadcrumb {
 		$this->prepend_shop_page();
 
 		/* translators: %s: product tag */
-		$this->add_crumb( sprintf( __( 'Products tagged &ldquo;%s&rdquo;', 'woocommerce' ), $current_term->name ), get_term_link( $current_term, 'product_tag' ) );
+		$this->add_crumb( sprintf( __( 'Products tagged &ldquo;%s&rdquo;', 'woocommerce' ), $current_term->name ) );
 	}
 
 	/**

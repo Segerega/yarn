@@ -119,8 +119,8 @@ class WPCF7_Submission {
 			}
 
 			if ( WPCF7_USE_PIPE
-			and $pipes instanceof WPCF7_Pipes
-			and ! $pipes->zero() ) {
+			&& $pipes instanceof WPCF7_Pipes
+			&& ! $pipes->zero() ) {
 				if ( is_array( $value_orig ) ) {
 					$value = array();
 
@@ -138,7 +138,7 @@ class WPCF7_Submission {
 			$posted_data[$name] = $value;
 
 			if ( $tag->has_option( 'consent_for:storage' )
-			and empty( $posted_data[$name] ) ) {
+			&& empty( $posted_data[$name] ) ) {
 				$this->meta['do_not_store'] = true;
 			}
 		}
@@ -228,7 +228,7 @@ class WPCF7_Submission {
 		$ip_addr = '';
 
 		if ( isset( $_SERVER['REMOTE_ADDR'] )
-		and WP_Http::is_ip_address( $_SERVER['REMOTE_ADDR'] ) ) {
+		&& WP_Http::is_ip_address( $_SERVER['REMOTE_ADDR'] ) ) {
 			$ip_addr = $_SERVER['REMOTE_ADDR'];
 		}
 
@@ -242,8 +242,7 @@ class WPCF7_Submission {
 			$referer = isset( $_SERVER['HTTP_REFERER'] )
 				? trim( $_SERVER['HTTP_REFERER'] ) : '';
 
-			if ( $referer
-			and 0 === strpos( $referer, $home_url ) ) {
+			if ( $referer && 0 === strpos( $referer, $home_url ) ) {
 				return esc_url_raw( $referer );
 			}
 		}
@@ -293,7 +292,7 @@ class WPCF7_Submission {
 		$spam = false;
 
 		if ( $this->contact_form->is_true( 'subscribers_only' )
-		and current_user_can( 'wpcf7_submit', $this->contact_form->id() ) ) {
+		&& current_user_can( 'wpcf7_submit', $this->contact_form->id() ) ) {
 			return $spam;
 		}
 
@@ -361,8 +360,7 @@ class WPCF7_Submission {
 		if ( $result ) {
 			$additional_mail = array();
 
-			if ( $mail_2 = $contact_form->prop( 'mail_2' )
-			and $mail_2['active'] ) {
+			if ( ( $mail_2 = $contact_form->prop( 'mail_2' ) ) && $mail_2['active'] ) {
 				$additional_mail['mail_2'] = $mail_2;
 			}
 
@@ -395,9 +393,9 @@ class WPCF7_Submission {
 		foreach ( (array) $this->uploaded_files as $name => $path ) {
 			wpcf7_rmdir_p( $path );
 
-			if ( $dir = dirname( $path )
-			and false !== ( $files = scandir( $dir ) )
-			and ! array_diff( $files, array( '.', '..' ) ) ) {
+			if ( ( $dir = dirname( $path ) )
+			&& false !== ( $files = scandir( $dir ) )
+			&& ! array_diff( $files, array( '.', '..' ) ) ) {
 				// remove parent dir if it's empty.
 				rmdir( $dir );
 			}

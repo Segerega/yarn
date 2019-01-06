@@ -1,6 +1,5 @@
 <?php
 if (!defined('ABSPATH')) die('No direct access.');
-
 /*
 	Replace 'nivo-dark' by the theme's id
 	Replace 

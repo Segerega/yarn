@@ -119,8 +119,6 @@ class WC_Data_Store {
 
 	/**
 	 * Re-run the constructor with the object type.
-	 *
-	 * @throws Exception When validation fails.
 	 */
 	public function __wakeup() {
 		$this->__construct( $this->object_type );
@@ -132,7 +130,6 @@ class WC_Data_Store {
 	 * @param string $object_type Name of object.
 	 *
 	 * @since 3.0.0
-	 * @throws Exception When validation fails.
 	 * @return WC_Data_Store
 	 */
 	public static function load( $object_type ) {

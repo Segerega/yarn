@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Loco Translate - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-16 17:31:23+0000\n"
+"PO-Revision-Date: 2018-08-15 07:19:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,14 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: zh_TW\n"
 "Project-Id-Version: Plugins - Loco Translate - Stable (latest release)\n"
-
-#: tpl/admin/config/settings.php:57
-msgid "Scan JavaScript files with extensions:"
-msgstr "掃描指定副檔名的 JavaScript 檔案:"
-
-#: src/admin/init/InitPoController.php:237
-msgid "Assign template"
-msgstr "指派譯文範本"
 
 #: src/js/Strings.php:96
 msgctxt "Editor"
@@ -43,15 +35,15 @@ msgstr "檢視"
 
 #: tpl/admin/root.php:14
 msgid "Your admin language is %s."
-msgstr "你的管理後台的介面語言設定為「%s」。"
+msgstr "WordPress 管理後台所設定的語言為「%s」。"
 
 #: tpl/admin/root.php:12
 msgid "The language of this site is %s."
-msgstr "這個網站的介面語言設定為「%s」。"
+msgstr "這個網站目前的語言設定為「%s」。"
 
 #: tpl/admin/list/locales.php:25
 msgid "Site language"
-msgstr "網站介面語言"
+msgstr "網站語言"
 
 #: tpl/admin/list/locales.php:22
 msgid "Files found"
@@ -80,7 +72,7 @@ msgstr "檔案大小"
 
 #: tpl/admin/file/diff.php:83
 msgid "Restore selected"
-msgstr "還原選取版本"
+msgstr "內容修訂已選取"
 
 #: tpl/admin/file/diff.php:59
 msgid "Revision saved"
@@ -89,17 +81,17 @@ msgstr "內容修訂已儲存"
 #: tpl/admin/file/diff.php:16
 msgctxt "Button label for a next revision"
 msgid "Next"
-msgstr "下一版"
+msgstr "下一個"
 
 #: tpl/admin/file/diff.php:13
 msgctxt "Button label for a previous revision"
 msgid "Previous"
-msgstr "上一版"
+msgstr "上一個"
 
 #: tpl/admin/file/diff.php:6
 msgctxt "revision date short format"
 msgid "j M @ H:i"
-msgstr "n 月 j 日a g:i"
+msgstr "Y 年 m 月 j 日a g:i"
 
 #: tpl/admin/errors/no-locale.php:11
 msgid "No files found for this language"
@@ -115,33 +107,33 @@ msgstr "在 Loco Translate 編輯器中儲存譯文後，便會變更備份檔"
 
 #: tpl/admin/errors/no-backups.php:12
 msgid "No previous file revisions"
-msgstr "沒有檔案的上一版內容修訂"
+msgstr "沒有上一版檔案的內容修訂"
 
-#: tpl/admin/config/settings.php:136
+#: tpl/admin/config/settings.php:130
 msgid "About file system access"
 msgstr "關於檔案系統存取"
 
-#: tpl/admin/config/settings.php:129
+#: tpl/admin/config/settings.php:123
 msgid "Disallow"
 msgstr "禁止"
 
-#: tpl/admin/config/settings.php:126
+#: tpl/admin/config/settings.php:120
 msgid "Allow (with warning)"
 msgstr "允許 (含警告訊息)"
 
-#: tpl/admin/config/settings.php:123
+#: tpl/admin/config/settings.php:117
 msgid "Allow"
 msgstr "允許"
 
-#: tpl/admin/config/settings.php:120
+#: tpl/admin/config/settings.php:114
 msgid "Modification of installed files"
-msgstr "修改已安裝的檔案"
+msgstr "已安裝檔案的修改"
 
-#: tpl/admin/config/settings.php:115
+#: tpl/admin/config/settings.php:109
 msgid "Save credentials in session"
 msgstr "在工作階段中儲存憑證"
 
-#: tpl/admin/config/settings.php:106 tpl/admin/config/settings.php:110
+#: tpl/admin/config/settings.php:100 tpl/admin/config/settings.php:104
 msgid "File system access"
 msgstr "檔案系統存取"
 
@@ -182,7 +174,7 @@ msgstr "檔案已還原"
 
 #: src/admin/file/BaseController.php:97 tpl/admin/file/diff.php:30
 msgid "Restore"
-msgstr "還原"
+msgstr "回復前版本"
 
 #: src/admin/bundle/LocaleController.php:137
 msgid "See all core translations"
@@ -211,15 +203,15 @@ msgstr "更新 WordPress 後，有可能會覆寫或刪除這個檔案"
 
 #: src/admin/bundle/BaseController.php:154
 msgid "Saving this file requires permission"
-msgstr "儲存這個檔案所需的權限"
+msgstr "儲存這個檔案所須的權限"
 
 #: src/admin/bundle/BaseController.php:151
 msgid "Deleting this file requires permission"
-msgstr "刪除這個檔案所需的權限"
+msgstr "刪除這個檔案所須的權限"
 
 #: src/admin/bundle/BaseController.php:148
 msgid "Creating this file requires permission"
-msgstr "建立這個檔案所需的權限"
+msgstr "建立這個檔案所須的權限"
 
 #. Translators: Plural category for zero quantity
 #: src/Locale.php:383
@@ -227,16 +219,16 @@ msgctxt "Plural category"
 msgid "Zero"
 msgstr "零 (Zero)"
 
-#: src/admin/init/InitPoController.php:325 tpl/admin/file/info.php:113
+#: src/admin/init/InitPoController.php:318 tpl/admin/file/info.php:113
 msgid "What's this?"
 msgstr "這是什麼？"
 
 #. Translators: Where %s is the size of a file
 #: tpl/admin/init/init-pot.php:18
 msgid "largest is %s"
-msgstr "PO 檔最多使用 %s"
+msgstr "PO 檔最多佔用 %s"
 
-#: tpl/admin/config/settings.php:79
+#: tpl/admin/config/settings.php:73
 msgid "Maximum line length (zero disables wrapping)"
 msgstr "每行最大字元數 (填 0 代表停用自動換行功能)"
 
@@ -322,7 +314,7 @@ msgstr "檢視所有佈景主題"
 
 #: tpl/admin/root.php:43
 msgid "Active theme:"
-msgstr "目前使用的佈景主題:"
+msgstr "使用中的佈景主題:"
 
 #: tpl/admin/root.php:34
 msgid "Translations have been recently modified in the following bundles"
@@ -330,7 +322,7 @@ msgstr "以下是最近修改過譯文的套件"
 
 #: tpl/admin/root.php:31
 msgid "Recently updated:"
-msgstr "最後更新時間:"
+msgstr "最近更新時間:"
 
 #. translators: 1: help URL, 2: forum URL; Must be HTML encoded
 #: tpl/admin/root.php:20
@@ -349,25 +341,25 @@ msgstr "設定集"
 msgid "Bundle name"
 msgstr "套件名稱"
 
-#: tpl/admin/init/init-pot.php:42 tpl/admin/init/init-prompt.php:30
+#: tpl/admin/init/init-pot.php:42 tpl/admin/init/init-prompt.php:27
 msgid "About templates"
-msgstr "關於譯文範本"
+msgstr "關於範本"
 
 #: tpl/admin/init/init-prompt.php:22
 msgid "Loco can sync directly with the source code, but this can be slow if there are many files"
-msgstr "Loco 能直接與原始程式碼進行同步。請注意，一旦相關檔案過多，同步速度會變慢"
+msgstr "Loco 能直接與程式碼進行同步。請注意，一旦相關檔案過多，同步速度會變慢"
 
 #: tpl/admin/init/init-prompt.php:18
 msgid "This bundle doesn't define a translations template file"
-msgstr "這個套件尚未定義 POT 譯文範本檔案"
+msgstr "這個套件尚未定義翻譯範本 POT 檔案"
 
 #: tpl/admin/init/init-prompt.php:14
 msgid "This bundle's template file doesn't exist yet. We recommend you create it before adding languages"
-msgstr "這個套件並未包含譯文範本檔案，建議在新增語言前先建立譯文範本檔案"
+msgstr "這個套件並未包含範本檔案，建議在新增語言前先建立範本檔案"
 
 #: tpl/admin/init/init-prompt.php:10
 msgid "Template missing"
-msgstr "譯文範本已遺失"
+msgstr "遺漏範本"
 
 #: tpl/admin/init/init-pot.php:30
 msgid "Strings will be extracted to:"
@@ -382,7 +374,7 @@ msgstr[0] "排除超過 %2$s 的 %s 個檔案"
 #. Translators: Where %s is the size of a file
 #: tpl/admin/init/init-pot.php:16
 msgid "%s on disk"
-msgstr "需要進行掃描的檔案總計使用 %s 的儲存空間"
+msgstr "需掃描的檔案總計佔用 %s 的儲存空間"
 
 #: tpl/admin/init/init-pot.php:12
 msgid "Source files to scan:"
@@ -394,7 +386,7 @@ msgstr "開始本地化"
 
 #: tpl/admin/init/init-po.php:166
 msgid "Use \"%s\" as template when running Sync"
-msgstr "執行 [同步] 時，使用 %s 作為譯文範本"
+msgstr "執行 [同步] 時，使用 %s 作為範本"
 
 #: tpl/admin/init/init-po.php:156
 msgid "Just copy English source strings"
@@ -406,7 +398,7 @@ msgstr "從 %s 複製目標譯文"
 
 #: tpl/admin/init/init-po.php:139
 msgid "Template options"
-msgstr "譯文範本設定"
+msgstr "範本設定"
 
 #: tpl/admin/init/init-po.php:95
 msgid "Choose a location"
@@ -439,11 +431,11 @@ msgstr "選取語言"
 
 #: tpl/admin/init/init-po.php:12
 msgid "Create template instead"
-msgstr "建議改以建立譯文範本取代"
+msgstr "建議改以建立範本取代"
 
 #: tpl/admin/init/init-po.php:11
 msgid "You're creating translations directly from source code"
-msgstr "目前正在直接掃描原始程式碼以建立譯文"
+msgstr "目前正在直接掃描程式碼以建立譯文"
 
 #: tpl/admin/help/tab-support.php:6
 msgid "Getting help with Loco Translate"
@@ -537,19 +529,19 @@ msgstr "檔案不存在"
 
 #: tpl/admin/file/info-pot.php:21
 msgid "Source text"
-msgstr "原文內容"
+msgstr "來源文字"
 
 #: tpl/admin/file/info-pot.php:18
 msgid "Last extracted"
-msgstr "最後擷取時間"
+msgstr "最近擷取時間"
 
 #: tpl/admin/file/info-po.php:81
 msgid "These translations are not linked to a POT file. Sync operations will extract strings directly from source code."
-msgstr "譯文並未連結至 POT 檔案，進行同步作業會直接從原始程式碼中擷取原文內容。"
+msgstr "譯文並未連結至 POT 檔案，進行同步作業會直接從程式碼中擷取原文內容。"
 
 #: tpl/admin/file/info-po.php:77
 msgid "Missing template"
-msgstr "遺失譯文範本"
+msgstr "遺失範本"
 
 #. Translators: Where %s is the name of a template file
 #: tpl/admin/file/info-po.php:68
@@ -558,7 +550,7 @@ msgstr "PO 檔有些與 %s 不同的原文內容。請在進行任何變更前�
 
 #: tpl/admin/file/info-po.php:64
 msgid "Out of sync with template"
-msgstr "與譯文範本不同步"
+msgstr "與範本不同步"
 
 #. Translators: Where %s is the name of a template file
 #: tpl/admin/file/info-po.php:57
@@ -567,7 +559,7 @@ msgstr "PO 檔有著與 %s 相同的原文內容"
 
 #: tpl/admin/file/info-po.php:53
 msgid "In sync with template"
-msgstr "與譯文範本同步"
+msgstr "與範本同步"
 
 #: tpl/admin/file/info-po.php:43
 msgid "We can't find the binary MO file that belongs with these translations"
@@ -575,7 +567,7 @@ msgstr "找不到屬於這些譯文的二進位 MO 檔"
 
 #: tpl/admin/file/info-po.php:40
 msgid "Binary file missing"
-msgstr "二進位檔案已遺失"
+msgstr "遺失二進位檔案"
 
 #: tpl/admin/file/info-other.php:11
 msgid "Unexpected file type"
@@ -587,7 +579,7 @@ msgstr "找不到可以編譯為 MO 檔的原始 PO 檔"
 
 #: tpl/admin/file/info-mo.php:38
 msgid "PO file missing"
-msgstr "PO 檔已遺失"
+msgstr "遺失了 PO 檔"
 
 #: tpl/admin/file/info-mo.php:27
 msgid "Compiled translations"
@@ -620,13 +612,13 @@ msgstr "確認刪除"
 
 #: tpl/admin/errors/no-tokenizer.php:19
 msgid "You can still translate any bundle that has a <a href=\"%s\" target=\"_blank\">template</a>"
-msgstr "你仍然能為具備 <a href=\"%s\" target=\"_blank\">POT 譯文範本</a>的套件進行本地化"
+msgstr "你仍然能為具備 <a href=\"%s\" target=\"_blank\">POT 範本</a>的套件進行本地化"
 
 #. Translators: change "en" in the URL to your language if it's available at
 #. http://php.net/docs.php
 #: tpl/admin/errors/no-tokenizer.php:15
 msgid "Loco requires the <a href=\"http://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer extension</a> to scan PHP source code for translatable strings"
-msgstr "Loco Translate 需要 <a href=\"https://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer 擴充模組</a>，以便掃描 PHP 原始程式碼並擷取可進行本地化的字串"
+msgstr "Loco Translate 須要 <a href=\"https://php.net/manual/en/book.tokenizer.php\" target=\"_blank\">Tokenizer 擴充模組</a>，以便掃描 PHP 程式碼並擷取可進行本地化的字串"
 
 #: tpl/admin/errors/no-tokenizer.php:11
 msgid "About the Tokenizer"
@@ -661,37 +653,37 @@ msgstr "升級至 %s 版"
 msgid "Version %s"
 msgstr "%s 版"
 
-#: tpl/admin/config/settings.php:147
+#: tpl/admin/config/settings.php:141
 msgid "Allow full access to these roles"
-msgstr "開放進行套件本地化權限的角色"
+msgstr "准予套件本地化權限的角色"
 
-#: tpl/admin/config/settings.php:143
+#: tpl/admin/config/settings.php:137
 msgid "Grant access to roles"
-msgstr "授與進行套件本地化權限的角色"
+msgstr "授予套件本地化權限的角色"
 
-#: tpl/admin/config/settings.php:98
+#: tpl/admin/config/settings.php:92
 msgid "Look for non-standard names:"
 msgstr "搜尋非標準名稱:"
 
-#: tpl/admin/config/settings.php:93
+#: tpl/admin/config/settings.php:87
 msgid "POT template files"
-msgstr "POT 譯文範本檔案"
+msgstr "POT 範本檔案"
 
-#: tpl/admin/config/settings.php:86 tpl/admin/config/settings.php:116
+#: tpl/admin/config/settings.php:80 tpl/admin/config/settings.php:110
 msgid "Not recommended"
 msgstr "不建議"
 
-#: tpl/admin/config/settings.php:86
+#: tpl/admin/config/settings.php:80
 msgid "Add UTF-8 byte order mark"
 msgstr "加入 UTF-8 BOM (Byte Order Mark，位元組順序標記)"
 
-#: tpl/admin/config/settings.php:65 tpl/admin/config/settings.php:69
+#: tpl/admin/config/settings.php:59 tpl/admin/config/settings.php:63
 msgid "Saving PO/POT files"
 msgstr "儲存 PO/POT 檔"
 
 #: tpl/admin/config/settings.php:51
 msgid "Scan PHP files with extensions:"
-msgstr "掃描指定副檔名的 PHP 檔案:"
+msgstr "掃描含有特定擴充模組的 PHP 檔案:"
 
 #: tpl/admin/config/settings.php:45
 msgid "Skip PHP files larger than:"
@@ -723,7 +715,7 @@ msgstr "寫入保護"
 
 #: tpl/admin/bundle/view.php:50
 msgid "This bundle isn't automatically compatible and requires configuring before you can use all the functions of Loco Translate"
-msgstr "這個套件無法自動相容，且需要經過正確的設定才能使用 Loco Translate 的所有功能"
+msgstr "這個套件無法自動相容，且須要經過正確的設定才能使用 Loco Translate 的所有功能"
 
 #: tpl/admin/bundle/view.php:47
 msgid "unconfigured"
@@ -747,7 +739,7 @@ msgstr "如果在為這個套件進行本地化時遇到問題，請考慮尋求
 
 #: tpl/admin/bundle/setup.php:12
 msgid "Author details"
-msgstr "開發者詳細資料"
+msgstr "開發者詳細資訊"
 
 #: tpl/admin/bundle/setup/saved.php:19
 msgid "Edit config"
@@ -924,7 +916,7 @@ msgstr "封鎖的路徑"
 #. config
 #: tpl/admin/bundle/conf.php:113
 msgid "Files and folders within the bundle that contain localized PHP code"
-msgstr "套件中存放可本地化 PHP 原始程式碼的檔案及資料夾"
+msgstr "套件中存放可本地化 PHP 程式碼的檔案及資料夾"
 
 #: tpl/admin/bundle/conf.php:100
 msgid "Source file paths"
@@ -1021,7 +1013,7 @@ msgstr[0] "無法從已設定的 %u 個 Domain 中擷取原文內容"
 #: src/package/Debugger.php:186
 msgid "One string extracted from source code for \"%2$s\""
 msgid_plural "%s strings extracted from source code for \"%s\""
-msgstr[0] "從 %2$s 的原始程式碼中擷取了 %s 筆原文內容"
+msgstr[0] "從 %2$s 的程式碼中擷取了 %s 筆原文內容"
 
 #: src/admin/bundle/LocaleController.php:136 src/package/Core.php:80
 msgid "WordPress Core"
@@ -1060,19 +1052,19 @@ msgstr "Y/n/j"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "你沒有存取這個頁面的權限。"
 
-#: src/mvc/AjaxRouter.php:205
+#: src/mvc/AjaxRouter.php:204
 msgid "Download controller returned empty output"
 msgstr "下載控制器傳回空的輸出"
 
-#: src/mvc/AjaxRouter.php:200
+#: src/mvc/AjaxRouter.php:199
 msgid "Download action not found"
 msgstr "找不到下載動作"
 
-#: src/mvc/AjaxRouter.php:177
+#: src/mvc/AjaxRouter.php:176
 msgid "Ajax controller returned empty JSON"
 msgstr "Ajax 控制器傳回空的 JSON"
 
-#: src/mvc/AjaxRouter.php:172
+#: src/mvc/AjaxRouter.php:171
 msgid "Ajax route not found: \"%s\""
 msgstr "Ajax 路由找不到 %s"
 
@@ -1181,9 +1173,9 @@ msgstr "沒有與文字篩選器相符的內容"
 msgid "Translate"
 msgstr "進行本地化"
 
-#. translators: Error thrown when attempting to parse a file that is not PO,
-#. POT or MO
-#: src/gettext/Data.php:22
+#. translators: Error thrown when attemping to parse a file that is not PO, POT
+#. or MO
+#: src/gettext/Data.php:20
 msgid "%s is not a Gettext file"
 msgstr "%s 不是符合 Gettext 規格的檔案"
 
@@ -1308,7 +1300,7 @@ msgstr "%s 已存在於這個資料夾中"
 
 #: src/ajax/XgettextController.php:63
 msgid "Template file created"
-msgstr "譯文範本檔案已建立"
+msgstr "範本檔案已建立"
 
 #: src/ajax/SaveController.php:103
 msgid "PO file saved, but MO file compilation failed"
@@ -1320,7 +1312,7 @@ msgstr "PO 檔已儲存且已編譯為 MO 檔"
 
 #: src/ajax/SaveController.php:108
 msgid "POT file saved"
-msgstr "POT 檔已儲存"
+msgstr "POT 檔案已儲存"
 
 #: src/ajax/SaveController.php:66
 msgid "Failed to create backup file in \"%s\". Check file permissions or disable backups"
@@ -1344,23 +1336,23 @@ msgstr "外掛本地化"
 
 #: src/admin/init/InitPotController.php:115
 msgid "New translations template for \"%s\""
-msgstr "新增 %s 的譯文範本"
+msgstr "為 %s 新增譯文範本"
 
 #: src/admin/init/InitPotController.php:114
 msgid "New template file"
-msgstr "新增譯文範本檔案"
+msgstr "新增範本檔案"
 
 #: src/admin/init/InitPotController.php:68
 msgid "Template file already exists"
-msgstr "譯文範本檔案已存在"
+msgstr "範本檔案已存在"
 
 #: src/admin/init/InitPotController.php:16
 msgid "New template"
-msgstr "新增譯文範本"
+msgstr "新增範本"
 
 #: src/admin/init/InitPoController.php:227
 msgid "Skip template"
-msgstr "略過譯文範本"
+msgstr "略過範本"
 
 #: src/admin/init/InitPoController.php:221
 msgid "1 source file will be scanned for translatable strings"
@@ -1394,66 +1386,66 @@ msgstr "未知的譯者"
 
 #. Translators: Button that toggles between "code" and regular text editing
 #. modes
-#: src/admin/file/EditController.php:177
+#: src/admin/file/EditController.php:172
 msgctxt "Editor"
 msgid "Toggle code view"
-msgstr "顯示/隱藏原始程式碼檢視"
+msgstr "顯示/隱藏程式碼檢視"
 
 #. Translators: Button that toggles invisible characters
-#: src/admin/file/EditController.php:175
+#: src/admin/file/EditController.php:170
 msgctxt "Editor"
 msgid "Toggle invisibles"
 msgstr "顯示/隱藏編輯標記"
 
 #. Translators: Button for downloading a PO, MO or POT file
-#: src/admin/file/EditController.php:171
+#: src/admin/file/EditController.php:166
 msgctxt "Editor"
 msgid "Download"
 msgstr "下載"
 
 #. Translators: Button that toggles a translation's Fuzzy flag
-#: src/admin/file/EditController.php:169 src/js/Strings.php:99
+#: src/admin/file/EditController.php:164 src/js/Strings.php:99
 msgctxt "Editor"
 msgid "Fuzzy"
 msgstr "模糊翻譯"
 
 #. Translators: Button that reloads current screen
-#: src/admin/file/EditController.php:167
+#: src/admin/file/EditController.php:162
 msgctxt "Editor"
 msgid "Revert"
 msgstr "還原"
 
 #. Translators: Button that runs in-editor sync/operation
-#: src/admin/file/EditController.php:165
+#: src/admin/file/EditController.php:160
 msgctxt "Editor"
 msgid "Sync"
 msgstr "同步"
 
 #. Translators: Button that saves translations to disk
-#: src/admin/file/EditController.php:163
+#: src/admin/file/EditController.php:158
 msgctxt "Editor"
 msgid "Save"
 msgstr "儲存"
 
-#: src/admin/file/EditController.php:161
+#: src/admin/file/EditController.php:156
 msgid "Help"
 msgstr "線上說明"
 
 #. Translators: button for removing a string when manually editing a POT file
-#: src/admin/file/EditController.php:160
+#: src/admin/file/EditController.php:155
 msgctxt "Editor"
 msgid "Remove"
 msgstr "移除"
 
 #. Translators: button for adding a new string when manually editing a POT file
-#: src/admin/file/EditController.php:158
+#: src/admin/file/EditController.php:153
 msgctxt "Editor"
 msgid "Add"
 msgstr "新增"
 
 #: src/admin/file/EditController.php:103
 msgid "Translations don't match template. Run sync to update from %s"
-msgstr "譯文與譯文範本並不相符，請執行 [同步] 以便從 %s 進行更新"
+msgstr "譯文與範本並不相符，請執行 [同步] 以便從 %s 進行更新"
 
 #. translators: %1$s is the file name, %2$s is the bundle name
 #: src/admin/file/EditController.php:18
@@ -1487,7 +1479,7 @@ msgstr "檔案資訊"
 
 #: src/admin/file/BaseController.php:95
 msgid "Source"
-msgstr "原始程式碼"
+msgstr "程式碼"
 
 #: src/admin/file/BaseController.php:94
 msgid "Editor"
@@ -1495,7 +1487,7 @@ msgstr "譯文編輯器"
 
 #: src/admin/config/SettingsController.php:51
 msgid "Super Admin"
-msgstr "多站網路管理員"
+msgstr "超級管理員"
 
 #: src/admin/config/PrefsController.php:48
 #: src/admin/config/SettingsController.php:77
@@ -1525,11 +1517,11 @@ msgstr "網站設定"
 #: src/admin/bundle/ViewController.php:115
 #: src/admin/init/InitPoController.php:212 tpl/admin/init/init-pot.php:40
 msgid "Create template"
-msgstr "建立譯文範本"
+msgstr "建立範本"
 
 #: src/admin/bundle/ViewController.php:107
 msgid "Edit template"
-msgstr "編輯譯文範本"
+msgstr "編輯範本"
 
 #: src/admin/bundle/ViewController.php:95 src/admin/file/BaseController.php:114
 #: src/admin/init/InitPoController.php:16
@@ -1625,9 +1617,9 @@ msgstr "佈景主題"
 msgid "Invalid locale"
 msgstr "無效的地區語言"
 
-#: loco.php:133
+#: loco.php:131
 msgid "Loco requires the \"%s\" PHP extension. Ask your hosting provider to install it"
-msgstr "Loco Translate 需要 %s 這個 PHP 擴充模組，請要求主機服務提供商為這個網站的主機進行安裝。"
+msgstr "Loco Translate 須要 %s 這個 PHP 擴充模組，請要求主機服務提供商為這個網站的主機進行安裝。"
 
 #. Author of the plugin/theme
 msgid "Tim Whitlock"
@@ -1635,10 +1627,10 @@ msgstr "Tim Whitlock"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/loco-translate/"
-msgstr "https://tw.wordpress.org/plugins/loco-translate/"
+msgstr "https://wordpress.org/plugins/loco-translate/"
 
 #. Translators: Placeholder text for text filter above editor
-#: src/admin/file/EditController.php:173
+#: src/admin/file/EditController.php:168
 msgid "Filter translations"
 msgstr "篩選譯文"
 
@@ -1646,13 +1638,13 @@ msgstr "篩選譯文"
 #: tpl/admin/file/edit-pot.php:10 tpl/admin/file/info-pot.php:10
 #: tpl/admin/file/view-pot.php:9
 msgid "Template file"
-msgstr "譯文範本檔案"
+msgstr "範本檔案"
 
-#: tpl/admin/config/prefs.php:28 tpl/admin/config/settings.php:164
+#: tpl/admin/config/prefs.php:28 tpl/admin/config/settings.php:158
 msgid "Save settings"
 msgstr "儲存設定"
 
-#: tpl/admin/config/settings.php:73
+#: tpl/admin/config/settings.php:67
 msgid "Number of backups to keep of each file:"
 msgstr "每個檔案所保留的備份數量:"
 
@@ -1690,7 +1682,7 @@ msgstr[0] "已新增 %s 筆新字串"
 
 #: src/js/Strings.php:32
 msgid "Already up to date with source code"
-msgstr "已完成與原始程式碼的同步作業"
+msgstr "已完成與程式碼的同步作業"
 
 #: src/js/Strings.php:29
 msgid "Already up to date with %s"
@@ -1698,7 +1690,7 @@ msgstr "已完成與 %s 的同步作業"
 
 #: src/js/Strings.php:20
 msgid "Merged from source code"
-msgstr "從原始程式碼進行合併"
+msgstr "從程式碼進行合併"
 
 #: src/js/Strings.php:17
 msgid "Merged from %s"
@@ -1714,7 +1706,7 @@ msgstr "未知的錯誤"
 msgid "Settings"
 msgstr "設定"
 
-#. #-#-#-#-#  loco-translate-code.pot (Loco Translate 2.2.0)  #-#-#-#-#
+#. #-#-#-#-#  loco-translate-code.pot (Loco Translate 2.1.5)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: src/hooks/AdminHooks.php:67 src/mvc/AdminRouter.php:37
 msgid "Loco Translate"
@@ -1749,4 +1741,4 @@ msgstr "設定已儲存"
 
 #: src/error/WriteException.php:13
 msgid "Permission denied"
-msgstr "使用權限遭拒"
+msgstr "沒有使用權限"

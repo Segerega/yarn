@@ -554,18 +554,18 @@ if ( ! function_exists( 'yit_get_woocommerce_layered_nav_link' ) ) {
 
         if ( defined( 'SHOP_IS_ON_FRONT' ) || ( is_shop() && ! is_product_category() ) ) {
             $return             = get_post_type_archive_link( 'product' );
-            return apply_filters( 'yith_wcan_untrailingslashit', false ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
+            return apply_filters( 'yith_wcan_untrailingslashit', true ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
         }
 
         elseif ( ! is_shop() && is_product_category( $source_id ) && false ) {
             $return = get_term_link( get_queried_object()->slug, 'product_cat' );
-            return apply_filters( 'yith_wcan_untrailingslashit', false ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
+            return apply_filters( 'yith_wcan_untrailingslashit', true ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
         }
 
         else {
             $return = get_post_type_archive_link( 'product' );
 
-            return apply_filters( 'yith_wcan_untrailingslashit', false ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
+            return apply_filters( 'yith_wcan_untrailingslashit', true ) && is_string( $return ) ? untrailingslashit( $return ) : $return;
         }
         
         return $return;
@@ -790,18 +790,12 @@ if( ! function_exists( 'yith_wcan_wp_get_terms' ) ) {
         global $wp_version;
         
         if( version_compare( $wp_version, '4.6', '<' ) ){
-	        $terms = get_terms( $args['taxonomy'], $args );
+            return get_terms( $args['taxonomy'], $args );
         }
         
         else {
-            $terms = get_terms( $args );
+            return get_terms( $args );
         }
-
-        if( ! is_array( $terms ) ){
-        	$terms = array();
-        }
-
-        return $terms;
     }
 }
 
@@ -816,23 +810,3 @@ if( ! function_exists( 'yith_wcan_brands_enabled' ) ){
     }
 }
 
-if( ! function_exists( 'yith_wcan_add_rel_nofollow_to_url' ) ){
-	/**
-	 * Check if the user want to add the rel="nofollow" in filter uri
-	 *
-	 * @param bool $get_html_rel_attribute
-	 *
-	 * @return bool|string
-	 */
-	function yith_wcan_add_rel_nofollow_to_url( $get_html_rel_attribute = false  ){
-		$enable_seo          = 'yes' == yith_wcan_get_option( 'yith_wcan_enable_seo' );
-		$enable_rel_nofollow = 'yes' == yith_wcan_get_option( 'yith_wcan_seo_rel_nofollow', 'no' );
-		$return              = $enabled = $enable_seo && $enable_rel_nofollow;
-
-		if ( $enabled && $get_html_rel_attribute ) {
-			$return = 'rel="nofollow"';
-		}
-
-		return $return;
-	}
-}

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - MailChimp for WordPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-28 18:38:16+0000\n"
+"PO-Revision-Date: 2018-05-29 06:33:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,10 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - MailChimp for WordPress - Stable (latest release)\n"
-
-#: includes/views/general-settings.php:60
-msgid "You defined your MailChimp API key using the <code>MC4WP_API_KEY</code> constant."
-msgstr "Du har definierat din API-nyckel för MailChimp med hjälp av konstanten <code>MC4WP_API_KEY</code>."
 
 #: includes/forms/class-admin.php:60
 msgid "Link to your terms & conditions page"
@@ -95,8 +91,8 @@ msgid "Select a MailChimp list"
 msgstr "Välj en lista i MailChimp"
 
 #: integrations/gravity-forms/admin-before.php:2
-msgid "To integrate with Gravity Forms, add the \"MailChimp for WordPress\" field to <a href=\"%s\">one of your Gravity Forms forms</a>."
-msgstr "För att integrera med Gravity Forms lägger du till fältet ”MailChimp” i <a href=\"%s\">något av dina formulär i Gravity Forms</a>."
+msgid "To integrate with Gravity Forms, add the \"MailChimp\" field to <a href=\"%s\">one of your Gravity Forms forms</a>."
+msgstr "För att integrera med Gravity Forms, lägg till fältet ”MailChimp” till <a href=\"%s\">ett av dina formulär i Gravity Forms</a>."
 
 #: includes/forms/class-form-element.php:82
 msgid "Leave this field empty if you're human:"
@@ -118,8 +114,8 @@ msgstr "Kryssruta för prenumeration"
 msgid "Set your sign-up label text and whether it should be pre-checked."
 msgstr "Ange texten för den prenumerationsuppmaning och om den ska vara förbockad som standard, eller inte."
 
-#: integrations/wpforms/class-field.php:98
 #: integrations/gravity-forms/class-gravity-forms.php:96
+#: integrations/wpforms/class-field.php:98
 msgid "MailChimp list"
 msgstr "MailChimp-lista"
 
@@ -135,7 +131,7 @@ msgstr "Vill du prenumerera på vårt nyhetsbrev?"
 msgid "Use this integration by adding the \"MailChimp\" field to <a href=\"%s\">your WPForms forms</a>."
 msgstr "Använd denna integrering genom att lägga till fältet \"MailChimp\" i dina <a href=\"%s\">formulär i WPForms</a>."
 
-#: includes/admin/class-admin.php:427
+#: includes/admin/class-admin.php:426
 msgid "Looks like your server is blocked by MailChimp's firewall. Please contact MailChimp support and include the following reference number: %s"
 msgstr "Det verkar som att din server är blockerad av MailChimps brandvägg. Vänligen kontakta MailChimps support och inkludera följande referensnummer: %s"
 
@@ -223,25 +219,25 @@ msgstr "Klart! MailChimp-listor har uppdaterats."
 msgid "Fetching MailChimp lists"
 msgstr "Hämtar MailChimp-listor."
 
-#: includes/admin/class-admin.php:435
+#: includes/admin/class-admin.php:434
 msgid "MailChimp returned the following error:"
 msgstr "MailChimp returnerade följande fel:"
 
-#: includes/admin/class-admin.php:430
+#: includes/admin/class-admin.php:429
 msgid "Here's some info on solving common connectivity issues."
 msgstr "Här finns lite information för att lösa vanliga anslutningsproblem."
 
-#: includes/admin/class-admin.php:424
+#: includes/admin/class-admin.php:423
 msgid "Error connecting to MailChimp:"
 msgstr "Fel vid anslutning till MailChimp:"
 
-#: integrations/ninja-forms-2/class-ninja-forms.php:62
 #: integrations/ninja-forms/class-field.php:81
+#: integrations/ninja-forms-2/class-ninja-forms.php:62
 msgid "Checked"
 msgstr "Markerad"
 
-#: integrations/ninja-forms-2/class-ninja-forms.php:58
 #: integrations/ninja-forms/class-field.php:83
+#: integrations/ninja-forms-2/class-ninja-forms.php:58
 msgid "Unchecked"
 msgstr "Avmarkerad"
 
@@ -317,7 +313,7 @@ msgstr "Förvalt"
 msgid "Optional"
 msgstr "Valfritt"
 
-#: includes/admin/class-admin.php:504
+#: includes/admin/class-admin.php:503
 msgid "To get started with MailChimp for WordPress, please <a href=\"%s\">enter your MailChimp API key on the settings page of the plugin</a>."
 msgstr "För att börja använda MailChimp för WordPress, <a href=\"%s\">skriv in din API-nyckel från MailChimp på tilläggets inställningssida.</a>."
 
@@ -353,7 +349,7 @@ msgstr "Ingen lista vald"
 msgid "Select the form to show"
 msgstr "Välj formulär att visa"
 
-#: includes/views/other-settings.php:144
+#: includes/views/other-settings.php:141
 msgid "Right now, the plugin is configured to only log errors and warnings."
 msgstr "Just nu är tillägget konfigurerat till att bara logga fel och varningar."
 
@@ -365,11 +361,11 @@ msgstr "Text att visa när ett fält saknar värde."
 msgid "Text to prefill this field with."
 msgstr "Text att förifylla detta fält med"
 
-#: includes/views/other-settings.php:136
+#: includes/views/other-settings.php:133
 msgid "Empty Log"
 msgstr "Rensa logg"
 
-#: includes/views/other-settings.php:126
+#: includes/views/other-settings.php:123
 msgid "Nothing here. Which means there are no errors!"
 msgstr "Här är det tomt. Det finns alltså inga fel!"
 
@@ -385,7 +381,7 @@ msgstr "Felsökningslogg"
 msgid "This field is marked as required in MailChimp."
 msgstr "Detta fält är markerat som obligatoriskt i MailChimp."
 
-#: includes/admin/class-admin.php:474
+#: includes/admin/class-admin.php:473
 msgid "Log successfully emptied."
 msgstr "Loggen rensades utan problem."
 
@@ -393,8 +389,8 @@ msgstr "Loggen rensades utan problem."
 msgid "Other"
 msgstr "Annat"
 
-#: includes/views/other-settings.php:60 includes/views/other-settings.php:70
-#: includes/admin/class-admin.php:349
+#: includes/admin/class-admin.php:349 includes/views/other-settings.php:60
+#: includes/views/other-settings.php:70
 msgid "Other Settings"
 msgstr "Övriga inställningar"
 
@@ -546,7 +542,7 @@ msgstr "Val"
 msgid "City"
 msgstr "Stad"
 
-#. Description of the plugin
+#. Description of the plugin/theme
 msgid "MailChimp for WordPress by ibericode. Adds various highly effective sign-up methods to your site."
 msgstr "MailChimp för Wordpress av ibericode. Lägger till olika effektiva sätt att registrera sig på din webbplats."
 
@@ -606,9 +602,9 @@ msgstr "Konfigurera denna integration."
 msgid "Description"
 msgstr "﻿Beskrivning"
 
+#: includes/integrations/views/integrations.php:17
 #: includes/views/parts/lists-overview.php:56
 #: includes/views/parts/lists-overview.php:90
-#: includes/integrations/views/integrations.php:17
 msgid "Name"
 msgstr "Namn"
 
@@ -642,9 +638,9 @@ msgstr "%s integration"
 
 #: includes/integrations/class-admin.php:79
 #: includes/integrations/class-admin.php:80
+#: includes/integrations/views/integration-settings.php:10
 #: includes/integrations/views/integrations.php:59
 #: includes/integrations/views/integrations.php:67
-#: includes/integrations/views/integration-settings.php:10
 msgid "Integrations"
 msgstr "Integrationer"
 
@@ -652,18 +648,18 @@ msgstr "Integrationer"
 msgid "Form behaviour"
 msgstr "Formulärbeteende"
 
-#: includes/integrations/views/integration-settings.php:212
 #: includes/forms/views/tabs/form-settings.php:80
+#: includes/integrations/views/integration-settings.php:212
 msgid "What does this do?"
 msgstr "Vad gör detta?"
 
-#: includes/integrations/views/integration-settings.php:211
 #: includes/forms/views/tabs/form-settings.php:79
+#: includes/integrations/views/integration-settings.php:211
 msgid "Select \"no\" if you want to add the selected interests to any previously selected interests when updating a subscriber."
 msgstr "Välj \"nej\" om du vill lägga till de valda intressena till tidigare valda intressen vid uppdatering av en prenumerant."
 
-#: includes/integrations/views/integration-settings.php:191
 #: includes/forms/views/tabs/form-settings.php:62
+#: includes/integrations/views/integration-settings.php:191
 msgid "Select \"yes\" if you want to update existing subscribers with the data that is sent."
 msgstr "Välj \"ja\" om du vill uppdatera befintliga prenumeranter med de data som skickas."
 
@@ -761,10 +757,10 @@ msgstr "Ange formulärrubriken här"
 msgid "Edit Form"
 msgstr "Redigera formulär"
 
-#: includes/views/other-settings.php:58 includes/views/general-settings.php:7
-#: includes/integrations/views/integrations.php:57
-#: includes/integrations/views/integration-settings.php:8
 #: includes/forms/views/edit-form.php:22
+#: includes/integrations/views/integration-settings.php:8
+#: includes/integrations/views/integrations.php:57
+#: includes/views/general-settings.php:7 includes/views/other-settings.php:58
 msgid "You are here: "
 msgstr "Du är här:"
 
@@ -900,15 +896,15 @@ msgstr "Läs mer om vanliga anslutningsproblem."
 msgid "Usage Tracking"
 msgstr "Användningsspårning"
 
-#. Author URI of the plugin
+#. Author URI of the plugin/theme
 msgid "https://ibericode.com/"
 msgstr "https://ibericode.com/"
 
-#. Author of the plugin
+#. Author of the plugin/theme
 msgid "ibericode"
 msgstr "ibericode"
 
-#. Plugin URI of the plugin
+#. Plugin URI of the plugin/theme
 msgid "https://mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page"
 msgstr "https://mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page"
 
@@ -952,8 +948,8 @@ msgstr "Listval"
 msgid "Submit button"
 msgstr "Skicka-knapp"
 
-#: includes/integrations/class-integration-tags.php:45
 #: includes/forms/class-form-tags.php:71
+#: includes/integrations/class-integration-tags.php:45
 msgid "Replaced with the number of subscribers on the selected list(s)"
 msgstr "Ersatt med prenumerantens nummer på vald lista(or)"
 
@@ -1049,13 +1045,13 @@ msgstr "Välj \"ja\" för att dölja formulärfälten efter en framgångsrik reg
 msgid "Hide form after a successful sign-up?"
 msgstr "Dölj formuläret efter en lyckad registrering?"
 
-#: includes/integrations/views/integration-settings.php:200
 #: includes/forms/views/tabs/form-settings.php:68
+#: includes/integrations/views/integration-settings.php:200
 msgid "Replace interest groups?"
 msgstr "Ersätt intressegrupper?"
 
-#: includes/integrations/views/integration-settings.php:181
 #: includes/forms/views/tabs/form-settings.php:52
+#: includes/integrations/views/integration-settings.php:181
 #: integrations/ninja-forms/class-action.php:47
 msgid "Update existing subscribers?"
 msgstr "Uppdatera befintliga prenumeranter?"
@@ -1134,8 +1130,8 @@ msgstr "Dubbel bekräftelse?"
 msgid "Select the list(s) to which people who check the checkbox should be subscribed."
 msgstr "Välj de listor som den anmälande ska anmälas till."
 
-#: includes/integrations/views/integration-settings.php:113
 #: includes/forms/views/tabs/form-settings.php:18
+#: includes/integrations/views/integration-settings.php:113
 msgid "No lists found, <a href=\"%s\">are you connected to MailChimp</a>?"
 msgstr "Inga listor hittades. <a href=\"%s\">Har du anslutit dig till MailChimp</a>?"
 
@@ -1155,9 +1151,9 @@ msgstr "Totalt hittades %d listor i ditt MailChimp-konto."
 msgid "No lists were found in your MailChimp account"
 msgstr "Inga listor kunde hittas i ditt MailChimp-konto."
 
-#: includes/views/parts/lists-overview.php:10
-#: includes/forms/views/parts/add-fields-help.php:43
 #: includes/admin/class-admin.php:310
+#: includes/forms/views/parts/add-fields-help.php:43
+#: includes/views/parts/lists-overview.php:10
 msgid "Renew MailChimp lists"
 msgstr "Förnya MailChimp-listor"
 
@@ -1181,8 +1177,7 @@ msgstr "EJ ANSLUTEN"
 msgid "CONNECTED"
 msgstr "ANSLUTEN"
 
-#. Plugin Name of the plugin
-#: integrations/gravity-forms/class-field.php:39
+#. Plugin Name of the plugin/theme
 msgid "MailChimp for WordPress"
 msgstr "MailChimp for WordPress"
 
@@ -1190,7 +1185,10 @@ msgstr "MailChimp for WordPress"
 msgid "Email Address"
 msgstr "E-postadress"
 
-#: includes/views/other-settings.php:25
+#: includes/forms/views/tabs/form-settings.php:45
+#: includes/forms/views/tabs/form-settings.php:60
+#: includes/forms/views/tabs/form-settings.php:76
+#: includes/forms/views/tabs/form-settings.php:112
 #: includes/integrations/views/integration-settings.php:65
 #: includes/integrations/views/integration-settings.php:79
 #: includes/integrations/views/integration-settings.php:138
@@ -1198,17 +1196,17 @@ msgstr "E-postadress"
 #: includes/integrations/views/integration-settings.php:170
 #: includes/integrations/views/integration-settings.php:189
 #: includes/integrations/views/integration-settings.php:208
-#: includes/forms/views/tabs/form-settings.php:45
-#: includes/forms/views/tabs/form-settings.php:60
-#: includes/forms/views/tabs/form-settings.php:76
-#: includes/forms/views/tabs/form-settings.php:112
-#: integrations/wpforms/class-field.php:269
+#: includes/views/other-settings.php:25
 #: integrations/contact-form-7/class-contact-form-7.php:75
 #: integrations/gravity-forms/class-gravity-forms.php:111
+#: integrations/wpforms/class-field.php:269
 msgid "No"
 msgstr "Nej"
 
-#: includes/views/other-settings.php:21
+#: includes/forms/views/tabs/form-settings.php:41
+#: includes/forms/views/tabs/form-settings.php:56
+#: includes/forms/views/tabs/form-settings.php:72
+#: includes/forms/views/tabs/form-settings.php:108
 #: includes/integrations/views/integration-settings.php:64
 #: includes/integrations/views/integration-settings.php:78
 #: includes/integrations/views/integration-settings.php:137
@@ -1216,13 +1214,10 @@ msgstr "Nej"
 #: includes/integrations/views/integration-settings.php:166
 #: includes/integrations/views/integration-settings.php:185
 #: includes/integrations/views/integration-settings.php:204
-#: includes/forms/views/tabs/form-settings.php:41
-#: includes/forms/views/tabs/form-settings.php:56
-#: includes/forms/views/tabs/form-settings.php:72
-#: includes/forms/views/tabs/form-settings.php:108
-#: integrations/wpforms/class-field.php:269
+#: includes/views/other-settings.php:21
 #: integrations/contact-form-7/class-contact-form-7.php:75
 #: integrations/gravity-forms/class-gravity-forms.php:110
+#: integrations/wpforms/class-field.php:269
 msgid "Yes"
 msgstr "Ja"
 
@@ -1254,7 +1249,7 @@ msgstr "Oops. Nånting gick fel. Försök igen senare."
 msgid "Thank you, your sign-up request was successful! Please check your email inbox to confirm."
 msgstr "Tack, registreringen lyckades! Vänligen kontrollera inkorgen för din e-post för att bekräfta."
 
-#: includes/integrations/class-integration.php:68
+#: config/default-integration-options.php:7
 msgid "Sign me up for the newsletter!"
 msgstr "Registrera mig för nyhetsbrevet!"
 
@@ -1290,7 +1285,7 @@ msgstr "MailChimp Registreringsformulär"
 msgid "Email address"
 msgstr "E-postadress"
 
-#: includes/forms/class-admin.php:92 includes/admin/class-ads.php:143
+#: includes/admin/class-ads.php:143 includes/forms/class-admin.php:92
 msgid "Subscribe"
 msgstr "Prenumerera"
 
@@ -1311,15 +1306,16 @@ msgid "Checkboxes"
 msgstr "Kryssrutor"
 
 #: includes/admin/class-admin.php:343
-#: integrations/ninja-forms-2/class-ninja-forms.php:32
+#: integrations/gravity-forms/class-field.php:39
 #: integrations/ninja-forms/class-action.php:20
+#: integrations/ninja-forms-2/class-ninja-forms.php:32
 msgid "MailChimp"
 msgstr "MailChimp"
 
-#: includes/views/general-settings.php:31 includes/admin/class-admin.php:342
+#: includes/admin/class-admin.php:342 includes/views/general-settings.php:31
 msgid "MailChimp API Settings"
 msgstr "MailChimp API inställningar"
 
-#: includes/forms/views/edit-form.php:6 includes/admin/class-admin-texts.php:62
+#: includes/admin/class-admin-texts.php:62 includes/forms/views/edit-form.php:6
 msgid "Settings"
 msgstr "Inställningar"

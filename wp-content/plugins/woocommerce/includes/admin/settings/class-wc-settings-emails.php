@@ -108,7 +108,6 @@ class WC_Settings_Emails extends WC_Settings_Page {
 				array(
 					'title' => __( 'Email template', 'woocommerce' ),
 					'type'  => 'title',
-					/* translators: %s: Nonced email preview link */
 					'desc'  => sprintf( __( 'This section lets you customize the WooCommerce emails. <a href="%s" target="_blank">Click here to preview your email template</a>.', 'woocommerce' ), wp_nonce_url( admin_url( '?preview_woocommerce_mail=true' ), 'preview-mail' ) ),
 					'id'    => 'email_template_options',
 				),
@@ -127,13 +126,12 @@ class WC_Settings_Emails extends WC_Settings_Page {
 
 				array(
 					'title'       => __( 'Footer text', 'woocommerce' ),
-					/* translators: %s: Available placeholders for use */
 					'desc'        => __( 'The text to appear in the footer of WooCommerce emails.', 'woocommerce' ) . ' ' . sprintf( __( 'Available placeholders: %s', 'woocommerce' ), '{site_title}' ),
 					'id'          => 'woocommerce_email_footer_text',
 					'css'         => 'width:300px; height: 75px;',
 					'placeholder' => __( 'N/A', 'woocommerce' ),
 					'type'        => 'textarea',
-					'default'     => '{site_title}<br/>Powered by <a href="https://woocommerce.com/">WooCommerce</a>',
+					'default'     => '{site_title}',
 					'autoload'    => false,
 					'desc_tip'    => true,
 				),
@@ -284,7 +282,7 @@ class WC_Settings_Emails extends WC_Settings_Page {
 								switch ( $key ) {
 									case 'name':
 										echo '<td class="wc-email-settings-table-' . esc_attr( $key ) . '">
-										<a href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=email&section=' . strtolower( $email_key ) ) ) . '">' . esc_html( $email->get_title() ) . '</a>
+										<a href="' . admin_url( 'admin.php?page=wc-settings&tab=email&section=' . strtolower( $email_key ) ) . '">' . $email->get_title() . '</a>
 										' . wc_help_tip( $email->get_description() ) . '
 									</td>';
 										break;
@@ -313,7 +311,7 @@ class WC_Settings_Emails extends WC_Settings_Page {
 										break;
 									case 'actions':
 										echo '<td class="wc-email-settings-table-' . esc_attr( $key ) . '">
-										<a class="button alignright" href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=email&section=' . strtolower( $email_key ) ) ) . '">' . esc_html__( 'Manage', 'woocommerce' ) . '</a>
+										<a class="button alignright" href="' . admin_url( 'admin.php?page=wc-settings&tab=email&section=' . strtolower( $email_key ) ) . '">' . esc_html__( 'Manage', 'woocommerce' ) . '</a>
 									</td>';
 										break;
 									default:

@@ -57,21 +57,17 @@ abstract class MC4WP_Integration {
 	/**
 	 * Return array of default options
 	 *
+	 * @staticvar $defaults
 	 * @return array
 	 */
 	protected function get_default_options() {
-		return array(
-			'css'           => 0,
-		    'double_optin'  => 1,
-			'enabled'       => 0,
-			'implicit'      => 0,
-			'label'         => __( 'Sign me up for the newsletter!', 'mailchimp-for-wp' ),
-		    'lists'         => array(),
-			'precheck'      => 0,
-		    'replace_interests' => 0,
-			'update_existing' => 0,
-		    'wrap_p' => 1
-		);
+		static $defaults;
+
+		if( ! $defaults ) {
+			$defaults = require MC4WP_PLUGIN_DIR . 'config/default-integration-options.php';
+		}
+
+		return $defaults;
 	}
 
 	/**
@@ -82,13 +78,7 @@ abstract class MC4WP_Integration {
 	protected function parse_options( array $options ) {
 		$slug = $this->slug;
 
-		$default_options = $this->get_default_options();
-		$options = array_merge( $default_options, $options );
-
-		/**
-		* @deprecated Use mc4wp_integration_{$slug}_options instead
-		*/
-		$options = (array) apply_filters( 'mc4wp_' . $slug . '_integration_options', $options );
+		$options = array_merge( $this->get_default_options(), $options );
 
 		/**
 		 * Filters options for a specific integration
@@ -96,8 +86,9 @@ abstract class MC4WP_Integration {
 		 * The dynamic portion of the hook, `$slug`, refers to the slug of the ingration.
 		 *
 		 * @param array $integration_options
+         * @ignore
 		 */
-		return (array) apply_filters( 'mc4wp_integration_' . $slug . '_options', $options );
+		return (array) apply_filters( 'mc4wp_' . $slug . '_integration_options', $options );
 	}
 
 	/**

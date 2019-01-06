@@ -45,7 +45,11 @@ class WC_DateTime extends DateTime {
 	 * Get UTC offset if set, or default to the DateTime object's offset.
 	 */
 	public function getOffset() {
-		return $this->utc_offset ? $this->utc_offset : parent::getOffset();
+		if ( $this->utc_offset ) {
+			return $this->utc_offset;
+		} else {
+			return parent::getOffset();
+		}
 	}
 
 	/**

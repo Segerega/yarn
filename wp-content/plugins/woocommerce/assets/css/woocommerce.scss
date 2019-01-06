@@ -189,10 +189,6 @@ p.demo_store,
 				opacity: 0;
 			}
 
-			.woocommerce-product-gallery__image--placeholder {
-				border: 1px solid #F2F2F2;
-			}
-
 			.woocommerce-product-gallery__image:nth-child(n+2) {
 				width: 25%;
 				display: inline-block;
@@ -573,10 +569,6 @@ p.demo_store,
 
 		strong {
 			display: block;
-		}
-
-		.woocommerce-placeholder {
-			border: 1px solid #F2F2F2;
 		}
 
 		.star-rating {
@@ -1066,14 +1058,12 @@ p.demo_store,
 		th {
 			font-weight: 700;
 			padding: 9px 12px;
-			line-height: 1.5em;
 		}
 
 		td {
 			border-top: 1px solid rgba(0, 0, 0, 0.1);
-			padding: 9px 12px;
+			padding: 6px 12px;
 			vertical-align: middle;
-			line-height: 1.5em;
 
 			small {
 				font-weight: normal;
@@ -1414,12 +1404,12 @@ p.demo_store,
 		padding: 0;
 
 		li {
-			margin: 0 0 .5em;
-			line-height: 1.5em;
+			margin: 0;
+			padding: 0.25em 0 0.25em 22px;
+			text-indent: -22px;
 			list-style: none outside;
 			input {
-				margin: 3px 0.4375em 0 0;
-				vertical-align: top;
+				margin: 3px 0.5ex;
 			}
 			label {
 				display: inline;
@@ -1721,7 +1711,7 @@ p.demo_store,
 /**
  * Right to left styles
  */
- .rtl.woocommerce .price_label,
+ .rtl.woocommerce .price_label, 
  .rtl.woocommerce .price_label span {
 	/* rtl:ignore */
 	direction: ltr;
@@ -1854,18 +1844,16 @@ p.demo_store,
 	}
 
 	.cart-collaterals {
-		.shipping-calculator-button {
-			float: none;
-			margin-top: .5em;
-			display: inline-block;
-		}
+		.shipping_calculator {
+			.button {
+				width: 100%;
+				float: none;
+				display: block;
+			}
 
-		.shipping-calculator-button::after {
-			@include iconafter( '\e019' );
-		}
-
-		.shipping-calculator-form {
-			margin: 1em 0 0 0;
+			.shipping-calculator-button::after {
+				@include iconafter( '\e019' );
+			}
 		}
 
 		.cart_totals {
@@ -1887,7 +1875,7 @@ p.demo_store,
 				}
 
 				th {
-					width: 35%;
+					width: 40%;
 				}
 
 				td,
@@ -1914,9 +1902,6 @@ p.demo_store,
 			tr td,
 			tr th {
 				border-top: 1px solid $secondary;
-			}
-			.woocommerce-shipping-destination {
-				margin-bottom: 0;
 			}
 		}
 

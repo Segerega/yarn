@@ -20,7 +20,7 @@ if ( ! class_exists( 'YITH_WCAN_Reset_Navigation_Widget' ) ) {
     class YITH_WCAN_Reset_Navigation_Widget extends WP_Widget {
 
         function __construct() {
-            $widget_ops  = array( 'classname' => 'yith-woocommerce-ajax-product-filter yith-woo-ajax-reset-navigation yith-woo-ajax-navigation woocommerce widget_layered_nav', 'description' => _x( 'Reset all filters set by YITH WooCommerce Ajax Product Filter', '[Plugin Name]', 'yith-woocommerce-ajax-navigation' ) );
+            $widget_ops  = array( 'classname' => 'yith-woocommerce-ajax-product-filter yith-woo-ajax-reset-navigation yith-woo-ajax-navigation woocommerce widget_layered_nav', 'description' => __( 'Reset all filters set by YITH WooCommerce Ajax Product Filter', 'yith-woocommerce-ajax-navigation' ) );
             $control_ops = array( 'width' => 400, 'height' => 350 );
             parent::__construct( 'yith-woo-ajax-reset-navigation', __( 'YITH WooCommerce Ajax Reset Filter', 'yith-woocommerce-ajax-navigation' ), $widget_ops, $control_ops );
         }
@@ -80,9 +80,7 @@ if ( ! class_exists( 'YITH_WCAN_Reset_Navigation_Widget' ) ) {
                     echo $before_title . $title . $after_title;
                 }
                 $button_class = apply_filters( 'yith-wcan-reset-navigation-button-class', "yith-wcan-reset-navigation button" );
-                $rel_nofollow = yith_wcan_add_rel_nofollow_to_url( true );
-
-                echo "<div class='yith-wcan'><a {$rel_nofollow} class='{$button_class}' href='{$link}'>" . __( $label, 'yith-woocommerce-ajax-navigation' ) . "</a></div>";
+                echo "<div class='yith-wcan'><a class='{$button_class}' href='{$link}'>" . __( $label, 'yith-woocommerce-ajax-navigation' ) . "</a></div>";
                 echo $after_widget;
                 echo ob_get_clean();
             }

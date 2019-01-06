@@ -84,41 +84,6 @@ class WC_Product_CSV_Importer_Controller {
 	}
 
 	/**
-	 * Check whether a file is a valid CSV file.
-	 *
-	 * @param string $file File path.
-	 * @param bool   $check_path Whether to also check the file is located in a valid location (Default: true).
-	 * @return bool
-	 */
-	public static function is_file_valid_csv( $file, $check_path = true ) {
-		if ( $check_path && apply_filters( 'woocommerce_product_csv_importer_check_import_file_path', true ) && false !== stripos( $file, '://' ) ) {
-			return false;
-		}
-
-		$valid_filetypes = self::get_valid_csv_filetypes();
-		$filetype = wp_check_filetype( $file, $valid_filetypes );
-		if ( in_array( $filetype['type'], $valid_filetypes, true ) ) {
-			return true;
-		}
-
-		return false;
-	}
-
-	/**
-	 * Get all the valid filetypes for a CSV file.
-	 *
-	 * @return array
-	 */
-	protected static function get_valid_csv_filetypes() {
-		return apply_filters(
-			'woocommerce_csv_product_import_valid_filetypes', array(
-				'csv' => 'text/csv',
-				'txt' => 'text/plain',
-			)
-		);
-	}
-
-	/**
 	 * Constructor.
 	 */
 	public function __construct() {
@@ -306,6 +271,13 @@ class WC_Product_CSV_Importer_Controller {
 	 * @return string|WP_Error
 	 */
 	public function handle_upload() {
+		$valid_filetypes = apply_filters(
+			'woocommerce_csv_product_import_valid_filetypes', array(
+				'csv' => 'text/csv',
+				'txt' => 'text/plain',
+			)
+		);
+
 		// phpcs:disable WordPress.CSRF.NonceVerification.NoNonceVerification -- Nonce already verified in WC_Product_CSV_Importer_Controller::upload_form_handler()
 		$file_url = isset( $_POST['file_url'] ) ? wc_clean( wp_unslash( $_POST['file_url'] ) ) : '';
 
@@ -314,13 +286,14 @@ class WC_Product_CSV_Importer_Controller {
 				return new WP_Error( 'woocommerce_product_csv_importer_upload_file_empty', __( 'File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.', 'woocommerce' ) );
 			}
 
-			if ( ! self::is_file_valid_csv( wc_clean( wp_unslash( $_FILES['import']['name'] ) ), false ) ) {
+			$filetype = wp_check_filetype( wc_clean( wp_unslash( $_FILES['import']['name'] ) ), $valid_filetypes );
+			if ( ! in_array( $filetype['type'], $valid_filetypes, true ) ) {
 				return new WP_Error( 'woocommerce_product_csv_importer_upload_file_invalid', __( 'Invalid file type. The importer supports CSV and TXT file formats.', 'woocommerce' ) );
 			}
 
 			$overrides = array(
 				'test_form' => false,
-				'mimes'     => self::get_valid_csv_filetypes(),
+				'mimes'     => $valid_filetypes,
 			);
 			$import    = $_FILES['import']; // WPCS: sanitization ok, input var ok.
 			$upload    = wp_handle_upload( $import, $overrides );
@@ -350,7 +323,8 @@ class WC_Product_CSV_Importer_Controller {
 
 			return $upload['file'];
 		} elseif ( file_exists( ABSPATH . $file_url ) ) {
-			if ( ! self::is_file_valid_csv( ABSPATH . $file_url ) ) {
+			$filetype = wp_check_filetype( ABSPATH . $file_url, $valid_filetypes );
+			if ( ! in_array( $filetype['type'], $valid_filetypes, true ) ) {
 				return new WP_Error( 'woocommerce_product_csv_importer_upload_file_invalid', __( 'Invalid file type. The importer supports CSV and TXT file formats.', 'woocommerce' ) );
 			}
 
@@ -398,15 +372,8 @@ class WC_Product_CSV_Importer_Controller {
 	 * Import the file if it exists and is valid.
 	 */
 	public function import() {
-		if ( ! self::is_file_valid_csv( $this->file ) ) {
-			$this->add_error( __( 'Invalid file type. The importer supports CSV and TXT file formats.', 'woocommerce' ) );
-			$this->output_errors();
-			return;
-		}
-
 		if ( ! is_file( $this->file ) ) {
 			$this->add_error( __( 'The file does not exist, please try again.', 'woocommerce' ) );
-			$this->output_errors();
 			return;
 		}
 
@@ -508,7 +475,6 @@ class WC_Product_CSV_Importer_Controller {
 					__( 'In stock?', 'woocommerce' )      => 'stock_status',
 					__( 'Stock', 'woocommerce' )          => 'stock_quantity',
 					__( 'Backorders allowed?', 'woocommerce' ) => 'backorders',
-					__( 'Low stock amount', 'woocommerce' ) => 'low_stock_amount',
 					__( 'Sold individually?', 'woocommerce' ) => 'sold_individually',
 					/* translators: %s: Weight unit */
 					sprintf( __( 'Weight (%s)', 'woocommerce' ), $weight_unit ) => 'weight',
@@ -674,7 +640,6 @@ class WC_Product_CSV_Importer_Controller {
 			'stock_status'       => __( 'In stock?', 'woocommerce' ),
 			'stock_quantity'     => _x( 'Stock', 'Quantity in stock', 'woocommerce' ),
 			'backorders'         => __( 'Backorders allowed?', 'woocommerce' ),
-			'low_stock_amount'   => __( 'Low stock amount', 'woocommerce' ),
 			'sold_individually'  => __( 'Sold individually?', 'woocommerce' ),
 			/* translators: %s: weight unit */
 			'weight'             => sprintf( __( 'Weight (%s)', 'woocommerce' ), $weight_unit ),

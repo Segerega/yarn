@@ -3,7 +3,7 @@
 loco_require_lib('compiled/gettext.php');
 
 /**
- * String extraction from source code.
+ * 
  */
 class Loco_gettext_Extraction {
 
@@ -13,9 +13,9 @@ class Loco_gettext_Extraction {
     private $bundle;
 
     /**
-     * @var LocoExtracted
-     */
-    private $extracted;
+     * @var LocoPHPExtractor
+     */    
+    private $extractor;
 
     /**
      * Extra strings to be pushed into domains
@@ -38,23 +38,26 @@ class Loco_gettext_Extraction {
 
     /**
      * Initialize extractor for a given bundle
-     * @param Loco_package_Bundle
      */
     public function __construct( Loco_package_Bundle $bundle ){
         if( ! loco_check_extension('tokenizer') ){
             throw new Loco_error_Exception('String extraction not available without required extension');
         }
         $this->bundle = $bundle;
-        $this->extracted = new LocoExtracted;
-        $this->extracted->setDomain('default');
+        $this->extractor = loco_wp_extractor();
         $this->extras = array();
         if( $default = $bundle->getDefaultProject() ){
             $domain = (string) $default->getDomain();
-            // wildcard stands in for empty text domain, meaning unspecified or dynamic domains will be included.
-            // note that strings intended to be in "default" domain must specify explicitly, or be included here too.
+            // wildcard stands in for empty text domain
             if( '*' === $domain ){
                 $domain = '';
-                $this->extracted->setDomain('');
+                $this->extractor->setDomain('');
+            }
+            // extract headers from theme PHP files
+            if( $bundle->isTheme() ){
+                $this->extractor->headerize( array (
+                    'Template Name' => 'Name of the template',
+                ), $domain );
             }
             // pull bundle's default metadata. these are translations that may not be encountered in files
             $extras = array();
@@ -73,8 +76,8 @@ class Loco_gettext_Extraction {
     }
 
 
+
     /**
-     * @param Loco_package_Project
      * @return Loco_gettext_Extraction
      */
     public function addProject( Loco_package_Project $project ){
@@ -88,28 +91,19 @@ class Loco_gettext_Extraction {
         }
         /* @var $file Loco_fs_File */
         foreach( $project->findSourceFiles() as $file ){
-            $type = $opts->ext2type( $file->extension() );
-            $extr = loco_wp_extractor($type);
-            if( 'js' !== $type ){
-                // skip large files for PHP, because token_get_all is hungry
-                $size = $file->size();
-                $this->maxbytes = max( $this->maxbytes, $size );
-                if( $size > $max ){
-                    $list = $this->skipped or $list = ( $this->skipped = new Loco_fs_FileList() );
-                    $list->add( $file );
-                    continue;
-                }
-                // extract headers from theme PHP files in
-                if( $project->getBundle()->isTheme() ){
-                    $extr->headerize( array (
-                        'Template Name' => 'Name of the template',
-                    ), (string) $project->getDomain() );
-                }
+            $size = $file->size();
+            $this->maxbytes = max( $this->maxbytes, $size );
+            if( $size > $max ){
+                $list = $this->skipped or $list = ( $this->skipped = new Loco_fs_FileList() );
+                $list->add( $file );
             }
-            $this->extracted->extractSource( $extr, $file->getContents(), $file->getRelativePath($base) );
+            else {
+                $this->extractor->extractSource( $file->getContents(), $file->getRelativePath($base) );
+            }
         }
         return $this;
     }
+
 
 
     /**
@@ -119,7 +113,7 @@ class Loco_gettext_Extraction {
     public function includeMeta(){
         foreach( $this->extras as $domain => $extras ){
             foreach( $extras as $args ){
-                $this->extracted->pushMeta( $args[0], $args[1], $domain );
+                $this->extractor->pushMeta( $args[0], $args[1], $domain );
             }
         }
         $this->extras = array();
@@ -127,22 +121,23 @@ class Loco_gettext_Extraction {
     }
 
 
+
     /**
      * Get number of unique strings across all domains extracted (excluding additional metadata)
      * @return array { default: x, myDomain: y }
      */
     public function getDomainCounts(){
-        return $this->extracted->getDomainCounts();
+        return $this->extractor->getDomainCounts();
     }
 
 
     /**
      * Pull extracted data into POT, filtering out any unwanted domains 
-     * @param string
      * @return Loco_gettext_Data
      */
     public function getTemplate( $domain ){
-        $data = new Loco_gettext_Data( $this->extracted->filter($domain) );
+        $raw = $this->extractor->filter( $domain );
+        $data = new Loco_gettext_Data( $raw );
         return $data->templatize();
     }
 
@@ -152,7 +147,7 @@ class Loco_gettext_Extraction {
      * @return int
      */
     public function getTotal(){
-        return $this->extracted->count();
+        return $this->extractor->getTotal();
     }
 
 

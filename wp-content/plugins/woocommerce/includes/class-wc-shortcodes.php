@@ -475,7 +475,7 @@ class WC_Shortcodes {
 		$args = array(
 			'posts_per_page'      => 1,
 			'post_type'           => 'product',
-			'post_status'         => ( ! empty( $atts['status'] ) ) ? $atts['status'] : 'publish',
+			'post_status'         => 'publish',
 			'ignore_sticky_posts' => 1,
 			'no_found_rows'       => 1,
 		);
@@ -585,7 +585,9 @@ class WC_Shortcodes {
 	 * @return string
 	 */
 	public static function shop_messages() {
-		return '<div class="woocommerce">' . wc_print_notices( true ) . '</div>';
+		ob_start();
+		wc_print_notices();
+		return '<div class="woocommerce">' . ob_get_clean() . '</div>';
 	}
 
 	/**

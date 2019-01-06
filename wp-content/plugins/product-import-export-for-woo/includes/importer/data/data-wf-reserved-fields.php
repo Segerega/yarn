@@ -56,7 +56,5 @@ return array(
 	'download_expiry',
 	'product_url',
 	'button_text',
-	'default_attributes',
-        'sold_individually',
-        'low_stock_amount'
+	'default_attributes'
 );

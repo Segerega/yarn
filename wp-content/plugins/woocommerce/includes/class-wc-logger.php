@@ -99,14 +99,10 @@ class WC_Logger implements WC_Logger_Interface {
 	 */
 	public function add( $handle, $message, $level = WC_Log_Levels::NOTICE ) {
 		$message = apply_filters( 'woocommerce_logger_add_message', $message, $handle );
-		$this->log(
-			$level,
-			$message,
-			array(
-				'source'  => $handle,
-				'_legacy' => true,
-			)
-		);
+		$this->log( $level, $message, array(
+			'source'  => $handle,
+			'_legacy' => true,
+		) );
 		wc_do_deprecated_action( 'woocommerce_log_add', array( $handle, $message ), '3.0', 'This action has been deprecated with no alternative.' );
 		return true;
 	}
@@ -133,7 +129,7 @@ class WC_Logger implements WC_Logger_Interface {
 		}
 
 		if ( $this->should_handle( $level ) ) {
-			$timestamp = current_time( 'timestamp', 1 );
+			$timestamp = current_time( 'timestamp' );
 			$message   = apply_filters( 'woocommerce_logger_log_message', $message, $level, $context );
 
 			foreach ( $this->handlers as $handler ) {

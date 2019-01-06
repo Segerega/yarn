@@ -5,7 +5,7 @@
 
 /* form_tag handler */
 
-add_action( 'wpcf7_init', 'wpcf7_add_form_tag_acceptance', 10, 0 );
+add_action( 'wpcf7_init', 'wpcf7_add_form_tag_acceptance' );
 
 function wpcf7_add_form_tag_acceptance() {
 	wpcf7_add_form_tag( 'acceptance',
@@ -103,8 +103,7 @@ function wpcf7_acceptance_validation_filter( $result, $tag ) {
 
 	$invert = $tag->has_option( 'invert' );
 
-	if ( $invert and $value
-	or ! $invert and ! $value ) {
+	if ( $invert && $value || ! $invert && ! $value ) {
 		$result->invalidate( $tag, wpcf7_get_message( 'accept_terms' ) );
 	}
 
@@ -134,7 +133,7 @@ function wpcf7_acceptance_filter( $accepted, $submission ) {
 
 		$content = trim( $content );
 
-		if ( $value and $content ) {
+		if ( $value && $content ) {
 			$submission->add_consent( $name, $content );
 		}
 
@@ -144,8 +143,7 @@ function wpcf7_acceptance_filter( $accepted, $submission ) {
 
 		$invert = $tag->has_option( 'invert' );
 
-		if ( $invert and $value
-		or ! $invert and ! $value ) {
+		if ( $invert && $value || ! $invert && ! $value ) {
 			$accepted = false;
 		}
 	}
@@ -153,8 +151,7 @@ function wpcf7_acceptance_filter( $accepted, $submission ) {
 	return $accepted;
 }
 
-add_filter( 'wpcf7_form_class_attr',
-	'wpcf7_acceptance_form_class_attr', 10, 1 );
+add_filter( 'wpcf7_form_class_attr', 'wpcf7_acceptance_form_class_attr' );
 
 function wpcf7_acceptance_form_class_attr( $class ) {
 	if ( wpcf7_acceptance_as_validation() ) {
@@ -213,7 +210,7 @@ function wpcf7_acceptance_mail_tag( $replaced, $submitted, $html, $mail_tag ) {
 
 /* Tag generator */
 
-add_action( 'wpcf7_admin_init', 'wpcf7_add_tag_generator_acceptance', 35, 0 );
+add_action( 'wpcf7_admin_init', 'wpcf7_add_tag_generator_acceptance', 35 );
 
 function wpcf7_add_tag_generator_acceptance() {
 	$tag_generator = WPCF7_TagGenerator::get_instance();

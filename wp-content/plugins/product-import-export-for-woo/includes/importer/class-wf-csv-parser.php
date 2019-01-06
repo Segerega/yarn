@@ -173,7 +173,8 @@ class WF_CSV_Parser {
 	 * @param  integer $merge_empty_cells
 	 * @return array
 	 */
-	public function parse_product( $item, $merge_empty_cells = 0 ) {            
+	public function parse_product( $item, $merge_empty_cells = 0 ) {
+            
 		global $WF_CSV_Product_Import, $wpdb;
 		$this->row++;
 
@@ -485,7 +486,7 @@ class WF_CSV_Parser {
 								if ( is_array( $term_may_exist ) ) {
 									$possible_term = get_term( $term_may_exist['term_id'], 'product_cat' );
 
-									if (!empty($possible_term) && $possible_term->parent == $parent ) {
+									if ( $possible_term->parent == $parent ) {
 										$term_id = $term_may_exist['term_id'];
 									}
 								}
@@ -844,8 +845,7 @@ class WF_CSV_Parser {
 		$product['sku']        = ( ! empty( $item['sku'] ) ) ? $item['sku'] : '';
 		$product['post_title'] = ( ! empty( $item['post_title'] ) ) ? $item['post_title'] : '';
                 $product['post_type'] = $this->post_type;
-		unset( $item, $terms_array, $postmeta, $attributes, $gpf_data, $images );  
-                
+		unset( $item, $terms_array, $postmeta, $attributes, $gpf_data, $images );                               
 		return $product;
 	}
         public function hf_currency_formatter($price){

@@ -119,7 +119,7 @@ class MetaSlider_Slides {
 		$directory = METASLIDER_THEMES_PATH . 'images/';
 
 		// Get list of images in the folder
-		$images = array_filter(scandir($directory), array($this, 'filter_images'));
+		$images = array_values(array_diff(scandir($directory), array('..', '.', '.DS_Store')));
 
 		// If images are specified, make sure they exist and use them. if not, use 4 at random
 		$images = !empty($images_to_use) ? $this->pluck_images($images_to_use, $images) : array_rand(array_flip($images), 4);
@@ -129,16 +129,12 @@ class MetaSlider_Slides {
 		$successful_uploads = array();
 		foreach ($images as $filedata) {
 
-			// $filedata might be an array with filename, caption, alt and title, 
-			// or it might be just a string with the filename
-			$filename = $filedata;
-			$data = array();
-			if (is_array($filedata) && !empty($filedata['filename'])) {
-				$filename = $filedata['filename'];
-				
-				// Theme developers can override the caption, etc
-				$data = $filedata;
-			}
+			// $filedata might be an array with filename, caption, alt and title, or it might be
+			// just a string with the filename
+			$filename = (!empty($filedata['filename'])) ? $filedata['filename'] : $filedata;
+			
+			// Theme developers can override the caption, etc
+			$data = (!empty($filedata['filename'])) ? $filedata : array();
 
 			$source = trailingslashit($directory) . $filename;
 			if (file_exists($source)) {
@@ -152,17 +148,6 @@ class MetaSlider_Slides {
 			}
 		}
 		return $successful_uploads;
-	}
-
-	/**
-     * Method to use filter out non-images
-     *
-     * @param array $string - a filename scanned from the images dir
-	 * 
-	 * @return boolean
-     */
-	private function filter_images($string) {
-		return preg_match('/jpg$/i', $string);
 	}
 
 	/**
