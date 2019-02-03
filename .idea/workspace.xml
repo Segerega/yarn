@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f24a2d28-072a-4bd8-9a54-38687e413232" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/includes/woocommerce/single-product/add-to-cart/variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/includes/woocommerce/single-product/add-to-cart/variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/gecko/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/gecko/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variable.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/includes/woocommerce/single-product/add-to-cart/variable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
+            <state relative-caret-position="750">
               <caret line="189" column="50" selection-start-line="189" selection-start-column="50" selection-end-line="189" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/gecko/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,6 +154,7 @@
       <find>variable_sku</find>
       <find>get_variation_default_attribute</find>
       <find>sku</find>
+      <find>http://www.yarn.calceron.com/shop2?filter_color=%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9,%D0%B1%D0%BE%D1%80%D0%B4%D0%BE%D0%B2%D1%8B%D0%B9,%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9,%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B9&amp;query_type_color=or</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,8 +163,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/includes/woocommerce/single-product/add-to-cart/variable.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/gecko/functions.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -348,12 +360,12 @@
       <workItem from="1546731612361" duration="3932000" />
       <workItem from="1548600476872" duration="849000" />
       <workItem from="1548601348570" duration="1379000" />
-      <workItem from="1549145554872" duration="4075000" />
+      <workItem from="1549145554872" duration="7187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11318000" />
+    <option name="totallyTimeSpent" value="14430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -492,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/gecko/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/assets/css/wcvs-frontend.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -546,13 +551,6 @@
         <state relative-caret-position="-5324" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-image-editor-imagick.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8835">
@@ -590,8 +588,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wpa-woocommerce-variation-swatch/includes/woocommerce/single-product/add-to-cart/variable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
+        <state relative-caret-position="750">
           <caret line="189" column="50" selection-start-line="189" selection-start-column="50" selection-end-line="189" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/gecko/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>

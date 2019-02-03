@@ -28,6 +28,15 @@ function add_my_currency_symbol( $currency_symbol, $currency ) {
     return $currency_symbol;
 
 }
+
+function getSkuByTerm($available_variations, $term){
+    foreach ($available_variations as $available_variation){
+        if ($available_variation['attributes']['attribute_pa_color'] === $term->slug){
+            return $available_variation['sku'];
+        }
+    }
+}
+
 // Constants definition
 define( 'JAS_GECKO_PATH', get_template_directory()     );
 define( 'JAS_GECKO_URL',  get_template_directory_uri() );

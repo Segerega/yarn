@@ -100,7 +100,7 @@ do_action( 'woocommerce_before_add_to_cart_form' );
                                             if ( $tooltip ) {
                                                 echo '<span class="swatch__tooltip is-absolute is-block">' . esc_attr( $tooltip ) . '</span>';
                                             } else {
-                                                echo '<span class="swatch__tooltip is-absolute is-block">' . esc_attr( $term->name ) . '</span>';
+                                                echo '<span class="swatch__tooltip is-absolute is-block">' . esc_attr( getSkuByTerm($available_variations, $term)) . '</span>';
                                             }
                                         }
                                         echo '</li>';
