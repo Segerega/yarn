@@ -2240,7 +2240,7 @@ nav.main-menu #jas-mobile-menu ul ul:after {
 #jas-footer,
 #jas-footer .widget-title,
 #jas-footer a {
-	color: #000000;
+	color: #ffffff;
 }
 #jas-footer a:hover {
 	color: #b59677;
@@ -2255,6 +2255,7 @@ nav.main-menu #jas-mobile-menu ul ul:after {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
+
 #jas-footer .widget ul ul {
 	padding-left: 20px;
 }
@@ -3110,7 +3111,7 @@ nav.main-menu #jas-mobile-menu ul ul:after {
 }
 .jas-mini-cart .mini_cart_item a:nth-child(2),
 .widget_shopping_cart a:nth-child(2) {
-	line-height: 20px;
+	line-height: 40px;
 	color: #4d5959;
 	display: block;
 }
@@ -3228,7 +3229,7 @@ nav.main-menu #jas-mobile-menu ul ul:after {
 }
 .jas-mini-cart .checkout,
 .widget_shopping_cart .checkout {
-	background: #b59677;
+	background: #a50000;
 	margin-top: 10px;
 }
 .jas-mini-cart .button:hover,
